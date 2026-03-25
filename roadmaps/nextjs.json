@@ -1,0 +1,351 @@
+{
+  "key": "nextjs",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Next.js"
+  },
+  "roadmap": {
+    "topic": "Next.js",
+    "emoji": "▲",
+    "overview": "SkillForge original Next.js path focused on routing, rendering strategy, server-driven UX, deployment, and scalable product workflows.",
+    "totalWeeks": 16,
+    "nodes": [
+      {
+        "id": "nextjs_react_foundations",
+        "step": 1,
+        "phase": 1,
+        "title": "React and Web Foundations",
+        "description": "Start with modern React, components, props, state, hooks, routing concepts, HTTP basics, and the web platform fundamentals Next.js builds on.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "react basics",
+          "components",
+          "state",
+          "hooks",
+          "http",
+          "web fundamentals"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a small React app with reusable components, local state, and data fetching.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Learn",
+            "platform": "react.dev",
+            "url": "https://react.dev/learn"
+          },
+          {
+            "type": "article",
+            "title": "HTTP Overview",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: React and Web Foundations",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+react+full+course"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_app_router",
+        "step": 2,
+        "phase": 1,
+        "title": "App Router, Layouts, and Navigation",
+        "description": "Learn the App Router model, file-based routing, nested layouts, linking, metadata, and route organization for scalable apps.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "app router",
+          "layouts",
+          "nested routes",
+          "navigation",
+          "metadata",
+          "route segments"
+        ],
+        "prerequisites": [
+          "React and Web Foundations"
+        ],
+        "miniProject": "Create a multi-page product site using nested layouts and route-level navigation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Next.js Routing",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/routing"
+          },
+          {
+            "type": "article",
+            "title": "Project Structure",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/getting-started/project-structure"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: App Router, Layouts, and Navigation",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=codevolution+nextjs+app+router"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_rendering_data",
+        "step": 3,
+        "phase": 1,
+        "title": "Rendering Models and Data Fetching",
+        "description": "Understand server components, client components, static rendering, dynamic rendering, caching, revalidation, and request-time data access.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "server components",
+          "client components",
+          "ssg",
+          "ssr",
+          "caching",
+          "revalidation"
+        ],
+        "prerequisites": [
+          "App Router, Layouts, and Navigation"
+        ],
+        "miniProject": "Build a content-driven app that mixes static and dynamic pages with controlled revalidation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Data Fetching",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/data-fetching"
+          },
+          {
+            "type": "article",
+            "title": "Rendering",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/rendering"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Rendering Models and Data Fetching",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=jack+herrington+nextjs+rendering"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_mutations_server_actions",
+        "step": 4,
+        "phase": 2,
+        "title": "Forms, Mutations, and Server Actions",
+        "description": "Move into forms, mutation flows, validation, server actions, optimistic updates, and user-facing data consistency.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "forms",
+          "validation",
+          "server actions",
+          "mutations",
+          "optimistic ui",
+          "error states"
+        ],
+        "prerequisites": [
+          "Rendering Models and Data Fetching"
+        ],
+        "miniProject": "Build a dashboard with create/update flows using forms, validation, and server actions.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Server Actions",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations"
+          },
+          {
+            "type": "article",
+            "title": "Forms and Mutations",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/learn/dashboard-app/mutating-data"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Forms, Mutations, and Server Actions",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=web+dev+simplified+nextjs+server+actions"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_auth_db",
+        "step": 5,
+        "phase": 2,
+        "title": "Authentication, Databases, and Backend Integration",
+        "description": "Add auth flows, protected routes, database integration, API handlers, environment configuration, and secure app behavior.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 9-11",
+        "keyTopics": [
+          "authentication",
+          "authorization",
+          "route protection",
+          "database integration",
+          "api handlers",
+          "env config"
+        ],
+        "prerequisites": [
+          "Forms, Mutations, and Server Actions"
+        ],
+        "miniProject": "Build an authenticated dashboard backed by a database with protected user actions.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Authentication",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/authentication"
+          },
+          {
+            "type": "article",
+            "title": "Route Handlers",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/routing/route-handlers"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Authentication, Databases, and Backend Integration",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=code+with+antonio+nextauth+nextjs"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_performance_seo",
+        "step": 6,
+        "phase": 2,
+        "title": "Performance, SEO, and Edge Features",
+        "description": "Learn image optimization, streaming, metadata, caching strategy, edge runtime tradeoffs, and Core Web Vitals-aware optimization.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 11-13",
+        "keyTopics": [
+          "image optimization",
+          "seo",
+          "streaming",
+          "edge runtime",
+          "caching strategy",
+          "core web vitals"
+        ],
+        "prerequisites": [
+          "Authentication, Databases, and Backend Integration"
+        ],
+        "miniProject": "Optimize an existing app for SEO, performance, and asset delivery across multiple pages.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Image Component",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/api-reference/components/image"
+          },
+          {
+            "type": "article",
+            "title": "Core Web Vitals",
+            "platform": "web.dev",
+            "url": "https://web.dev/articles/vitals"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Performance, SEO, and Edge Features",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=vercel+nextjs+performance"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_testing_deploy",
+        "step": 7,
+        "phase": 3,
+        "title": "Testing, Monitoring, and Deployment",
+        "description": "Add unit and integration tests, production configs, monitoring, logging, and deployment workflows to ship reliably.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 13-15",
+        "keyTopics": [
+          "testing",
+          "deployment",
+          "environment management",
+          "logging",
+          "monitoring",
+          "production config"
+        ],
+        "prerequisites": [
+          "Performance, SEO, and Edge Features"
+        ],
+        "miniProject": "Deploy a tested Next.js application with environment-specific configuration and production monitoring hooks.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Deployment",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/docs/app/building-your-application/deploying"
+          },
+          {
+            "type": "article",
+            "title": "Vercel Docs",
+            "platform": "Vercel",
+            "url": "https://vercel.com/docs"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Testing, Monitoring, and Deployment",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=vercel+deploy+nextjs+app"
+          }
+        ]
+      },
+      {
+        "id": "nextjs_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Next.js Studio Build",
+        "description": "Combine routing, rendering, server actions, auth, persistence, testing, and deployment into a production-style application.",
+        "difficulty": "advanced",
+        "estimatedHours": 20,
+        "weekRange": "Week 15-16",
+        "keyTopics": [
+          "app architecture",
+          "user flows",
+          "data consistency",
+          "performance review",
+          "security review",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "Testing, Monitoring, and Deployment"
+        ],
+        "miniProject": "Ship a production-style Next.js product with user accounts, dashboard flows, tests, and deployment documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Next.js Learn",
+            "platform": "Next.js",
+            "url": "https://nextjs.org/learn"
+          },
+          {
+            "type": "article",
+            "title": "Accessibility in Web Apps",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Next.js Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=javascript+mastery+nextjs+full+stack"
+          }
+        ]
+      }
+    ]
+  }
+}

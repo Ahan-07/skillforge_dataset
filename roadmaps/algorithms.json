@@ -1,0 +1,302 @@
+{
+  "key": "algorithms",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Algorithms"
+  },
+  "roadmap": {
+    "topic": "Algorithms",
+    "emoji": "🧠",
+    "overview": "SkillForge original algorithms path focused on problem decomposition, core patterns, analysis, and implementation discipline from fundamentals to interview-grade problem solving.",
+    "totalWeeks": 12,
+    "nodes": [
+      {
+        "id": "algo_complexity",
+        "step": 1,
+        "phase": 1,
+        "title": "Problem Solving and Complexity",
+        "description": "Learn algorithmic thinking, constraints, input-output analysis, and Big O reasoning.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "problem decomposition",
+          "Big O",
+          "time complexity",
+          "space complexity",
+          "trade-offs"
+        ],
+        "prerequisites": [],
+        "miniProject": "Analyze complexity of 15 small code snippets",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Big-O Cheat Sheet",
+            "platform": "bigocheatsheet.com",
+            "url": "https://www.bigocheatsheet.com/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Problem Solving and Complexity",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+big+o+notation"
+          }
+        ]
+      },
+      {
+        "id": "algo_patterns",
+        "step": 2,
+        "phase": 1,
+        "title": "Core Coding Patterns",
+        "description": "Practice two pointers, sliding window, hashing, sorting mindset, and prefix-based patterns.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 2-3",
+        "keyTopics": [
+          "two pointers",
+          "sliding window",
+          "hash map",
+          "prefix sum",
+          "binary search pattern"
+        ],
+        "prerequisites": [
+          "Problem Solving and Complexity"
+        ],
+        "miniProject": "Solve 25 pattern-based array/string problems",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Algorithm Patterns",
+            "platform": "Frontend Masters",
+            "url": "https://frontendmasters.com/courses/algorithms/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Core Coding Patterns",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=neetcode+patterns"
+          }
+        ]
+      },
+      {
+        "id": "algo_recursion",
+        "step": 3,
+        "phase": 1,
+        "title": "Recursion and Backtracking",
+        "description": "Understand call stack, recursive decomposition, decision trees, permutations, subsets, and pruning.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 3-4",
+        "keyTopics": [
+          "recursion",
+          "call stack",
+          "backtracking",
+          "subsets",
+          "permutations",
+          "pruning"
+        ],
+        "prerequisites": [
+          "Core Coding Patterns"
+        ],
+        "miniProject": "Implement N-Queens, subsets, and permutations",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Recursion Explained",
+            "platform": "GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/recursion/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Recursion and Backtracking",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=abdul+bari+backtracking"
+          }
+        ]
+      },
+      {
+        "id": "algo_sort_search",
+        "step": 4,
+        "phase": 2,
+        "title": "Sorting and Searching",
+        "description": "Master merge sort, quicksort, heapsort, binary search, and invariant-based reasoning.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 5-6",
+        "keyTopics": [
+          "merge sort",
+          "quick sort",
+          "heap sort",
+          "binary search",
+          "partitioning",
+          "invariants"
+        ],
+        "prerequisites": [
+          "Recursion and Backtracking"
+        ],
+        "miniProject": "Visualize sorting algorithms in a mini app",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Sorting Algorithms",
+            "platform": "VisuAlgo",
+            "url": "https://visualgo.net/en/sorting"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Sorting and Searching",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sorting+algorithms"
+          }
+        ]
+      },
+      {
+        "id": "algo_graph_greedy",
+        "step": 5,
+        "phase": 2,
+        "title": "Greedy and Graph Algorithms",
+        "description": "Study BFS, DFS, topological sort, shortest paths, MST, and greedy strategy proofs.",
+        "difficulty": "intermediate",
+        "estimatedHours": 14,
+        "weekRange": "Week 6-8",
+        "keyTopics": [
+          "DFS",
+          "BFS",
+          "topological sort",
+          "Dijkstra",
+          "Union-Find",
+          "Kruskal",
+          "Prim",
+          "greedy"
+        ],
+        "prerequisites": [
+          "Sorting and Searching"
+        ],
+        "miniProject": "Implement shortest path and MST from scratch",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Graph Algorithms",
+            "platform": "cp-algorithms",
+            "url": "https://cp-algorithms.com/graph/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Greedy and Graph Algorithms",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+graph+theory"
+          }
+        ]
+      },
+      {
+        "id": "algo_dp",
+        "step": 6,
+        "phase": 2,
+        "title": "Dynamic Programming",
+        "description": "Build intuition for memoization, tabulation, state design, transitions, and optimization.",
+        "difficulty": "intermediate",
+        "estimatedHours": 14,
+        "weekRange": "Week 8-9",
+        "keyTopics": [
+          "memoization",
+          "tabulation",
+          "state definition",
+          "knapsack",
+          "LCS",
+          "1D/2D DP"
+        ],
+        "prerequisites": [
+          "Greedy and Graph Algorithms"
+        ],
+        "miniProject": "Solve 20 classic DP problems with explanations",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Introduction to Dynamic Programming",
+            "platform": "cp-algorithms",
+            "url": "https://cp-algorithms.com/dynamic_programming/intro-to-dp.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Dynamic Programming",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+dynamic+programming"
+          }
+        ]
+      },
+      {
+        "id": "algo_advanced_topics",
+        "step": 7,
+        "phase": 3,
+        "title": "Advanced Topics and Proof Mindset",
+        "description": "Explore tries, segment trees, bit manipulation, randomized algorithms, and proof of correctness.",
+        "difficulty": "advanced",
+        "estimatedHours": 14,
+        "weekRange": "Week 10-11",
+        "keyTopics": [
+          "tries",
+          "segment tree",
+          "Fenwick tree",
+          "bitmasking",
+          "randomized algorithms",
+          "proofs"
+        ],
+        "prerequisites": [
+          "Dynamic Programming"
+        ],
+        "miniProject": "Implement 3 advanced data structures with benchmark comparisons",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Advanced Data Structures",
+            "platform": "cp-algorithms",
+            "url": "https://cp-algorithms.com/data_structures/segment_tree.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Advanced Topics and Proof Mindset",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=william+fiset+advanced+algorithms"
+          }
+        ]
+      },
+      {
+        "id": "algo_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Algorithms Studio Build",
+        "description": "Consolidate all patterns with timed practice, revision sheets, and high-quality explanations.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 12",
+        "keyTopics": [
+          "timed practice",
+          "revision",
+          "pattern mapping",
+          "mock interviews",
+          "editorial writing"
+        ],
+        "prerequisites": [
+          "Advanced Topics and Proof Mindset"
+        ],
+        "miniProject": "Complete 75 curated algorithm problems and explain each solution",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Reference Guide: SkillForge Algorithms Studio Build",
+            "platform": "LeetCode",
+            "url": "https://leetcode.com/problemset/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Algorithms Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=neetcode+mock+interview"
+          }
+        ]
+      }
+    ]
+  }
+}

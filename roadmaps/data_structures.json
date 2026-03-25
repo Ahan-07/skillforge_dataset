@@ -1,0 +1,222 @@
+{
+  "key": "data_structures",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Data Structures"
+  },
+  "roadmap": {
+    "topic": "Data Structures",
+    "emoji": "📊",
+    "overview": "SkillForge original data structures path focused on storage models, access tradeoffs, implementation detail, and problem solving foundations.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "ds_arrays",
+        "step": 1,
+        "phase": 1,
+        "title": "Arrays & Strings",
+        "description": "Static vs dynamic arrays, time/space complexity, two pointers, sliding window.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1-2",
+        "keyTopics": [
+          "array operations",
+          "Big O notation",
+          "two pointers",
+          "sliding window",
+          "prefix sum"
+        ],
+        "prerequisites": [],
+        "miniProject": "Solve 10 array problems on LeetCode easy",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Arrays & Strings",
+            "platform": "YouTube Search",
+            "url": "https://neetcode.io"
+          }
+        ]
+      },
+      {
+        "id": "ds_linked_list",
+        "step": 2,
+        "phase": 1,
+        "title": "Linked Lists",
+        "description": "Singly, doubly, circular lists. Traversal, insertion, deletion, reversal, Floyd's algorithm.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 2-3",
+        "keyTopics": [
+          "singly linked list",
+          "doubly linked list",
+          "reversal",
+          "fast/slow pointers",
+          "cycle detection"
+        ],
+        "prerequisites": [
+          "Arrays & Strings"
+        ],
+        "miniProject": "Implement LinkedList class from scratch",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Linked Lists",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Linked%20Lists%20CS%20Dojo"
+          }
+        ]
+      },
+      {
+        "id": "ds_stack_queue",
+        "step": 3,
+        "phase": 1,
+        "title": "Stacks & Queues",
+        "description": "Stack (LIFO), Queue (FIFO), Deque, monotonic stack, priority queue.",
+        "difficulty": "beginner",
+        "estimatedHours": 6,
+        "weekRange": "Week 3-4",
+        "keyTopics": [
+          "stack operations",
+          "queue operations",
+          "monotonic stack",
+          "deque",
+          "priority queue"
+        ],
+        "prerequisites": [
+          "Linked Lists"
+        ],
+        "miniProject": "Valid parentheses + implement stack using queue",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Stacks & Queues",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Stacks%20and%20Queues%20NeetCode"
+          }
+        ]
+      },
+      {
+        "id": "ds_trees",
+        "step": 4,
+        "phase": 2,
+        "title": "Trees & Binary Search Trees",
+        "description": "Binary trees, BST, traversals (inorder/preorder/postorder), height, balanced trees.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 4-6",
+        "keyTopics": [
+          "binary tree",
+          "BST",
+          "DFS",
+          "BFS",
+          "tree traversals",
+          "height/depth",
+          "AVL tree"
+        ],
+        "prerequisites": [
+          "Stacks & Queues"
+        ],
+        "miniProject": "Implement BST with insert/search/delete",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Trees & Binary Search Trees",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Binary%20Trees%20Abdul%20Bari"
+          }
+        ]
+      },
+      {
+        "id": "ds_graphs",
+        "step": 5,
+        "phase": 2,
+        "title": "Graphs",
+        "description": "Directed/undirected, adjacency list/matrix, DFS, BFS, topological sort, shortest path.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 6-7",
+        "keyTopics": [
+          "adjacency list",
+          "DFS",
+          "BFS",
+          "topological sort",
+          "Dijkstra",
+          "cycle detection"
+        ],
+        "prerequisites": [
+          "Trees & Binary Search Trees"
+        ],
+        "miniProject": "Find shortest path in a maze using BFS",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Graphs",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Graph%20Algorithms%20NeetCode"
+          }
+        ]
+      },
+      {
+        "id": "ds_hash",
+        "step": 6,
+        "phase": 2,
+        "title": "Hash Tables & Heaps",
+        "description": "Hash functions, collision resolution, HashMap, HashSet. Heaps, heapify, priority queues.",
+        "difficulty": "intermediate",
+        "estimatedHours": 8,
+        "weekRange": "Week 7-8",
+        "keyTopics": [
+          "hash function",
+          "collision handling",
+          "HashMap",
+          "HashSet",
+          "min heap",
+          "max heap"
+        ],
+        "prerequisites": [
+          "Arrays & Strings"
+        ],
+        "miniProject": "Two Sum + Top K Frequent Elements",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Hash Tables & Heaps",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Hash%20Tables%20CS%20Dojo"
+          }
+        ]
+      },
+      {
+        "id": "ds_project",
+        "step": 7,
+        "phase": 3,
+        "title": "SkillForge Data Structures Studio Build",
+        "description": "Solve 50 mixed problems applying all data structures. Focus on pattern recognition.",
+        "difficulty": "advanced",
+        "estimatedHours": 20,
+        "weekRange": "Week 8-10",
+        "keyTopics": [
+          "pattern recognition",
+          "time complexity",
+          "space optimization",
+          "interview problems"
+        ],
+        "prerequisites": [
+          "Hash Tables & Heaps",
+          "Graphs"
+        ],
+        "miniProject": "Complete NeetCode 150 Roadmap on LeetCode",
+        "resources": [
+          {
+            "type": "article",
+            "title": "NeetCode 150",
+            "platform": "neetcode.io",
+            "url": "https://neetcode.io/roadmap"
+          }
+        ]
+      }
+    ]
+  }
+}

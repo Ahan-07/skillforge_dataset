@@ -1,0 +1,526 @@
+{
+  "key": "cpp",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "C++"
+  },
+  "prerequisite_test": {
+    "domain": "C++",
+    "prerequisites": [
+      "Programming Basics",
+      "Math Basics",
+      "Problem Solving Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge C++ Signal Check - Concepts, Output Tracing, and Debugging",
+        "questions": [
+          {
+            "question": "If the class name is X, what is the type of the `this` pointer inside a non-static, non-const member function?",
+            "options": [
+              "A) const X* const",
+              "B) X* const",
+              "C) X*",
+              "D) X&"
+            ],
+            "correctAnswer": "B) X* const",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the output of this code?\\nint n = 4, k = 2;\\ncout << ++n << endl;\\ncout << n++ << endl;\\ncout << n + k << endl;",
+            "options": [
+              "A) 5 5 8",
+              "B) 4 5 7",
+              "C) 5 6 8",
+              "D) 5 5 7"
+            ],
+            "correctAnswer": "A) 5 5 8",
+            "topicTag": "Output Tracing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the output of this code?\\nint n = 5;\\nif (n = 0)\\n  cout << \\\"n is zero\\\\n\\\";\\nelse\\n  cout << \\\"n is not zero\\\\n\\\";\\ncout << \\\"The square of n is \\\" << n * n << \\\\\"\\\\n\\\";",
+            "options": [
+              "A) n is zero / The square of n is 25",
+              "B) n is not zero / The square of n is 25",
+              "C) n is not zero / The square of n is 0",
+              "D) Compile-time error because assignment is not allowed in conditions"
+            ],
+            "correctAnswer": "C) n is not zero / The square of n is 0",
+            "topicTag": "Debugging",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Given `char message[21];` and user input `Please go away.`, what does `cin >> message;` store in `message`?",
+            "options": [
+              "A) Please",
+              "B) Please go away.",
+              "C) Please go",
+              "D) It always causes a compile-time error"
+            ],
+            "correctAnswer": "A) Please",
+            "topicTag": "Input Handling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is wrong with this loop header? `for (int k = 2, k <= 12, k++)`",
+            "options": [
+              "A) The increment should always be `++k`",
+              "B) The loop variable must be named `i`",
+              "C) The commas should be semicolons",
+              "D) The header needs braces around it"
+            ],
+            "correctAnswer": "C) The commas should be semicolons",
+            "topicTag": "Syntax",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is `*ptr++` equivalent to?",
+            "options": [
+              "A) `(*ptr)++`",
+              "B) `*(ptr++)`",
+              "C) `++(*ptr)`",
+              "D) `++ptr`"
+            ],
+            "correctAnswer": "B) `*(ptr++)`",
+            "topicTag": "Pointers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When is `std::bad_alloc` typically thrown?",
+            "options": [
+              "A) When `new` cannot allocate memory",
+              "B) When a destructor runs twice",
+              "C) When a cast between related classes fails",
+              "D) When a reference is left uninitialized"
+            ],
+            "correctAnswer": "A) When `new` cannot allocate memory",
+            "topicTag": "Memory",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does RAII matter in modern C++?",
+            "options": [
+              "A) It ties resource lifetime to object lifetime for safer cleanup",
+              "B) It makes C++ dynamically typed",
+              "C) It removes the need for destructors",
+              "D) It is only useful in graphics programming"
+            ],
+            "correctAnswer": "A) It ties resource lifetime to object lifetime for safer cleanup",
+            "topicTag": "Memory",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem do smart pointers help solve?",
+            "options": [
+              "A) Expressing ownership and reducing manual memory management mistakes",
+              "B) Replacing templates with runtime polymorphism",
+              "C) Avoiding the need for constructors",
+              "D) Turning stack allocation into garbage collection"
+            ],
+            "correctAnswer": "A) Expressing ownership and reducing manual memory management mistakes",
+            "topicTag": "Memory",
+            "difficulty": "hard"
+          },
+          {
+            "question": "How do you declare an abstract class in C++?",
+            "options": [
+              "A) Mark the class with the keyword `abstract`",
+              "B) Give the class at least one pure virtual function",
+              "C) Mark all data members as `virtual`",
+              "D) Inherit privately from `std::exception`"
+            ],
+            "correctAnswer": "B) Give the class at least one pure virtual function",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Which description best matches an interface-style class in C++?",
+            "options": [
+              "A) A class with only static methods",
+              "B) A class whose methods are all pure virtual",
+              "C) A class declared with the keyword `interface`",
+              "D) A class with no constructor"
+            ],
+            "correctAnswer": "B) A class whose methods are all pure virtual",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "If class `B` publicly inherits from class `A`, in what order do constructors run when a `B` object is created?",
+            "options": [
+              "A) `B` first, then `A`",
+              "B) `A` first, then `B`",
+              "C) Only `B` runs",
+              "D) The order is undefined"
+            ],
+            "correctAnswer": "B) `A` first, then `B`",
+            "topicTag": "Inheritance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What can happen if a pointer is deleted twice?",
+            "options": [
+              "A) Nothing; repeated `delete` is always safe",
+              "B) The object is recreated automatically",
+              "C) It can trigger undefined behavior and crash the program",
+              "D) The compiler always prevents it"
+            ],
+            "correctAnswer": "C) It can trigger undefined behavior and crash the program",
+            "topicTag": "Safety",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Which cast is designed for conversions between pointers or references to related polymorphic classes?",
+            "options": [
+              "A) `reinterpret_cast`",
+              "B) `dynamic_cast`",
+              "C) `const_cast`",
+              "D) `decltype_cast`"
+            ],
+            "correctAnswer": "B) `dynamic_cast`",
+            "topicTag": "Type System",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the usual role of a virtual table (vtable) in C++ implementations?",
+            "options": [
+              "A) A dynamic table created per object at runtime",
+              "B) A static table typically associated with each polymorphic class",
+              "C) A stack frame used during recursion",
+              "D) A container used by the STL"
+            ],
+            "correctAnswer": "B) A static table typically associated with each polymorphic class",
+            "topicTag": "Polymorphism",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the output of this code?\\nint a = 5;\\nint b = 10;\\ncout << (a > b ? a : b);",
+            "options": [
+              "A) 5",
+              "B) 10",
+              "C) 15",
+              "D) Syntax error"
+            ],
+            "correctAnswer": "B) 10",
+            "topicTag": "Operators",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A function `sum_from_to(first, last)` returns the sum of all integers from `first` to `last` inclusive, even when `first > last`. What should `sum_from_to(7, 4)` return?",
+            "options": [
+              "A) 11",
+              "B) 18",
+              "C) 22",
+              "D) 0"
+            ],
+            "correctAnswer": "C) 22",
+            "topicTag": "Problem Solving",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A function `enough(goal)` returns the smallest positive integer `n` such that `1 + 2 + ... + n` is at least `goal`. What should `enough(9)` return?",
+            "options": [
+              "A) 3",
+              "B) 4",
+              "C) 5",
+              "D) 9"
+            ],
+            "correctAnswer": "B) 4",
+            "topicTag": "Problem Solving",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is the Standard Template Library important in C++?",
+            "options": [
+              "A) It provides reusable containers, algorithms, and utilities for common tasks",
+              "B) It only matters for GUI applications",
+              "C) It replaces the compiler",
+              "D) It removes the need to learn pointers"
+            ],
+            "correctAnswer": "A) It provides reusable containers, algorithms, and utilities for common tasks",
+            "topicTag": "STL",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are compiler warnings and sanitizers valuable in C++ projects?",
+            "options": [
+              "A) They catch important classes of bugs early during development and testing",
+              "B) They guarantee zero runtime bugs in production",
+              "C) They replace the need for debugging",
+              "D) They only help with formatting"
+            ],
+            "correctAnswer": "A) They catch important classes of bugs early during development and testing",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Advanced C++ Reasoning - Ownership, STL, Templates, and Systems",
+        "questions": [
+          {
+            "question": "Why should a polymorphic base class often have a virtual destructor?",
+            "options": [
+              "A) So objects can be copied faster",
+              "B) So deleting through a base pointer destroys the derived object correctly",
+              "C) So the class becomes abstract automatically",
+              "D) So constructors can be overloaded"
+            ],
+            "correctAnswer": "B) So deleting through a base pointer destroys the derived object correctly",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the key ownership meaning of `std::unique_ptr`?",
+            "options": [
+              "A) Shared ownership across many objects",
+              "B) Unique ownership with transfer via move",
+              "C) It can only manage arrays",
+              "D) It is copied whenever passed to a function"
+            ],
+            "correctAnswer": "B) Unique ownership with transfer via move",
+            "topicTag": "Smart Pointers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When is `std::shared_ptr` most appropriate?",
+            "options": [
+              "A) When multiple owners must keep a resource alive",
+              "B) When stack allocation is required",
+              "C) When you never want reference counting",
+              "D) When you need deterministic copy elision"
+            ],
+            "correctAnswer": "A) When multiple owners must keep a resource alive",
+            "topicTag": "Smart Pointers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why can cyclic references be dangerous with `std::shared_ptr`?",
+            "options": [
+              "A) They make references const",
+              "B) They can keep reference counts above zero and leak memory",
+              "C) They force stack allocation",
+              "D) They disable polymorphism"
+            ],
+            "correctAnswer": "B) They can keep reference counts above zero and leak memory",
+            "topicTag": "Smart Pointers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of `std::weak_ptr`?",
+            "options": [
+              "A) To own an object more cheaply than `unique_ptr`",
+              "B) To hold a non-owning reference that can break `shared_ptr` cycles",
+              "C) To replace raw pointers in all cases",
+              "D) To allocate memory on the stack"
+            ],
+            "correctAnswer": "B) To hold a non-owning reference that can break `shared_ptr` cycles",
+            "topicTag": "Smart Pointers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is `const T&` commonly used as a function parameter?",
+            "options": [
+              "A) It always makes a deep copy",
+              "B) It avoids copying while preventing modification of the argument",
+              "C) It can only be used with primitive types",
+              "D) It turns the function into a template"
+            ],
+            "correctAnswer": "B) It avoids copying while preventing modification of the argument",
+            "topicTag": "References",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does `std::move` actually do?",
+            "options": [
+              "A) It physically moves bytes to a new memory address",
+              "B) It casts an expression to an rvalue so move operations can be used",
+              "C) It deletes the source object",
+              "D) It guarantees zero-cost transfer in every case"
+            ],
+            "correctAnswer": "B) It casts an expression to an rvalue so move operations can be used",
+            "topicTag": "Move Semantics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why can `std::vector` be more cache-friendly than a linked list?",
+            "options": [
+              "A) Because vectors are always smaller",
+              "B) Because vector elements are stored contiguously in memory",
+              "C) Because vectors use recursion internally",
+              "D) Because linked lists cannot store objects"
+            ],
+            "correctAnswer": "B) Because vector elements are stored contiguously in memory",
+            "topicTag": "STL",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a common consequence of `std::vector` reallocation during growth?",
+            "options": [
+              "A) Iterators and references to elements may be invalidated",
+              "B) Elements become immutable",
+              "C) The vector becomes thread-safe",
+              "D) Capacity must always shrink"
+            ],
+            "correctAnswer": "A) Iterators and references to elements may be invalidated",
+            "topicTag": "STL",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What average-case lookup complexity does `std::unordered_map` aim for?",
+            "options": [
+              "A) O(n)",
+              "B) O(log n)",
+              "C) O(1)",
+              "D) O(n log n)"
+            ],
+            "correctAnswer": "C) O(1)",
+            "topicTag": "STL",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are templates powerful in C++?",
+            "options": [
+              "A) They allow generic code to be instantiated for different compatible types at compile time",
+              "B) They remove the need for type checking",
+              "C) They only work for containers",
+              "D) They are runtime-only constructs"
+            ],
+            "correctAnswer": "A) They allow generic code to be instantiated for different compatible types at compile time",
+            "topicTag": "Templates",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem do header guards or `#pragma once` help prevent?",
+            "options": [
+              "A) Runtime memory leaks",
+              "B) Multiple inclusion of the same header during compilation",
+              "C) Deadlocks in multithreaded code",
+              "D) Dynamic linking errors at runtime"
+            ],
+            "correctAnswer": "B) Multiple inclusion of the same header during compilation",
+            "topicTag": "Build Systems",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is undefined behavior in C++?",
+            "options": [
+              "A) Behavior guaranteed to throw an exception",
+              "B) Behavior for which the C++ standard imposes no requirements",
+              "C) A warning generated by the preprocessor",
+              "D) A feature available only in debug builds"
+            ],
+            "correctAnswer": "B) Behavior for which the C++ standard imposes no requirements",
+            "topicTag": "Safety",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is data-race-free code important in multithreaded C++?",
+            "options": [
+              "A) Because data races can lead to undefined behavior",
+              "B) Because threads cannot share data at all",
+              "C) Because mutexes only work in release mode",
+              "D) Because race conditions are only performance issues"
+            ],
+            "correctAnswer": "A) Because data races can lead to undefined behavior",
+            "topicTag": "Concurrency",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a deadlock?",
+            "options": [
+              "A) A compilation error caused by circular includes",
+              "B) A state where threads wait on each other indefinitely",
+              "C) A memory leak caused by recursion",
+              "D) An optimization technique for mutexes"
+            ],
+            "correctAnswer": "B) A state where threads wait on each other indefinitely",
+            "topicTag": "Concurrency",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why can exception-safe resource management be easier with RAII?",
+            "options": [
+              "A) Destructors run automatically during stack unwinding",
+              "B) Exceptions disable destructors",
+              "C) RAII prevents all exceptions from being thrown",
+              "D) It removes the need for scopes"
+            ],
+            "correctAnswer": "A) Destructors run automatically during stack unwinding",
+            "topicTag": "Exceptions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the benefit of using `auto` in modern C++ when used carefully?",
+            "options": [
+              "A) It makes the language dynamically typed",
+              "B) It can reduce verbosity while preserving static typing and compiler deduction",
+              "C) It always improves runtime performance",
+              "D) It disables templates"
+            ],
+            "correctAnswer": "B) It can reduce verbosity while preserving static typing and compiler deduction",
+            "topicTag": "Modern C++",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does a lambda expression provide in C++?",
+            "options": [
+              "A) A preprocessor macro",
+              "B) An anonymous function object that can capture local variables",
+              "C) A replacement for classes",
+              "D) A type-erased pointer"
+            ],
+            "correctAnswer": "B) An anonymous function object that can capture local variables",
+            "topicTag": "Modern C++",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a common reason to prefer namespaces?",
+            "options": [
+              "A) They prevent all linking errors",
+              "B) They help organize code and avoid name collisions",
+              "C) They automatically inline every function",
+              "D) They replace header files"
+            ],
+            "correctAnswer": "B) They help organize code and avoid name collisions",
+            "topicTag": "Architecture",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the Rule of Five suggest?",
+            "options": [
+              "A) Every class must have exactly five data members",
+              "B) If a class manages resources and defines one special member like copy/move/destructor, it may need the others too",
+              "C) You should only write five functions per file",
+              "D) Inheritance should never exceed five levels"
+            ],
+            "correctAnswer": "B) If a class manages resources and defines one special member like copy/move/destructor, it may need the others too",
+            "topicTag": "Resource Management",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Cpp",
+        "questions": [
+          {
+            "question": "Which operator is used for pointer dereferencing in C++?",
+            "options": [
+              "A) &",
+              "B) *",
+              "C) ->",
+              "D) %"
+            ],
+            "correctAnswer": "B) *",
+            "topicTag": "cpp",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

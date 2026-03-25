@@ -1,0 +1,306 @@
+{
+  "key": "mongodb",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "MongoDB"
+  },
+  "roadmap": {
+    "topic": "MongoDB",
+    "emoji": "🍃",
+    "overview": "SkillForge original MongoDB path focused on document modeling, querying, indexing, application integration, and production data operations.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "mongo_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "Documents, Collections, and CRUD",
+        "description": "Learn MongoDB fundamentals, BSON documents, collections, Compass, shell usage, and CRUD operations.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "BSON",
+          "collections",
+          "insert",
+          "find",
+          "update",
+          "delete",
+          "Compass"
+        ],
+        "prerequisites": [],
+        "miniProject": "Create and query a movie collection database",
+        "resources": [
+          {
+            "type": "article",
+            "title": "MongoDB CRUD Operations",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/manual/crud/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Documents, Collections, and CRUD",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+mongodb+full+course"
+          }
+        ]
+      },
+      {
+        "id": "mongo_data_modeling",
+        "step": 2,
+        "phase": 1,
+        "title": "Schema Design and Data Modeling",
+        "description": "Decide when to embed vs reference, design collections, and model application relationships properly.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 2",
+        "keyTopics": [
+          "embed vs reference",
+          "schema design",
+          "relationships",
+          "cardinality",
+          "validation"
+        ],
+        "prerequisites": [
+          "Documents, Collections, and CRUD"
+        ],
+        "miniProject": "Design schemas for blog, LMS, and e-commerce use cases",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Data Modeling Introduction",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/manual/core/data-modeling-introduction/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Schema Design and Data Modeling",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=mongodb+schema+design"
+          }
+        ]
+      },
+      {
+        "id": "mongo_querying",
+        "step": 3,
+        "phase": 1,
+        "title": "Query Operators and Updates",
+        "description": "Use comparison, logical, array, and element operators plus atomic update operators.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 3",
+        "keyTopics": [
+          "$in",
+          "$gt",
+          "$and",
+          "$or",
+          "$elemMatch",
+          "$set",
+          "$push",
+          "$inc"
+        ],
+        "prerequisites": [
+          "Schema Design and Data Modeling"
+        ],
+        "miniProject": "Implement an inventory system with advanced filters and updates",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Query and Projection Operators",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/manual/reference/operator/query/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Query Operators and Updates",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+mongodb+query+operators"
+          }
+        ]
+      },
+      {
+        "id": "mongo_indexing",
+        "step": 4,
+        "phase": 2,
+        "title": "Indexes and Performance",
+        "description": "Understand single-field, compound, text, and multikey indexes plus query planning and explain output.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 4-5",
+        "keyTopics": [
+          "indexes",
+          "compound index",
+          "text index",
+          "multikey",
+          "explain",
+          "query planner"
+        ],
+        "prerequisites": [
+          "Query Operators and Updates"
+        ],
+        "miniProject": "Optimize slow queries using explain and indexes",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Indexes",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/manual/indexes/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Indexes and Performance",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=mongodb+indexing+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "mongo_aggregation",
+        "step": 5,
+        "phase": 2,
+        "title": "Aggregation Pipeline",
+        "description": "Use aggregation stages for grouping, reshaping, joining, filtering, and analytics-style transformations.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 5-6",
+        "keyTopics": [
+          "$match",
+          "$group",
+          "$project",
+          "$lookup",
+          "$unwind",
+          "$facet",
+          "$sort"
+        ],
+        "prerequisites": [
+          "Indexes and Performance"
+        ],
+        "miniProject": "Build a sales analytics dashboard pipeline",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Aggregation Pipeline",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/manual/core/aggregation-pipeline/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Aggregation Pipeline",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+mongodb+aggregation"
+          }
+        ]
+      },
+      {
+        "id": "mongo_driver_mongoose",
+        "step": 6,
+        "phase": 2,
+        "title": "MongoDB with Node.js and Mongoose",
+        "description": "Connect MongoDB to apps using the Node driver or Mongoose, validations, hooks, and schema patterns.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 7",
+        "keyTopics": [
+          "Node driver",
+          "Mongoose schemas",
+          "validation",
+          "middleware",
+          "populate",
+          "lean queries"
+        ],
+        "prerequisites": [
+          "Aggregation Pipeline"
+        ],
+        "miniProject": "Integrate MongoDB into an Express app with models and auth",
+        "resources": [
+          {
+            "type": "article",
+            "title": "MongoDB Node Driver Quick Start",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/drivers/node/current/quick-start/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: MongoDB with Node.js and Mongoose",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=mongoose+beginner+guide"
+          }
+        ]
+      },
+      {
+        "id": "mongo_reliability",
+        "step": 7,
+        "phase": 3,
+        "title": "Transactions, Security, and Reliability",
+        "description": "Learn replica sets, transactions, backups, authentication, authorization, and operational safety.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 8-9",
+        "keyTopics": [
+          "replica sets",
+          "transactions",
+          "backups",
+          "authentication",
+          "roles",
+          "TTL indexes"
+        ],
+        "prerequisites": [
+          "MongoDB with Node.js and Mongoose"
+        ],
+        "miniProject": "Add transactional order flow and secure access control",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Transactions",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/manual/core/transactions/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Transactions, Security, and Reliability",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=mongodb+transactions+security"
+          }
+        ]
+      },
+      {
+        "id": "mongo_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge MongoDB Studio Build",
+        "description": "Design, optimize, secure, and deploy a full MongoDB-backed application with observability and maintenance practices.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 10",
+        "keyTopics": [
+          "Atlas",
+          "deployment",
+          "monitoring",
+          "schema evolution",
+          "performance review",
+          "maintenance"
+        ],
+        "prerequisites": [
+          "Transactions, Security, and Reliability"
+        ],
+        "miniProject": "Ship a production-ready content or commerce backend on MongoDB Atlas",
+        "resources": [
+          {
+            "type": "course",
+            "title": "MongoDB Atlas Documentation",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/atlas/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge MongoDB Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+mongodb+atlas"
+          }
+        ]
+      }
+    ]
+  }
+}

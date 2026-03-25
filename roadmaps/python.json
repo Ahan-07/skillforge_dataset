@@ -1,0 +1,199 @@
+{
+  "key": "python",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Python"
+  },
+  "roadmap": {
+    "topic": "Python",
+    "emoji": "🐍",
+    "overview": "SkillForge original Python path focused on language fluency, automation, application building, and practical problem solving across domains.",
+    "totalWeeks": 8,
+    "nodes": [
+      {
+        "id": "py_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "Python Basics",
+        "description": "Variables, types, operators, strings, lists, tuples, dicts, conditionals, loops.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 1-2",
+        "keyTopics": [
+          "variables",
+          "lists",
+          "dicts",
+          "tuples",
+          "for/while",
+          "functions",
+          "f-strings"
+        ],
+        "prerequisites": [],
+        "miniProject": "Number guessing game",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Python Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Python%20for%20Beginners%20Mosh"
+          },
+          {
+            "type": "article",
+            "title": "Python Docs",
+            "platform": "python.org",
+            "url": "https://docs.python.org/3/tutorial"
+          }
+        ]
+      },
+      {
+        "id": "py_functions",
+        "step": 2,
+        "phase": 1,
+        "title": "Functions & Modules",
+        "description": "Functions, *args/**kwargs, lambda, list comprehensions, modules, pip packages.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 2-3",
+        "keyTopics": [
+          "*args/**kwargs",
+          "lambda",
+          "list comprehension",
+          "modules",
+          "pip",
+          "virtual env"
+        ],
+        "prerequisites": [
+          "Python Basics"
+        ],
+        "miniProject": "CLI utility tool",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Python Functions",
+            "platform": "Real Python",
+            "url": "https://realpython.com"
+          }
+        ]
+      },
+      {
+        "id": "py_oop",
+        "step": 3,
+        "phase": 2,
+        "title": "OOP in Python",
+        "description": "Classes, objects, inheritance, polymorphism, dunder methods, dataclasses.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "classes",
+          "inheritance",
+          "polymorphism",
+          "__init__",
+          "dunder methods",
+          "dataclasses"
+        ],
+        "prerequisites": [
+          "Functions & Modules"
+        ],
+        "miniProject": "Bank account or inventory management system",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: OOP in Python",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=OOP%20Python%20Corey%20Schafer"
+          }
+        ]
+      },
+      {
+        "id": "py_files_errors",
+        "step": 4,
+        "phase": 2,
+        "title": "File I/O & Error Handling",
+        "description": "Read/write files, CSV, JSON, exceptions, context managers.",
+        "difficulty": "intermediate",
+        "estimatedHours": 6,
+        "weekRange": "Week 5",
+        "keyTopics": [
+          "open/read/write",
+          "csv module",
+          "json module",
+          "try/except",
+          "with statement"
+        ],
+        "prerequisites": [
+          "OOP in Python"
+        ],
+        "miniProject": "Student grade tracker with file storage",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Python File I/O",
+            "platform": "Real Python",
+            "url": "https://www.google.com/search?q=site%3Arealpython.com%20Python%20File%20I%2FO"
+          }
+        ]
+      },
+      {
+        "id": "py_advanced",
+        "step": 5,
+        "phase": 3,
+        "title": "Advanced Python",
+        "description": "Decorators, generators, iterators, context managers, async Python, type hints.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "decorators",
+          "generators",
+          "yield",
+          "asyncio",
+          "type hints",
+          "dataclasses"
+        ],
+        "prerequisites": [
+          "File I/O & Error Handling"
+        ],
+        "miniProject": "Async web scraper",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Advanced Python",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Advanced%20Python%20Tech%20With%20Tim"
+          }
+        ]
+      },
+      {
+        "id": "py_project",
+        "step": 6,
+        "phase": 3,
+        "title": "SkillForge Python Studio Build",
+        "description": "Build a complete Python application — API, automation script, or data processing tool.",
+        "difficulty": "advanced",
+        "estimatedHours": 15,
+        "weekRange": "Week 7-8",
+        "keyTopics": [
+          "project structure",
+          "testing",
+          "packaging",
+          "deployment"
+        ],
+        "prerequisites": [
+          "Advanced Python"
+        ],
+        "miniProject": "REST API with FastAPI or automation bot",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Python Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=FastAPI%20Tutorial%20Tech%20With%20Tim"
+          }
+        ]
+      }
+    ]
+  }
+}

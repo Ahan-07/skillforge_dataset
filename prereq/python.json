@@ -1,0 +1,289 @@
+{
+  "key": "python",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Python"
+  },
+  "prerequisite_test": {
+    "domain": "Python",
+    "prerequisites": [],
+    "chunks": [
+      {
+        "focus": "SkillForge Python Signal Check",
+        "questions": [
+          {
+            "question": "What is the difference between a list and a tuple in Python?",
+            "options": [
+              "A) No difference",
+              "B) Lists are mutable (can change); tuples are immutable (cannot change after creation)",
+              "C) Tuples are faster always",
+              "D) Lists are ordered; tuples are not"
+            ],
+            "correctAnswer": "B) Lists are mutable (can change); tuples are immutable (cannot change after creation)",
+            "topicTag": "Data Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does *args do in Python functions?",
+            "options": [
+              "A) Required arguments",
+              "B) Collects extra positional arguments into a tuple",
+              "C) Keyword arguments only",
+              "D) Default arguments"
+            ],
+            "correctAnswer": "B) Collects extra positional arguments into a tuple",
+            "topicTag": "Functions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a list comprehension?",
+            "options": [
+              "A) List documentation",
+              "B) Concise way to create list: [expr for item in iterable if condition]",
+              "C) Sorting a list",
+              "D) List validation"
+            ],
+            "correctAnswer": "B) Concise way to create list: [expr for item in iterable if condition]",
+            "topicTag": "Comprehensions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between is and == in Python?",
+            "options": [
+              "A) Same",
+              "B) is checks identity (same object in memory); == checks equality (same value)",
+              "C) == checks identity",
+              "D) is is for strings only"
+            ],
+            "correctAnswer": "B) is checks identity (same object in memory); == checks equality (same value)",
+            "topicTag": "Core Python",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Python decorator?",
+            "options": [
+              "A) CSS-like styling",
+              "B) Function that wraps another function to add behavior — using @decorator syntax",
+              "C) Class inheritance",
+              "D) Module naming"
+            ],
+            "correctAnswer": "B) Function that wraps another function to add behavior — using @decorator syntax",
+            "topicTag": "Decorators",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a generator in Python?",
+            "options": [
+              "A) Random number creator",
+              "B) Function using yield to return values lazily one at a time — memory efficient for large sequences",
+              "C) List creator",
+              "D) Async function"
+            ],
+            "correctAnswer": "B) Function using yield to return values lazily one at a time — memory efficient for large sequences",
+            "topicTag": "Generators",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is __init__ in Python classes?",
+            "options": [
+              "A) Import initializer",
+              "B) Constructor method called when creating new instance — initializes object attributes",
+              "C) Class destructor",
+              "D) Static method"
+            ],
+            "correctAnswer": "B) Constructor method called when creating new instance — initializes object attributes",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between @staticmethod and @classmethod?",
+            "options": [
+              "A) Same",
+              "B) staticmethod has no access to class/instance; classmethod receives cls as first arg",
+              "C) classmethod is deprecated",
+              "D) Both receive self"
+            ],
+            "correctAnswer": "B) staticmethod has no access to class/instance; classmethod receives cls as first arg",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What are Python dunder methods?",
+            "options": [
+              "A) Deprecated methods",
+              "B) Special methods with double underscores (__str__, __len__) enabling operator overloading and built-in integration",
+              "C) Private methods",
+              "D) Abstract methods"
+            ],
+            "correctAnswer": "B) Special methods with double underscores (__str__, __len__) enabling operator overloading and built-in integration",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Python context manager (with statement)?",
+            "options": [
+              "A) Error context",
+              "B) Protocol using __enter__/__exit__ ensuring resource cleanup — automatic close/release even on exception",
+              "C) Variable scope manager",
+              "D) Module context"
+            ],
+            "correctAnswer": "B) Protocol using __enter__/__exit__ ensuring resource cleanup — automatic close/release even on exception",
+            "topicTag": "Context Managers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is duck typing in Python?",
+            "options": [
+              "A) Type checking strictly",
+              "B) If object has required methods/attributes, it works — 'if it walks like a duck and quacks like a duck'",
+              "C) Type annotations",
+              "D) Interface enforcement"
+            ],
+            "correctAnswer": "B) If object has required methods/attributes, it works — 'if it walks like a duck and quacks like a duck'",
+            "topicTag": "Core Python",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the GIL (Global Interpreter Lock)?",
+            "options": [
+              "A) Security feature",
+              "B) Mutex preventing multiple threads from executing Python bytecode simultaneously in CPython",
+              "C) Memory manager",
+              "D) Import lock"
+            ],
+            "correctAnswer": "B) Mutex preventing multiple threads from executing Python bytecode simultaneously in CPython",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between deep copy and shallow copy?",
+            "options": [
+              "A) Same",
+              "B) Shallow copy copies object but shares references to nested objects; deep copy recursively copies everything",
+              "C) Deep copy is slower but same result",
+              "D) Shallow copy fails for nested objects"
+            ],
+            "correctAnswer": "B) Shallow copy copies object but shares references to nested objects; deep copy recursively copies everything",
+            "topicTag": "Core Python",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a lambda function?",
+            "options": [
+              "A) AWS Lambda",
+              "B) Anonymous single-expression function: lambda args: expression",
+              "C) Async function",
+              "D) Class method"
+            ],
+            "correctAnswer": "B) Anonymous single-expression function: lambda args: expression",
+            "topicTag": "Functions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is *args vs **kwargs?",
+            "options": [
+              "A) Same",
+              "B) *args collects positional args as tuple; **kwargs collects keyword args as dict",
+              "C) **kwargs is positional",
+              "D) Both collect keyword args"
+            ],
+            "correctAnswer": "B) *args collects positional args as tuple; **kwargs collects keyword args as dict",
+            "topicTag": "Functions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Python's MRO (Method Resolution Order)?",
+            "options": [
+              "A) Method return order",
+              "B) Order Python searches for method in class hierarchy — uses C3 linearization algorithm",
+              "C) Module resolution order",
+              "D) Import resolution"
+            ],
+            "correctAnswer": "B) Order Python searches for method in class hierarchy — uses C3 linearization algorithm",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Python dataclass?",
+            "options": [
+              "A) Database class",
+              "B) @dataclass decorator auto-generates __init__, __repr__, __eq__ from class variable annotations",
+              "C) Data validation class",
+              "D) Abstract base class"
+            ],
+            "correctAnswer": "B) @dataclass decorator auto-generates __init__, __repr__, __eq__ from class variable annotations",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is asyncio in Python?",
+            "options": [
+              "A) Async database library",
+              "B) Standard library for writing concurrent code using async/await — single-threaded cooperative multitasking",
+              "C) Multi-threading library",
+              "D) HTTP async library"
+            ],
+            "correctAnswer": "B) Standard library for writing concurrent code using async/await — single-threaded cooperative multitasking",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between a set and a frozenset?",
+            "options": [
+              "A) Same",
+              "B) set is mutable (add/remove elements); frozenset is immutable and can be used as dict key",
+              "C) frozenset is ordered",
+              "D) set cannot contain numbers"
+            ],
+            "correctAnswer": "B) set is mutable (add/remove elements); frozenset is immutable and can be used as dict key",
+            "topicTag": "Data Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Python's __slots__?",
+            "options": [
+              "A) Time slots",
+              "B) Class variable restricting instance attributes to listed names — reduces memory by avoiding __dict__",
+              "C) Method slots",
+              "D) Import slots"
+            ],
+            "correctAnswer": "B) Class variable restricting instance attributes to listed names — reduces memory by avoiding __dict__",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Python",
+        "questions": [
+          {
+            "question": "Which Python datatype is immutable?",
+            "options": [
+              "A) List",
+              "B) Dictionary",
+              "C) Set",
+              "D) Tuple"
+            ],
+            "correctAnswer": "D) Tuple",
+            "topicTag": "python",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which Python keyword defines function?",
+            "options": [
+              "A) function",
+              "B) def",
+              "C) fun",
+              "D) define"
+            ],
+            "correctAnswer": "B) def",
+            "topicTag": "python",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

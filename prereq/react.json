@@ -1,0 +1,537 @@
+{
+  "key": "react",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "React"
+  },
+  "prerequisite_test": {
+    "domain": "React",
+    "prerequisites": [
+      "JavaScript",
+      "HTML & CSS"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge React Signal Check",
+        "questions": [
+          {
+            "question": "What is the Virtual DOM?",
+            "options": [
+              "A) Fake DOM for testing",
+              "B) In-memory JS representation of real DOM — React diffs it to minimize actual DOM updates",
+              "C) Shadow DOM",
+              "D) Server-side DOM"
+            ],
+            "correctAnswer": "B) In-memory JS representation of real DOM — React diffs it to minimize actual DOM updates",
+            "topicTag": "React Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is reconciliation?",
+            "options": [
+              "A) Fixing component errors",
+              "B) React's diffing algorithm comparing old and new virtual DOM to determine minimal real DOM updates",
+              "C) Combining reducers",
+              "D) Resolving prop conflicts"
+            ],
+            "correctAnswer": "B) React's diffing algorithm comparing old and new virtual DOM to determine minimal real DOM updates",
+            "topicTag": "React Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are keys important in lists?",
+            "options": [
+              "A) For styling",
+              "B) Help React identify which items changed/added/removed — stable keys prevent unnecessary re-renders",
+              "C) Keyboard shortcuts",
+              "D) Unique CSS selectors"
+            ],
+            "correctAnswer": "B) Help React identify which items changed/added/removed — stable keys prevent unnecessary re-renders",
+            "topicTag": "Lists",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is JSX?",
+            "options": [
+              "A) New language",
+              "B) JavaScript syntax extension that looks like HTML — Babel compiles it to React.createElement() calls",
+              "C) XML format",
+              "D) Template engine"
+            ],
+            "correctAnswer": "B) JavaScript syntax extension that looks like HTML — Babel compiles it to React.createElement() calls",
+            "topicTag": "JSX",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is prop drilling?",
+            "options": [
+              "A) Using too many props",
+              "B) Passing props through multiple intermediate components that don't use them — just to reach deep child",
+              "C) Drilling holes in components",
+              "D) Complex prop types"
+            ],
+            "correctAnswer": "B) Passing props through multiple intermediate components that don't use them — just to reach deep child",
+            "topicTag": "Props",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a controlled component?",
+            "options": [
+              "A) Component with controlled styling",
+              "B) Form element whose value is controlled by React state — input value always reflects state",
+              "C) Component with access control",
+              "D) Component using Redux"
+            ],
+            "correctAnswer": "B) Form element whose value is controlled by React state — input value always reflects state",
+            "topicTag": "Forms",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What triggers a React re-render?",
+            "options": [
+              "A) Only explicit calls",
+              "B) State change, prop change, parent re-render, or context change",
+              "C) Only state changes",
+              "D) Timer functions only"
+            ],
+            "correctAnswer": "B) State change, prop change, parent re-render, or context change",
+            "topicTag": "React Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does React.memo() do?",
+            "options": [
+              "A) Adds memo to component",
+              "B) HOC that memoizes component — skips re-render if props haven't changed (shallow comparison)",
+              "C) Memoizes all state",
+              "D) Caches API calls"
+            ],
+            "correctAnswer": "B) HOC that memoizes component — skips re-render if props haven't changed (shallow comparison)",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a React Fragment?",
+            "options": [
+              "A) Broken component",
+              "B) Wrapper (<> </> or <Fragment>) grouping multiple children without adding extra DOM node",
+              "C) Code splitting chunk",
+              "D) Error boundary"
+            ],
+            "correctAnswer": "B) Wrapper (<> </> or <Fragment>) grouping multiple children without adding extra DOM node",
+            "topicTag": "JSX",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is an error boundary?",
+            "options": [
+              "A) try/catch in components",
+              "B) Class component with componentDidCatch that catches JS errors in child tree and shows fallback UI",
+              "C) Error handling hook",
+              "D) Validation boundary"
+            ],
+            "correctAnswer": "B) Class component with componentDidCatch that catches JS errors in child tree and shows fallback UI",
+            "topicTag": "Error Handling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is React.lazy() used for?",
+            "options": [
+              "A) Lazy state initialization",
+              "B) Dynamic import of component — enables code splitting so component loads only when needed",
+              "C) Deferring effects",
+              "D) Lazy prop evaluation"
+            ],
+            "correctAnswer": "B) Dynamic import of component — enables code splitting so component loads only when needed",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the children prop?",
+            "options": [
+              "A) Array of child components only",
+              "B) Special prop containing everything between component's opening and closing JSX tags",
+              "C) List of child classes",
+              "D) DOM children reference"
+            ],
+            "correctAnswer": "B) Special prop containing everything between component's opening and closing JSX tags",
+            "topicTag": "Props",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Higher Order Component (HOC)?",
+            "options": [
+              "A) Component with many children",
+              "B) Function that takes component and returns new enhanced component — pattern for reusing logic",
+              "C) Parent component",
+              "D) Class component"
+            ],
+            "correctAnswer": "B) Function that takes component and returns new enhanced component — pattern for reusing logic",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When does React batch state updates?",
+            "options": [
+              "A) Never",
+              "B) In React 18+, all updates are batched by default; earlier only in React event handlers",
+              "C) Only in useEffect",
+              "D) Only with useReducer"
+            ],
+            "correctAnswer": "B) In React 18+, all updates are batched by default; earlier only in React event handlers",
+            "topicTag": "State",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the render prop pattern?",
+            "options": [
+              "A) Props that return JSX",
+              "B) Sharing code between components using prop whose value is a function returning JSX",
+              "C) Conditional rendering",
+              "D) Props for styling"
+            ],
+            "correctAnswer": "B) Sharing code between components using prop whose value is a function returning JSX",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a React portal?",
+            "options": [
+              "A) App entry point",
+              "B) Renders children into different DOM node outside parent hierarchy — used for modals/tooltips",
+              "C) Route portal",
+              "D) Context portal"
+            ],
+            "correctAnswer": "B) Renders children into different DOM node outside parent hierarchy — used for modals/tooltips",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between defaultProps and TypeScript default params?",
+            "options": [
+              "A) Same",
+              "B) defaultProps is React-specific class/function prop defaults; TS default params are JS-level defaults in function signature",
+              "C) TypeScript is better always",
+              "D) defaultProps is deprecated in function components"
+            ],
+            "correctAnswer": "D) defaultProps is deprecated in function components",
+            "topicTag": "Props",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Concurrent React?",
+            "options": [
+              "A) Multiple React apps",
+              "B) React 18 feature enabling interruptible rendering — React can pause and resume work based on priority",
+              "C) Parallel component execution",
+              "D) Multi-threaded React"
+            ],
+            "correctAnswer": "B) React 18 feature enabling interruptible rendering — React can pause and resume work based on priority",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the Suspense component?",
+            "options": [
+              "A) Suspends app execution",
+              "B) Shows fallback UI while children are loading (lazy components or data fetching)",
+              "C) Error boundary alternative",
+              "D) Loading animation only"
+            ],
+            "correctAnswer": "B) Shows fallback UI while children are loading (lazy components or data fetching)",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does StrictMode do in React?",
+            "options": [
+              "A) Enforces TypeScript",
+              "B) Development-only wrapper that double-invokes functions/effects to detect side effects and deprecated APIs",
+              "C) Strict null checks",
+              "D) Validates prop types always"
+            ],
+            "correctAnswer": "B) Development-only wrapper that double-invokes functions/effects to detect side effects and deprecated APIs",
+            "topicTag": "React Core",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Hooks & State Management",
+        "questions": [
+          {
+            "question": "What is the difference between useState and useRef?",
+            "options": [
+              "A) No difference",
+              "B) useState triggers re-render on update; useRef persists mutable value across renders without re-render",
+              "C) useRef triggers re-render",
+              "D) useState is for DOM only"
+            ],
+            "correctAnswer": "B) useState triggers re-render on update; useRef persists mutable value across renders without re-render",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does empty dependency array [] in useEffect mean?",
+            "options": [
+              "A) Effect runs every render",
+              "B) Effect runs only once after initial mount — like componentDidMount",
+              "C) Effect never runs",
+              "D) Effect runs on unmount"
+            ],
+            "correctAnswer": "B) Effect runs only once after initial mount — like componentDidMount",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the useEffect cleanup function?",
+            "options": [
+              "A) Clears console logs",
+              "B) Function returned from useEffect — runs on unmount and before next effect execution",
+              "C) Resets all state",
+              "D) Removes component from DOM"
+            ],
+            "correctAnswer": "B) Function returned from useEffect — runs on unmount and before next effect execution",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is useMemo vs useCallback?",
+            "options": [
+              "A) Same thing",
+              "B) useMemo memoizes computed VALUE; useCallback memoizes FUNCTION reference",
+              "C) useCallback memoizes values",
+              "D) Both memoize functions"
+            ],
+            "correctAnswer": "B) useMemo memoizes computed VALUE; useCallback memoizes FUNCTION reference",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When should you use useReducer over useState?",
+            "options": [
+              "A) Always use useReducer",
+              "B) When state logic is complex with multiple sub-values or next state depends on previous state",
+              "C) Only in large apps",
+              "D) When using Redux"
+            ],
+            "correctAnswer": "B) When state logic is complex with multiple sub-values or next state depends on previous state",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the stale closure problem?",
+            "options": [
+              "A) Old components not unmounting",
+              "B) Effect/callback captures outdated value from previous render — fixed by adding to dependency array",
+              "C) Memory leak in hooks",
+              "D) Deprecated hook usage"
+            ],
+            "correctAnswer": "B) Effect/callback captures outdated value from previous render — fixed by adding to dependency array",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is useLayoutEffect vs useEffect?",
+            "options": [
+              "A) No difference",
+              "B) useLayoutEffect fires synchronously after DOM mutations before browser paint — blocks visual update",
+              "C) useLayoutEffect is for CSS",
+              "D) useEffect fires before paint"
+            ],
+            "correctAnswer": "B) useLayoutEffect fires synchronously after DOM mutations before browser paint — blocks visual update",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a custom hook?",
+            "options": [
+              "A) Modified built-in hook",
+              "B) Reusable function starting with 'use' that can call other hooks — extracts stateful logic",
+              "C) Third-party hook library",
+              "D) Class method replacement"
+            ],
+            "correctAnswer": "B) Reusable function starting with 'use' that can call other hooks — extracts stateful logic",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is useContext used for?",
+            "options": [
+              "A) Setting request headers",
+              "B) Consuming React Context — avoids prop drilling by accessing context value anywhere in component tree",
+              "C) Setting page context",
+              "D) API context"
+            ],
+            "correctAnswer": "B) Consuming React Context — avoids prop drilling by accessing context value anywhere in component tree",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does useState's functional update form do: setState(prev => prev + 1)?",
+            "options": [
+              "A) Creates new state",
+              "B) Ensures update is based on latest state — prevents stale state in async/batch updates",
+              "C) Resets state first",
+              "D) Same as setState(state+1) always"
+            ],
+            "correctAnswer": "B) Ensures update is based on latest state — prevents stale state in async/batch updates",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is useImperativeHandle?",
+            "options": [
+              "A) Forces component update",
+              "B) Customizes instance value exposed by useRef when used with forwardRef — controls imperative API",
+              "C) Handles imperative code",
+              "D) Bypasses React rendering"
+            ],
+            "correctAnswer": "B) Customizes instance value exposed by useRef when used with forwardRef — controls imperative API",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is forwardRef?",
+            "options": [
+              "A) Forwarding props",
+              "B) Allows component to forward its ref to child DOM element or component",
+              "C) Creating refs",
+              "D) Passing refs as props directly"
+            ],
+            "correctAnswer": "B) Allows component to forward its ref to child DOM element or component",
+            "topicTag": "Refs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the Context API solve?",
+            "options": [
+              "A) API calls",
+              "B) Provides way to pass data through component tree without prop drilling — global state for React",
+              "C) Component context errors",
+              "D) HTTP context headers"
+            ],
+            "correctAnswer": "B) Provides way to pass data through component tree without prop drilling — global state for React",
+            "topicTag": "Context",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Zustand?",
+            "options": [
+              "A) German for state",
+              "B) Lightweight state management library — simpler than Redux, uses hooks, minimal boilerplate",
+              "C) React built-in state",
+              "D) CSS-in-JS library"
+            ],
+            "correctAnswer": "B) Lightweight state management library — simpler than Redux, uses hooks, minimal boilerplate",
+            "topicTag": "State Management",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Redux Toolkit (RTK)?",
+            "options": [
+              "A) Old Redux only",
+              "B) Official opinionated Redux toolset reducing boilerplate — includes createSlice, createAsyncThunk",
+              "C) Redux for React only",
+              "D) State management without Redux"
+            ],
+            "correctAnswer": "B) Official opinionated Redux toolset reducing boilerplate — includes createSlice, createAsyncThunk",
+            "topicTag": "State Management",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between local and global state?",
+            "options": [
+              "A) Same",
+              "B) Local state lives in one component (useState); global state shared across components (Context/Redux/Zustand)",
+              "C) Global state is in database",
+              "D) Local state uses Redux"
+            ],
+            "correctAnswer": "B) Local state lives in one component (useState); global state shared across components (Context/Redux/Zustand)",
+            "topicTag": "State Management",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does useEffect with no dependency array do?",
+            "options": [
+              "A) Runs once",
+              "B) Runs after EVERY render — equivalent to componentDidUpdate for all updates",
+              "C) Never runs",
+              "D) Runs only on state change"
+            ],
+            "correctAnswer": "B) Runs after EVERY render — equivalent to componentDidUpdate for all updates",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the exhaustive-deps ESLint rule for?",
+            "options": [
+              "A) Counting dependencies",
+              "B) Warns when useEffect/useCallback/useMemo dependency arrays don't include all used variables",
+              "C) TypeScript dependencies",
+              "D) Package dependencies"
+            ],
+            "correctAnswer": "B) Warns when useEffect/useCallback/useMemo dependency arrays don't include all used variables",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is code splitting in React?",
+            "options": [
+              "A) Splitting CSS and JS",
+              "B) Breaking app into smaller chunks loaded on demand — reduces initial bundle size using React.lazy/Suspense",
+              "C) Splitting components into files",
+              "D) Multiple React roots"
+            ],
+            "correctAnswer": "B) Breaking app into smaller chunks loaded on demand — reduces initial bundle size using React.lazy/Suspense",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between useEffect and event handlers for data fetching?",
+            "options": [
+              "A) No difference",
+              "B) useEffect fetches on render/mount; event handlers fetch on user action — choose based on trigger",
+              "C) Event handlers are always better",
+              "D) useEffect is deprecated for fetching"
+            ],
+            "correctAnswer": "B) useEffect fetches on render/mount; event handlers fetch on user action — choose based on trigger",
+            "topicTag": "Hooks",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - React",
+        "questions": [
+          {
+            "question": "Which hook is used for state in React?",
+            "options": [
+              "A) useEffect",
+              "B) useState",
+              "C) useRef",
+              "D) useMemo"
+            ],
+            "correctAnswer": "B) useState",
+            "topicTag": "react",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which React hook runs after render?",
+            "options": [
+              "A) useState",
+              "B) useEffect",
+              "C) useRef",
+              "D) useMemo"
+            ],
+            "correctAnswer": "B) useEffect",
+            "topicTag": "react",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

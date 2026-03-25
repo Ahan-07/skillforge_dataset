@@ -1,0 +1,289 @@
+{
+  "key": "html",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "HTML"
+  },
+  "prerequisite_test": {
+    "domain": "HTML",
+    "prerequisites": [],
+    "chunks": [
+      {
+        "focus": "SkillForge HTML Signal Check",
+        "questions": [
+          {
+            "question": "What is the purpose of <!DOCTYPE html>?",
+            "options": [
+              "A) Adds CSS reset",
+              "B) Tells the browser to render the document in standards mode as HTML5",
+              "C) Loads JavaScript",
+              "D) Declares page encoding"
+            ],
+            "correctAnswer": "B) Tells the browser to render the document in standards mode as HTML5",
+            "topicTag": "Document Structure",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is semantic HTML preferred over generic div-heavy markup?",
+            "options": [
+              "A) It makes CSS unnecessary",
+              "B) It improves meaning, accessibility, maintainability, and often SEO",
+              "C) It reduces HTML size to zero",
+              "D) It disables ARIA"
+            ],
+            "correctAnswer": "B) It improves meaning, accessibility, maintainability, and often SEO",
+            "topicTag": "Semantics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Which element should represent the main unique content of a page?",
+            "options": [
+              "A) section",
+              "B) main",
+              "C) article",
+              "D) aside"
+            ],
+            "correctAnswer": "B) main",
+            "topicTag": "Semantics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between section and article?",
+            "options": [
+              "A) No difference",
+              "B) article is self-contained independent content; section groups related thematic content",
+              "C) section is only for sidebars",
+              "D) article cannot contain headings"
+            ],
+            "correctAnswer": "B) article is self-contained independent content; section groups related thematic content",
+            "topicTag": "Semantics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should every form input typically have a label?",
+            "options": [
+              "A) For CSS targeting only",
+              "B) It improves accessibility and click target behavior by associating text with the control",
+              "C) It is required only for submit buttons",
+              "D) It stores the input value"
+            ],
+            "correctAnswer": "B) It improves accessibility and click target behavior by associating text with the control",
+            "topicTag": "Forms",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the alt attribute on an img element do?",
+            "options": [
+              "A) Changes image format",
+              "B) Provides alternative text for accessibility and fallback when image cannot be displayed",
+              "C) Adds a tooltip",
+              "D) Compresses the image"
+            ],
+            "correctAnswer": "B) Provides alternative text for accessibility and fallback when image cannot be displayed",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When should alt be empty (alt=\"\")?",
+            "options": [
+              "A) For every image",
+              "B) For purely decorative images that convey no meaningful content",
+              "C) For all logos",
+              "D) Never"
+            ],
+            "correctAnswer": "B) For purely decorative images that convey no meaningful content",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of the head element?",
+            "options": [
+              "A) Contains all visible page content",
+              "B) Holds metadata like title, meta tags, links to stylesheets, and scripts",
+              "C) Wraps the header",
+              "D) Declares forms"
+            ],
+            "correctAnswer": "B) Holds metadata like title, meta tags, links to stylesheets, and scripts",
+            "topicTag": "Document Structure",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is the title element important?",
+            "options": [
+              "A) It styles the page heading",
+              "B) It sets the browser/tab title and contributes to search result context",
+              "C) It loads fonts",
+              "D) It validates HTML"
+            ],
+            "correctAnswer": "B) It sets the browser/tab title and contributes to search result context",
+            "topicTag": "Metadata",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of the meta viewport tag?",
+            "options": [
+              "A) Enabling database queries",
+              "B) Controlling layout viewport behavior on mobile devices",
+              "C) Preloading fonts",
+              "D) Creating responsive images"
+            ],
+            "correctAnswer": "B) Controlling layout viewport behavior on mobile devices",
+            "topicTag": "Metadata",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between block and inline elements in HTML by default?",
+            "options": [
+              "A) Inline elements always have margins",
+              "B) Block elements typically start on a new line; inline elements flow within text",
+              "C) Block elements cannot contain text",
+              "D) Inline elements cannot contain links"
+            ],
+            "correctAnswer": "B) Block elements typically start on a new line; inline elements flow within text",
+            "topicTag": "Elements",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should table markup include th and sometimes scope attributes?",
+            "options": [
+              "A) Only for styling",
+              "B) To provide header semantics that assist screen readers in understanding relationships",
+              "C) To improve JavaScript performance",
+              "D) To enable sorting automatically"
+            ],
+            "correctAnswer": "B) To provide header semantics that assist screen readers in understanding relationships",
+            "topicTag": "Tables",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of fieldset and legend in forms?",
+            "options": [
+              "A) They are deprecated layout tools",
+              "B) They semantically group related controls and provide an accessible group label",
+              "C) They replace labels",
+              "D) They submit data automatically"
+            ],
+            "correctAnswer": "B) They semantically group related controls and provide an accessible group label",
+            "topicTag": "Forms",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When is ARIA most appropriate?",
+            "options": [
+              "A) Always instead of semantic HTML",
+              "B) When native HTML semantics are insufficient and you must enhance accessibility carefully",
+              "C) Only in React apps",
+              "D) Only for forms"
+            ],
+            "correctAnswer": "B) When native HTML semantics are insufficient and you must enhance accessibility carefully",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is nesting interactive elements like a button inside an anchor problematic?",
+            "options": [
+              "A) It improves accessibility",
+              "B) It creates invalid/ambiguous interaction behavior and accessibility issues",
+              "C) It reduces bundle size",
+              "D) It is required for navigation"
+            ],
+            "correctAnswer": "B) It creates invalid/ambiguous interaction behavior and accessibility issues",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the benefit of using button instead of div for clickable actions?",
+            "options": [
+              "A) Buttons cannot be styled",
+              "B) Buttons provide built-in keyboard and accessibility behavior appropriate for actions",
+              "C) div is more semantic for actions",
+              "D) Buttons only work in forms"
+            ],
+            "correctAnswer": "B) Buttons provide built-in keyboard and accessibility behavior appropriate for actions",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the picture element solve?",
+            "options": [
+              "A) It adds captions automatically",
+              "B) It enables art direction or responsive image source selection via nested source elements",
+              "C) It replaces all img elements",
+              "D) It provides lazy loading only"
+            ],
+            "correctAnswer": "B) It enables art direction or responsive image source selection via nested source elements",
+            "topicTag": "Media",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is lang attribute on the html element important?",
+            "options": [
+              "A) It changes font rendering only",
+              "B) It helps assistive tech and browsers understand the document language",
+              "C) It enables CSS variables",
+              "D) It loads translations automatically"
+            ],
+            "correctAnswer": "B) It helps assistive tech and browsers understand the document language",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is progressive enhancement in HTML-centric development?",
+            "options": [
+              "A) Writing JavaScript first",
+              "B) Starting with robust semantic HTML and enhancing with CSS/JS where available",
+              "C) Avoiding accessibility",
+              "D) Only supporting modern browsers"
+            ],
+            "correctAnswer": "B) Starting with robust semantic HTML and enhancing with CSS/JS where available",
+            "topicTag": "Semantics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical difference between id and class?",
+            "options": [
+              "A) They are identical",
+              "B) id should be unique in the document; class is reusable across multiple elements",
+              "C) class can be used only once",
+              "D) id is only for CSS"
+            ],
+            "correctAnswer": "B) id should be unique in the document; class is reusable across multiple elements",
+            "topicTag": "Attributes",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Html",
+        "questions": [
+          {
+            "question": "Which tag is used for hyperlink in HTML?",
+            "options": [
+              "A) <link>",
+              "B) <a>",
+              "C) <href>",
+              "D) <url>"
+            ],
+            "correctAnswer": "B) <a>",
+            "topicTag": "html",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which tag is used for image?",
+            "options": [
+              "A) <img>",
+              "B) <image>",
+              "C) <src>",
+              "D) <pic>"
+            ],
+            "correctAnswer": "A) <img>",
+            "topicTag": "html",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

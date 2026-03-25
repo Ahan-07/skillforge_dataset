@@ -1,0 +1,293 @@
+{
+  "key": "php",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "PHP"
+  },
+  "prerequisite_test": {
+    "domain": "PHP",
+    "prerequisites": [
+      "HTML Basics",
+      "Programming Basics",
+      "Web Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge PHP Signal Check",
+        "questions": [
+          {
+            "question": "Why is PHP considered a server-side language?",
+            "options": [
+              "A) Because it commonly runs on the server to generate responses before content reaches the browser",
+              "B) Because browsers compile it directly",
+              "C) Because it cannot process forms",
+              "D) Because it replaces HTTP"
+            ],
+            "correctAnswer": "A) Because it commonly runs on the server to generate responses before content reaches the browser",
+            "topicTag": "Runtime",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical purpose of form handling in PHP?",
+            "options": [
+              "A) Processing user input, validating it, and producing server-side behavior",
+              "B) Styling pages",
+              "C) Replacing sessions",
+              "D) Avoiding databases"
+            ],
+            "correctAnswer": "A) Processing user input, validating it, and producing server-side behavior",
+            "topicTag": "Web",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are sessions useful?",
+            "options": [
+              "A) They help preserve user-related state across multiple requests",
+              "B) They replace passwords",
+              "C) They only store CSS",
+              "D) They compile templates"
+            ],
+            "correctAnswer": "A) They help preserve user-related state across multiple requests",
+            "topicTag": "Sessions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the benefit of object-oriented programming in PHP?",
+            "options": [
+              "A) It helps organize behavior and responsibilities into reusable application structures",
+              "B) It removes the need for functions",
+              "C) It only matters in command-line scripts",
+              "D) It replaces validation"
+            ],
+            "correctAnswer": "A) It helps organize behavior and responsibilities into reusable application structures",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is Composer important in modern PHP development?",
+            "options": [
+              "A) It manages dependencies and autoloading for maintainable projects",
+              "B) It is only for databases",
+              "C) It replaces frameworks",
+              "D) It disables testing"
+            ],
+            "correctAnswer": "A) It manages dependencies and autoloading for maintainable projects",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem do prepared statements solve?",
+            "options": [
+              "A) They help separate SQL structure from user data and reduce injection risk",
+              "B) They replace schema design",
+              "C) They only improve HTML rendering",
+              "D) They remove the need for indexes"
+            ],
+            "correctAnswer": "A) They help separate SQL structure from user data and reduce injection risk",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does validation matter for PHP applications?",
+            "options": [
+              "A) It prevents bad or unsafe input from flowing deeper into the system",
+              "B) It only affects frontend layout",
+              "C) It replaces authentication",
+              "D) It is only useful for file uploads"
+            ],
+            "correctAnswer": "A) It prevents bad or unsafe input from flowing deeper into the system",
+            "topicTag": "Validation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of a framework like Laravel or Symfony?",
+            "options": [
+              "A) Providing structure and reusable patterns for routing, services, auth, and persistence",
+              "B) Replacing PHP syntax",
+              "C) Removing the need for HTTP",
+              "D) Only generating CSS"
+            ],
+            "correctAnswer": "A) Providing structure and reusable patterns for routing, services, auth, and persistence",
+            "topicTag": "Frameworks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why do PHP applications still need database design knowledge?",
+            "options": [
+              "A) Because frameworks do not remove the need for sound data modeling and query decisions",
+              "B) Because PHP cannot connect to databases",
+              "C) Because sessions replace storage",
+              "D) Because SQL is optional in all apps"
+            ],
+            "correctAnswer": "A) Because frameworks do not remove the need for sound data modeling and query decisions",
+            "topicTag": "Databases",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of authentication in a PHP app?",
+            "options": [
+              "A) Identifying users before protected features are accessed",
+              "B) Caching templates",
+              "C) Compiling routes",
+              "D) Replacing authorization"
+            ],
+            "correctAnswer": "A) Identifying users before protected features are accessed",
+            "topicTag": "Authentication",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is authorization different from authentication?",
+            "options": [
+              "A) Authentication identifies the user, authorization checks allowed actions",
+              "B) Authorization happens before login and authentication after logout",
+              "C) They are identical",
+              "D) Only APIs need authorization"
+            ],
+            "correctAnswer": "A) Authentication identifies the user, authorization checks allowed actions",
+            "topicTag": "Authorization",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does CSRF protection address?",
+            "options": [
+              "A) Unwanted cross-site requests executed using a user's existing session context",
+              "B) SQL performance",
+              "C) CSS injection",
+              "D) Local file compilation"
+            ],
+            "correctAnswer": "A) Unwanted cross-site requests executed using a user's existing session context",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are automated tests useful in PHP codebases?",
+            "options": [
+              "A) They help verify application behavior and reduce regressions as features change",
+              "B) They replace code review",
+              "C) They only matter for package authors",
+              "D) They replace deployment"
+            ],
+            "correctAnswer": "A) They help verify application behavior and reduce regressions as features change",
+            "topicTag": "Testing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical value of queues or background jobs?",
+            "options": [
+              "A) Moving slow or retryable work out of the main request cycle",
+              "B) Replacing sessions",
+              "C) Styling admin dashboards",
+              "D) Eliminating database writes"
+            ],
+            "correctAnswer": "A) Moving slow or retryable work out of the main request cycle",
+            "topicTag": "Async Work",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does caching matter in PHP applications?",
+            "options": [
+              "A) It can reduce repeated expensive work and improve response performance",
+              "B) It replaces data persistence",
+              "C) It only matters in local development",
+              "D) It disables auth checks"
+            ],
+            "correctAnswer": "A) It can reduce repeated expensive work and improve response performance",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of environment-specific configuration?",
+            "options": [
+              "A) Allowing the same app to run safely with different settings across environments",
+              "B) Replacing version control",
+              "C) Avoiding framework usage",
+              "D) Only changing color themes"
+            ],
+            "correctAnswer": "A) Allowing the same app to run safely with different settings across environments",
+            "topicTag": "Configuration",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is deployment knowledge relevant to PHP developers?",
+            "options": [
+              "A) Because runtime setup, web server behavior, configuration, and hosting still affect production success",
+              "B) Because deployment is always handled by designers",
+              "C) Because PHP apps do not need servers",
+              "D) Because deployment replaces monitoring"
+            ],
+            "correctAnswer": "A) Because runtime setup, web server behavior, configuration, and hosting still affect production success",
+            "topicTag": "Deployment",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of logging and monitoring in production?",
+            "options": [
+              "A) Observing failures, performance problems, and real application behavior",
+              "B) Replacing validation",
+              "C) Rendering templates faster",
+              "D) Only tracking CSS bugs"
+            ],
+            "correctAnswer": "A) Observing failures, performance problems, and real application behavior",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is secure coding especially important in server-rendered or API-backed PHP apps?",
+            "options": [
+              "A) Because they process user input, credentials, and data access on the server",
+              "B) Because PHP cannot validate input",
+              "C) Because only JavaScript apps face attacks",
+              "D) Because frameworks prevent all security issues"
+            ],
+            "correctAnswer": "A) Because they process user input, credentials, and data access on the server",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest way to learn PHP effectively today?",
+            "options": [
+              "A) Build modern applications that combine forms, auth, persistence, testing, and deployment",
+              "B) Memorize syntax only",
+              "C) Avoid frameworks and tooling forever",
+              "D) Ignore web fundamentals"
+            ],
+            "correctAnswer": "A) Build modern applications that combine forms, auth, persistence, testing, and deployment",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Php",
+        "questions": [
+          {
+            "question": "Which PHP function outputs text?",
+            "options": [
+              "A) print()",
+              "B) echo()",
+              "C) write()",
+              "D) display()"
+            ],
+            "correctAnswer": "B) echo()",
+            "topicTag": "php",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which PHP symbol starts variable?",
+            "options": [
+              "A) #",
+              "B) $",
+              "C) @",
+              "D) &"
+            ],
+            "correctAnswer": "B) $",
+            "topicTag": "php",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

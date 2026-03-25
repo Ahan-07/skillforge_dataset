@@ -1,0 +1,291 @@
+{
+  "key": "nodejs",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Node.js"
+  },
+  "prerequisite_test": {
+    "domain": "Node.js",
+    "prerequisites": [
+      "JavaScript"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Node.js Signal Check",
+        "questions": [
+          {
+            "question": "What is Node.js?",
+            "options": [
+              "A) Browser JavaScript",
+              "B) JavaScript runtime built on V8 engine enabling server-side JS execution outside browser",
+              "C) JavaScript framework",
+              "D) Database system"
+            ],
+            "correctAnswer": "B) JavaScript runtime built on V8 engine enabling server-side JS execution outside browser",
+            "topicTag": "Node Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the Node.js event loop?",
+            "options": [
+              "A) For loop for events",
+              "B) Single-threaded loop processing I/O callbacks from libuv thread pool — enables non-blocking I/O",
+              "C) DOM event system",
+              "D) HTTP request loop"
+            ],
+            "correctAnswer": "B) Single-threaded loop processing I/O callbacks from libuv thread pool — enables non-blocking I/O",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between require() and import?",
+            "options": [
+              "A) Same",
+              "B) require() is CommonJS (synchronous, dynamic); import is ES modules (static, async, tree-shakeable)",
+              "C) import is older",
+              "D) require() is for JSON only"
+            ],
+            "correctAnswer": "B) require() is CommonJS (synchronous, dynamic); import is ES modules (static, async, tree-shakeable)",
+            "topicTag": "Modules",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is process.env used for?",
+            "options": [
+              "A) Process control",
+              "B) Accessing environment variables — used for secrets, config, API keys without hardcoding",
+              "C) CPU environment",
+              "D) Browser environment"
+            ],
+            "correctAnswer": "B) Accessing environment variables — used for secrets, config, API keys without hardcoding",
+            "topicTag": "Node Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of package.json?",
+            "options": [
+              "A) JavaScript documentation",
+              "B) Project manifest defining name, version, dependencies, scripts, and metadata",
+              "C) HTML template",
+              "D) Environment config"
+            ],
+            "correctAnswer": "B) Project manifest defining name, version, dependencies, scripts, and metadata",
+            "topicTag": "NPM",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between dependencies and devDependencies?",
+            "options": [
+              "A) No difference",
+              "B) dependencies are needed in production; devDependencies only needed during development/testing",
+              "C) devDependencies are more important",
+              "D) Both installed in production"
+            ],
+            "correctAnswer": "B) dependencies are needed in production; devDependencies only needed during development/testing",
+            "topicTag": "NPM",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is middleware in Express?",
+            "options": [
+              "A) Database connector",
+              "B) Function(req, res, next) that runs between request and response — for auth, logging, parsing",
+              "C) HTML template engine",
+              "D) Route handler"
+            ],
+            "correctAnswer": "B) Function(req, res, next) that runs between request and response — for auth, logging, parsing",
+            "topicTag": "Express",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does next() do in Express middleware?",
+            "options": [
+              "A) Goes to next route file",
+              "B) Passes control to next middleware in stack — must call it to continue chain",
+              "C) Sends response",
+              "D) Throws error"
+            ],
+            "correctAnswer": "B) Passes control to next middleware in stack — must call it to continue chain",
+            "topicTag": "Express",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Node.js stream?",
+            "options": [
+              "A) Data pipeline",
+              "B) Abstract interface for reading/writing data in chunks — memory efficient for large files",
+              "C) Event emitter",
+              "D) HTTP connection"
+            ],
+            "correctAnswer": "B) Abstract interface for reading/writing data in chunks — memory efficient for large files",
+            "topicTag": "Streams",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the EventEmitter class?",
+            "options": [
+              "A) DOM events in Node",
+              "B) Core class enabling event-driven architecture — on() to listen, emit() to trigger events",
+              "C) HTTP event handler",
+              "D) Promise-based events"
+            ],
+            "correctAnswer": "B) Core class enabling event-driven architecture — on() to listen, emit() to trigger events",
+            "topicTag": "Events",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is cluster module in Node.js?",
+            "options": [
+              "A) Database clustering",
+              "B) Creates child processes sharing server port — utilizes multiple CPU cores since Node is single-threaded",
+              "C) File clustering",
+              "D) Memory clustering"
+            ],
+            "correctAnswer": "B) Creates child processes sharing server port — utilizes multiple CPU cores since Node is single-threaded",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of __dirname?",
+            "options": [
+              "A) Directory listing",
+              "B) Absolute path of directory containing current module file",
+              "C) Root directory",
+              "D) Home directory"
+            ],
+            "correctAnswer": "B) Absolute path of directory containing current module file",
+            "topicTag": "Node Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CORS and how is it handled in Express?",
+            "options": [
+              "A) Database security",
+              "B) Cross-Origin Resource Sharing — browser security policy; handled with cors middleware or manual headers",
+              "C) SSL certificate",
+              "D) Authentication system"
+            ],
+            "correctAnswer": "B) Cross-Origin Resource Sharing — browser security policy; handled with cors middleware or manual headers",
+            "topicTag": "Express",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is JWT (JSON Web Token)?",
+            "options": [
+              "A) JavaScript template",
+              "B) Compact self-contained token for auth — header.payload.signature, stateless, verified with secret",
+              "C) Database token",
+              "D) API key format"
+            ],
+            "correctAnswer": "B) Compact self-contained token for auth — header.payload.signature, stateless, verified with secret",
+            "topicTag": "Auth",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between synchronous and asynchronous file reading in Node?",
+            "options": [
+              "A) Same result",
+              "B) Sync (readFileSync) blocks event loop; async (readFile) uses callback and doesn't block",
+              "C) Async is slower",
+              "D) Sync uses more memory"
+            ],
+            "correctAnswer": "B) Sync (readFileSync) blocks event loop; async (readFile) uses callback and doesn't block",
+            "topicTag": "File System",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is rate limiting in APIs?",
+            "options": [
+              "A) Limiting API size",
+              "B) Controlling number of requests per user/IP in time window — prevents abuse and DDoS",
+              "C) Response size limit",
+              "D) Database query limit"
+            ],
+            "correctAnswer": "B) Controlling number of requests per user/IP in time window — prevents abuse and DDoS",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of helmet.js?",
+            "options": [
+              "A) CSS framework",
+              "B) Express middleware setting various HTTP security headers to protect against common vulnerabilities",
+              "C) Authentication library",
+              "D) Encryption library"
+            ],
+            "correctAnswer": "B) Express middleware setting various HTTP security headers to protect against common vulnerabilities",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is bcrypt used for?",
+            "options": [
+              "A) Encryption",
+              "B) Password hashing with salt — slow by design to prevent brute force attacks",
+              "C) JWT signing",
+              "D) API key generation"
+            ],
+            "correctAnswer": "B) Password hashing with salt — slow by design to prevent brute force attacks",
+            "topicTag": "Auth",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of .env files?",
+            "options": [
+              "A) Environment documentation",
+              "B) Store environment variables locally — loaded with dotenv, never committed to version control",
+              "C) Node configuration",
+              "D) Build scripts"
+            ],
+            "correctAnswer": "B) Store environment variables locally — loaded with dotenv, never committed to version control",
+            "topicTag": "Node Core",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is graceful shutdown in Node.js?",
+            "options": [
+              "A) Restarting server",
+              "B) Listening for SIGTERM signal to finish existing requests before stopping — prevents data loss",
+              "C) Error handling",
+              "D) Memory cleanup"
+            ],
+            "correctAnswer": "B) Listening for SIGTERM signal to finish existing requests before stopping — prevents data loss",
+            "topicTag": "Production",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Nodejs",
+        "questions": [
+          {
+            "question": "Which runtime is used for Node.js?",
+            "options": [
+              "A) V8 Engine",
+              "B) JVM",
+              "C) CLR",
+              "D) SpiderMonkey"
+            ],
+            "correctAnswer": "A) V8 Engine",
+            "topicTag": "nodejs",
+            "difficulty": "medium"
+          },
+          {
+            "question": "Which Node.js module handles file system?",
+            "options": [
+              "A) http",
+              "B) fs",
+              "C) path",
+              "D) url"
+            ],
+            "correctAnswer": "B) fs",
+            "topicTag": "nodejs",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

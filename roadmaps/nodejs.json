@@ -1,0 +1,307 @@
+{
+  "key": "nodejs",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Node.js"
+  },
+  "roadmap": {
+    "topic": "Node.js",
+    "emoji": "🟢",
+    "overview": "SkillForge original Node.js path focused on server-side JavaScript, APIs, async execution, persistence, and production backend delivery.",
+    "totalWeeks": 12,
+    "nodes": [
+      {
+        "id": "node_runtime",
+        "step": 1,
+        "phase": 1,
+        "title": "Node.js Runtime Fundamentals",
+        "description": "Understand how Node.js works outside the browser: V8, modules, package.json, npm, and the event loop.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "V8",
+          "CommonJS vs ESM",
+          "package.json",
+          "npm scripts",
+          "event loop",
+          "process"
+        ],
+        "prerequisites": [],
+        "miniProject": "Create a CLI notes app using Node.js core modules",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Node.js Learn",
+            "platform": "nodejs.org",
+            "url": "https://nodejs.org/en/learn"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Node.js Runtime Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+nodejs+full+course"
+          }
+        ]
+      },
+      {
+        "id": "node_core_modules",
+        "step": 2,
+        "phase": 1,
+        "title": "Core Modules and File System",
+        "description": "Work with fs, path, os, events, streams, buffers, and environment variables.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 2",
+        "keyTopics": [
+          "fs",
+          "path",
+          "os",
+          "EventEmitter",
+          "Buffer",
+          "streams",
+          "dotenv basics"
+        ],
+        "prerequisites": [
+          "Node.js Runtime Fundamentals"
+        ],
+        "miniProject": "Build a file organizer and log parser",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Node.js API Docs",
+            "platform": "nodejs.org",
+            "url": "https://nodejs.org/api/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Core Modules and File System",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=the+net+ninja+nodejs+core+modules"
+          }
+        ]
+      },
+      {
+        "id": "node_express",
+        "step": 3,
+        "phase": 1,
+        "title": "Express and REST APIs",
+        "description": "Build HTTP servers, REST endpoints, routing, middleware, and request validation.",
+        "difficulty": "beginner",
+        "estimatedHours": 12,
+        "weekRange": "Week 3-4",
+        "keyTopics": [
+          "Express",
+          "routing",
+          "middleware",
+          "HTTP methods",
+          "status codes",
+          "validation",
+          "Postman"
+        ],
+        "prerequisites": [
+          "Core Modules and File System"
+        ],
+        "miniProject": "Build a task manager REST API",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Express Guide",
+            "platform": "expressjs.com",
+            "url": "https://expressjs.com/en/guide/routing.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Express and REST APIs",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=express+js+beginner+guide"
+          }
+        ]
+      },
+      {
+        "id": "node_async_architecture",
+        "step": 4,
+        "phase": 2,
+        "title": "Async Patterns and Architecture",
+        "description": "Master promises, async/await, streams, workers, background jobs, and scalable project structure.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 4-5",
+        "keyTopics": [
+          "promises",
+          "async/await",
+          "streams",
+          "worker threads",
+          "queues",
+          "layered architecture"
+        ],
+        "prerequisites": [
+          "Express and REST APIs"
+        ],
+        "miniProject": "Build a CSV import pipeline with stream processing",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Asynchronous Flow Control",
+            "platform": "nodejs.org",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/overview-of-blocking-vs-non-blocking"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Async Patterns and Architecture",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=fireship+node+streams"
+          }
+        ]
+      },
+      {
+        "id": "node_db_auth",
+        "step": 5,
+        "phase": 2,
+        "title": "Databases and Authentication",
+        "description": "Connect Node.js apps to MongoDB or SQL and implement auth, hashing, JWT, sessions, and RBAC.",
+        "difficulty": "intermediate",
+        "estimatedHours": 14,
+        "weekRange": "Week 6-7",
+        "keyTopics": [
+          "Mongoose or Prisma",
+          "password hashing",
+          "JWT",
+          "sessions",
+          "RBAC",
+          "cookies",
+          "CORS"
+        ],
+        "prerequisites": [
+          "Async Patterns and Architecture"
+        ],
+        "miniProject": "Build auth for a notes API with roles",
+        "resources": [
+          {
+            "type": "article",
+            "title": "MongoDB Node Driver Quick Start",
+            "platform": "mongodb.com",
+            "url": "https://www.mongodb.com/docs/drivers/node/current/quick-start/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Databases and Authentication",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=web+dev+simplified+node+auth"
+          }
+        ]
+      },
+      {
+        "id": "node_testing",
+        "step": 6,
+        "phase": 2,
+        "title": "Testing and API Quality",
+        "description": "Add unit, integration, and API tests plus logging, linting, and error handling strategy.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 8",
+        "keyTopics": [
+          "Jest or Vitest",
+          "Supertest",
+          "error middleware",
+          "logging",
+          "linting",
+          "API contracts"
+        ],
+        "prerequisites": [
+          "Databases and Authentication"
+        ],
+        "miniProject": "Write test coverage for your REST API",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Testing JavaScript with Jest",
+            "platform": "jestjs.io",
+            "url": "https://jestjs.io/docs/getting-started"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Testing and API Quality",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+node+api+testing"
+          }
+        ]
+      },
+      {
+        "id": "node_scaling_security",
+        "step": 7,
+        "phase": 3,
+        "title": "Security, Performance, and Scaling",
+        "description": "Harden production apps with rate limiting, helmet, caching, clustering, observability, and graceful shutdown.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 9-10",
+        "keyTopics": [
+          "helmet",
+          "rate limiting",
+          "caching",
+          "cluster",
+          "PM2",
+          "graceful shutdown",
+          "monitoring"
+        ],
+        "prerequisites": [
+          "Testing and API Quality"
+        ],
+        "miniProject": "Optimize and secure your API for production",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Node.js Diagnostics",
+            "platform": "nodejs.org",
+            "url": "https://nodejs.org/en/learn/diagnostics/introduction"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Security, Performance, and Scaling",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=traversy+media+node+production+best+practices"
+          }
+        ]
+      },
+      {
+        "id": "node_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Node.js Studio Build",
+        "description": "Ship a complete backend with auth, DB, tests, deployment, monitoring, and documentation.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 11-12",
+        "keyTopics": [
+          "OpenAPI",
+          "deployment",
+          "CI/CD",
+          "Docker basics",
+          "monitoring",
+          "documentation"
+        ],
+        "prerequisites": [
+          "Security, Performance, and Scaling"
+        ],
+        "miniProject": "Deploy a full backend for an e-commerce or LMS app",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Node.js Deployment Guide",
+            "platform": "Render Docs",
+            "url": "https://render.com/docs/deploy-node-express-app"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Node.js Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+deploy+node+app"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "key": "java",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Java"
+  },
+  "prerequisite_test": {
+    "domain": "Java",
+    "prerequisites": [
+      "Programming Basics",
+      "Command Line Basics",
+      "Problem Solving Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Java Signal Check",
+        "questions": [
+          {
+            "question": "Why is Java considered platform-independent at the application level?",
+            "options": [
+              "A) Because source code runs directly on hardware without any runtime",
+              "B) Because compiled bytecode can run on different systems where a compatible JVM exists",
+              "C) Because Java does not need compilation",
+              "D) Because operating systems ignore Java files"
+            ],
+            "correctAnswer": "B) Because compiled bytecode can run on different systems where a compatible JVM exists",
+            "topicTag": "JVM",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of a class in Java?",
+            "options": [
+              "A) It defines structure and behavior for objects",
+              "B) It is only used for database queries",
+              "C) It replaces methods entirely",
+              "D) It is a deployment artifact"
+            ],
+            "correctAnswer": "A) It defines structure and behavior for objects",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is encapsulation useful?",
+            "options": [
+              "A) It hides internal implementation and helps control how state is accessed or changed",
+              "B) It removes the need for methods",
+              "C) It automatically optimizes memory",
+              "D) It only matters in frontend design"
+            ],
+            "correctAnswer": "A) It hides internal implementation and helps control how state is accessed or changed",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical role of interfaces in Java design?",
+            "options": [
+              "A) Defining contracts that multiple classes can implement with different behavior",
+              "B) Replacing all classes",
+              "C) Storing SQL tables",
+              "D) Managing JVM memory directly"
+            ],
+            "correctAnswer": "A) Defining contracts that multiple classes can implement with different behavior",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are generics useful in Java collections?",
+            "options": [
+              "A) They provide stronger type safety and reduce casting mistakes",
+              "B) They convert Java into JavaScript",
+              "C) They replace iteration",
+              "D) They are only for UI applications"
+            ],
+            "correctAnswer": "A) They provide stronger type safety and reduce casting mistakes",
+            "topicTag": "Generics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of checked and unchecked exceptions?",
+            "options": [
+              "A) They indicate different categories of failure handling expectations in code",
+              "B) They only exist to slow programs down",
+              "C) They replace validation logic",
+              "D) They are only used by the JVM internals"
+            ],
+            "correctAnswer": "A) They indicate different categories of failure handling expectations in code",
+            "topicTag": "Exceptions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does Java use garbage collection?",
+            "options": [
+              "A) To automatically reclaim memory that is no longer reachable by the program",
+              "B) To compile SQL queries",
+              "C) To style output in the terminal",
+              "D) To replace all performance work"
+            ],
+            "correctAnswer": "A) To automatically reclaim memory that is no longer reachable by the program",
+            "topicTag": "Memory",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem do streams solve in Java code?",
+            "options": [
+              "A) They provide a more expressive way to transform and aggregate data collections",
+              "B) They replace databases",
+              "C) They are only for network sockets",
+              "D) They are required to use loops"
+            ],
+            "correctAnswer": "A) They provide a more expressive way to transform and aggregate data collections",
+            "topicTag": "Streams",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is concurrency difficult in Java and other languages?",
+            "options": [
+              "A) Because shared state and execution timing can create race conditions and subtle bugs",
+              "B) Because threads cannot run in Java",
+              "C) Because compilers forbid parallel tasks",
+              "D) Because APIs cannot be concurrent"
+            ],
+            "correctAnswer": "A) Because shared state and execution timing can create race conditions and subtle bugs",
+            "topicTag": "Concurrency",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is dependency injection meant to improve in backend applications?",
+            "options": [
+              "A) Coupling, testability, and wiring of application components",
+              "B) Browser rendering speed",
+              "C) SQL indexing automatically",
+              "D) Terminal color themes"
+            ],
+            "correctAnswer": "A) Coupling, testability, and wiring of application components",
+            "topicTag": "Spring",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are service and controller layers often separated in a Spring application?",
+            "options": [
+              "A) To keep request handling and business logic responsibilities clearer and easier to maintain",
+              "B) To make deployment impossible",
+              "C) Because Java disallows large classes",
+              "D) To avoid using databases"
+            ],
+            "correctAnswer": "A) To keep request handling and business logic responsibilities clearer and easier to maintain",
+            "topicTag": "Spring",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does JPA primarily help with?",
+            "options": [
+              "A) Mapping Java objects to relational persistence patterns",
+              "B) Styling API responses",
+              "C) Replacing SQL knowledge entirely",
+              "D) Managing browser cookies"
+            ],
+            "correctAnswer": "A) Mapping Java objects to relational persistence patterns",
+            "topicTag": "Persistence",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why do transactions matter in database-backed applications?",
+            "options": [
+              "A) They help preserve consistency for groups of related data changes",
+              "B) They only improve frontend performance",
+              "C) They are only for NoSQL systems",
+              "D) They replace validation"
+            ],
+            "correctAnswer": "A) They help preserve consistency for groups of related data changes",
+            "topicTag": "Persistence",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the value of unit tests in Java codebases?",
+            "options": [
+              "A) They help verify small pieces of logic and reduce regressions during change",
+              "B) They eliminate the need for integration tests entirely",
+              "C) They automatically deploy services",
+              "D) They only test SQL performance"
+            ],
+            "correctAnswer": "A) They help verify small pieces of logic and reduce regressions during change",
+            "topicTag": "Testing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is authentication different from authorization in a backend system?",
+            "options": [
+              "A) Authentication identifies who the user is, authorization decides what actions are allowed",
+              "B) Authorization happens before login, authentication after logout",
+              "C) They are the same concept",
+              "D) Only frontend apps need authentication"
+            ],
+            "correctAnswer": "A) Authentication identifies who the user is, authorization decides what actions are allowed",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the operational value of structured logging in a Java service?",
+            "options": [
+              "A) It makes debugging and monitoring production behavior more consistent",
+              "B) It replaces exceptions completely",
+              "C) It only matters for local scripts",
+              "D) It stores binary class files"
+            ],
+            "correctAnswer": "A) It makes debugging and monitoring production behavior more consistent",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are build tools such as Maven or Gradle important?",
+            "options": [
+              "A) They manage dependencies, build steps, and repeatable project workflows",
+              "B) They replace the JVM",
+              "C) They only help with CSS compilation",
+              "D) They are only for enterprise licenses"
+            ],
+            "correctAnswer": "A) They manage dependencies, build steps, and repeatable project workflows",
+            "topicTag": "Build Tools",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is one reason performance tuning in Java requires more than reading code alone?",
+            "options": [
+              "A) Runtime behavior, allocations, IO, query patterns, and contention must be observed in context",
+              "B) Because Java cannot be profiled",
+              "C) Because the JVM always makes code optimal automatically",
+              "D) Because SQL has no effect on Java services"
+            ],
+            "correctAnswer": "A) Runtime behavior, allocations, IO, query patterns, and contention must be observed in context",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is configuration externalization useful in backend systems?",
+            "options": [
+              "A) It allows different environments to run the same application with different settings safely",
+              "B) It removes the need for deployment",
+              "C) It prevents all runtime errors",
+              "D) It is only useful for desktop apps"
+            ],
+            "correctAnswer": "A) It allows different environments to run the same application with different settings safely",
+            "topicTag": "Configuration",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest learning approach for Java beyond syntax?",
+            "options": [
+              "A) Memorize keywords only",
+              "B) Build real applications that combine language fundamentals, architecture, persistence, testing, and debugging",
+              "C) Ignore object-oriented design",
+              "D) Skip backend concerns completely"
+            ],
+            "correctAnswer": "B) Build real applications that combine language fundamentals, architecture, persistence, testing, and debugging",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Java",
+        "questions": [
+          {
+            "question": "Which language is used for Android development?",
+            "options": [
+              "A) Python",
+              "B) Java",
+              "C) C#",
+              "D) Swift"
+            ],
+            "correctAnswer": "B) Java",
+            "topicTag": "java",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which keyword is used for inheritance in Java?",
+            "options": [
+              "A) implements",
+              "B) extends",
+              "C) inherits",
+              "D) super"
+            ],
+            "correctAnswer": "B) extends",
+            "topicTag": "java",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

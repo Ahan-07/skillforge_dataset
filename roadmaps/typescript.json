@@ -1,0 +1,303 @@
+{
+  "key": "typescript",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "TypeScript"
+  },
+  "roadmap": {
+    "topic": "TypeScript",
+    "emoji": "🔷",
+    "overview": "SkillForge original TypeScript path focused on type-safe application development, scalable code structure, and reliable frontend-backend integration.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "ts_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "TypeScript Setup and Basics",
+        "description": "Set up the compiler and learn basic types, inference, functions, arrays, objects, and unions.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "tsconfig",
+          "type inference",
+          "primitives",
+          "arrays",
+          "objects",
+          "union types"
+        ],
+        "prerequisites": [
+          "JavaScript Fundamentals"
+        ],
+        "miniProject": "Convert a small JavaScript utility library to TypeScript",
+        "resources": [
+          {
+            "type": "article",
+            "title": "TypeScript Handbook",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: TypeScript Setup and Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+typescript+full+course"
+          }
+        ]
+      },
+      {
+        "id": "ts_functions_objects",
+        "step": 2,
+        "phase": 1,
+        "title": "Functions, Objects, and Interfaces",
+        "description": "Type function signatures, object shapes, interfaces, readonly fields, and optional properties.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 2",
+        "keyTopics": [
+          "function types",
+          "interfaces",
+          "type aliases",
+          "readonly",
+          "optional properties"
+        ],
+        "prerequisites": [
+          "TypeScript Setup and Basics"
+        ],
+        "miniProject": "Model an e-commerce domain with interfaces and types",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Everyday Types",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Functions, Objects, and Interfaces",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=net+ninja+typescript+interfaces"
+          }
+        ]
+      },
+      {
+        "id": "ts_generics",
+        "step": 3,
+        "phase": 1,
+        "title": "Generics and Reusability",
+        "description": "Use generics to write reusable functions, classes, collections, and API utilities safely.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 3-4",
+        "keyTopics": [
+          "generic functions",
+          "generic interfaces",
+          "constraints",
+          "default type params",
+          "utility patterns"
+        ],
+        "prerequisites": [
+          "Functions, Objects, and Interfaces"
+        ],
+        "miniProject": "Build a generic fetch wrapper and repository layer",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Generics",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Generics and Reusability",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=total+typescript+generics"
+          }
+        ]
+      },
+      {
+        "id": "ts_narrowing",
+        "step": 4,
+        "phase": 2,
+        "title": "Narrowing, Unions, and Type Guards",
+        "description": "Design safe control flow with discriminated unions, narrowing, predicates, and exhaustive checks.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 4-5",
+        "keyTopics": [
+          "type guards",
+          "discriminated unions",
+          "never",
+          "control flow analysis",
+          "assertions"
+        ],
+        "prerequisites": [
+          "Generics and Reusability"
+        ],
+        "miniProject": "Model API response states with exhaustive rendering",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Narrowing",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Narrowing, Unions, and Type Guards",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=total+typescript+discriminated+unions"
+          }
+        ]
+      },
+      {
+        "id": "ts_advanced_types",
+        "step": 5,
+        "phase": 2,
+        "title": "Advanced Types and Utility Types",
+        "description": "Work with mapped types, conditional types, keyof, indexed access, and built-in utility types.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 6-7",
+        "keyTopics": [
+          "keyof",
+          "mapped types",
+          "conditional types",
+          "infer",
+          "Record",
+          "Pick",
+          "Omit"
+        ],
+        "prerequisites": [
+          "Narrowing, Unions, and Type Guards"
+        ],
+        "miniProject": "Create strongly typed form and API helper types",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Creating Types from Types",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/types-from-types.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Advanced Types and Utility Types",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=matt+pocock+advanced+typescript"
+          }
+        ]
+      },
+      {
+        "id": "ts_classes_modules",
+        "step": 6,
+        "phase": 2,
+        "title": "Classes, Modules, and Tooling",
+        "description": "Understand class features, modules, declaration files, path aliases, and project configuration.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 7-8",
+        "keyTopics": [
+          "classes",
+          "access modifiers",
+          "abstract classes",
+          "modules",
+          "declaration files",
+          "path aliases"
+        ],
+        "prerequisites": [
+          "Advanced Types and Utility Types"
+        ],
+        "miniProject": "Refactor a multi-file app with strict compiler settings",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Modules",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/modules.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Classes, Modules, and Tooling",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+typescript+project+setup"
+          }
+        ]
+      },
+      {
+        "id": "ts_frameworks",
+        "step": 7,
+        "phase": 3,
+        "title": "TypeScript in React and Node",
+        "description": "Apply TypeScript in real apps: typed React props/hooks and typed Express or backend contracts.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 9",
+        "keyTopics": [
+          "React props",
+          "custom hooks typing",
+          "API contracts",
+          "backend DTOs",
+          "Zod",
+          "schema validation"
+        ],
+        "prerequisites": [
+          "Classes, Modules, and Tooling"
+        ],
+        "miniProject": "Build a typed full-stack app shell",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React TypeScript Cheatsheets",
+            "platform": "GitHub",
+            "url": "https://react-typescript-cheatsheet.netlify.app/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: TypeScript in React and Node",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+typescript+react"
+          }
+        ]
+      },
+      {
+        "id": "ts_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge TypeScript Studio Build",
+        "description": "Ship a strict-mode TypeScript app with zero any, reusable abstractions, and maintainable typing strategy.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 10",
+        "keyTopics": [
+          "strict mode",
+          "zero-any mindset",
+          "refactoring",
+          "testing types",
+          "DX",
+          "maintainability"
+        ],
+        "prerequisites": [
+          "TypeScript in React and Node"
+        ],
+        "miniProject": "Convert a medium-size JavaScript app to strict TypeScript",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Total TypeScript Essentials",
+            "platform": "Total TypeScript",
+            "url": "https://www.totaltypescript.com/tutorials"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge TypeScript Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=matt+pocock+typescript+migration"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "key": "frontend",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Frontend"
+  },
+  "roadmap": {
+    "topic": "Frontend",
+    "emoji": "🌐",
+    "overview": "SkillForge original frontend path focused on web foundations, interface engineering, performance, testing, accessibility, and production delivery.",
+    "totalWeeks": 14,
+    "nodes": [
+      {
+        "id": "fe_internet_html",
+        "step": 1,
+        "phase": 1,
+        "title": "Internet Basics and HTML",
+        "description": "Start with how the web works, browsers, DNS, HTTP basics, semantic HTML, forms, and accessible structure.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 1-2",
+        "keyTopics": [
+          "how the web works",
+          "HTTP basics",
+          "semantic HTML",
+          "forms",
+          "accessibility",
+          "metadata"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a semantic multi-page portfolio with accessible forms.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "How the Web Works",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+          },
+          {
+            "type": "article",
+            "title": "HTML Basics",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Internet Basics and HTML",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+html+web+basics"
+          }
+        ]
+      },
+      {
+        "id": "fe_css_responsive",
+        "step": 2,
+        "phase": 1,
+        "title": "CSS, Layout, and Responsive Design",
+        "description": "Master selectors, box model, Flexbox, Grid, responsive design, and practical UI composition.",
+        "difficulty": "beginner",
+        "estimatedHours": 12,
+        "weekRange": "Week 2-4",
+        "keyTopics": [
+          "selectors",
+          "box model",
+          "flexbox",
+          "grid",
+          "responsive design",
+          "media queries"
+        ],
+        "prerequisites": [
+          "Internet Basics and HTML"
+        ],
+        "miniProject": "Recreate a responsive SaaS landing page from scratch.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Learn CSS",
+            "platform": "web.dev",
+            "url": "https://web.dev/learn/css/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: CSS, Layout, and Responsive Design",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+css+full+course"
+          },
+          {
+            "type": "project",
+            "title": "Responsive UI Practice",
+            "platform": "SkillForge Suggested Project",
+            "url": "https://www.google.com/search?q=responsive+landing+page+design+challenge"
+          }
+        ]
+      },
+      {
+        "id": "fe_javascript_dom",
+        "step": 3,
+        "phase": 1,
+        "title": "JavaScript and DOM Fundamentals",
+        "description": "Learn JavaScript syntax, ES6+, DOM manipulation, events, fetch basics, and browser APIs.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 4-6",
+        "keyTopics": [
+          "variables and functions",
+          "arrays and objects",
+          "DOM",
+          "events",
+          "fetch API",
+          "modules"
+        ],
+        "prerequisites": [
+          "CSS, Layout, and Responsive Design"
+        ],
+        "miniProject": "Build a dynamic task board with local storage and API data.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "JavaScript Guide",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: JavaScript and DOM Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+javascript+full+course"
+          },
+          {
+            "type": "project",
+            "title": "DOM Project Practice",
+            "platform": "SkillForge Suggested Project",
+            "url": "https://www.google.com/search?q=javascript+dom+project+ideas+beginner"
+          }
+        ]
+      },
+      {
+        "id": "fe_git_package_tools",
+        "step": 4,
+        "phase": 2,
+        "title": "Git, Package Managers, and Build Tools",
+        "description": "Use Git, npm/pnpm, Vite, module systems, and common frontend workflows for real projects.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 6-7",
+        "keyTopics": [
+          "git basics",
+          "npm or pnpm",
+          "vite",
+          "bundlers",
+          "linting",
+          "environment variables"
+        ],
+        "prerequisites": [
+          "JavaScript and DOM Fundamentals"
+        ],
+        "miniProject": "Set up and publish a modern frontend starter with linting and formatting.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Vite Guide",
+            "platform": "vite.dev",
+            "url": "https://vite.dev/guide/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Git, Package Managers, and Build Tools",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=git+github+beginner+guide"
+          },
+          {
+            "type": "article",
+            "title": "npm Docs",
+            "platform": "npm",
+            "url": "https://docs.npmjs.com/"
+          }
+        ]
+      },
+      {
+        "id": "fe_frameworks",
+        "step": 5,
+        "phase": 2,
+        "title": "Frameworks and Component Architecture",
+        "description": "Move into React or another framework, component systems, state management, routing, and reusable UI design.",
+        "difficulty": "intermediate",
+        "estimatedHours": 14,
+        "weekRange": "Week 8-10",
+        "keyTopics": [
+          "React fundamentals",
+          "components",
+          "routing",
+          "state management",
+          "forms",
+          "component architecture"
+        ],
+        "prerequisites": [
+          "Git, Package Managers, and Build Tools"
+        ],
+        "miniProject": "Build a dashboard app with auth flow, routing, and reusable components.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Official Docs",
+            "platform": "react.dev",
+            "url": "https://react.dev/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Frameworks and Component Architecture",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+react+full+course"
+          },
+          {
+            "type": "project",
+            "title": "Dashboard App Practice",
+            "platform": "SkillForge Suggested Project",
+            "url": "https://www.google.com/search?q=react+dashboard+project+ideas"
+          }
+        ]
+      },
+      {
+        "id": "fe_typescript_testing",
+        "step": 6,
+        "phase": 2,
+        "title": "TypeScript, Testing, and Code Quality",
+        "description": "Add TypeScript, unit/component testing, accessibility checks, and maintainable engineering discipline.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 10-11",
+        "keyTopics": [
+          "TypeScript basics",
+          "Jest or Vitest",
+          "Testing Library",
+          "linting",
+          "accessibility testing",
+          "code quality"
+        ],
+        "prerequisites": [
+          "Frameworks and Component Architecture"
+        ],
+        "miniProject": "Migrate part of your app to TypeScript and add tests.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "TypeScript Handbook",
+            "platform": "typescriptlang.org",
+            "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: TypeScript, Testing, and Code Quality",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+frontend+testing"
+          },
+          {
+            "type": "article",
+            "title": "Testing Library Docs",
+            "platform": "testing-library.com",
+            "url": "https://testing-library.com/docs/"
+          }
+        ]
+      },
+      {
+        "id": "fe_performance_security",
+        "step": 7,
+        "phase": 3,
+        "title": "Performance, Security, and Web Platform Depth",
+        "description": "Optimize bundle size, rendering, accessibility, security posture, and understand browser/network bottlenecks.",
+        "difficulty": "advanced",
+        "estimatedHours": 14,
+        "weekRange": "Week 12-13",
+        "keyTopics": [
+          "performance profiling",
+          "code splitting",
+          "caching",
+          "web security basics",
+          "core web vitals",
+          "browser storage"
+        ],
+        "prerequisites": [
+          "TypeScript, Testing, and Code Quality"
+        ],
+        "miniProject": "Audit and optimize an app for Lighthouse, accessibility, and bundle size.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Learn Performance",
+            "platform": "web.dev",
+            "url": "https://web.dev/explore/fast"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Performance, Security, and Web Platform Depth",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=chrome+developers+frontend+performance"
+          },
+          {
+            "type": "article",
+            "title": "Web Security for Frontend Developers",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Security"
+          }
+        ]
+      },
+      {
+        "id": "fe_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Frontend Studio Build",
+        "description": "Ship a complete production-grade frontend with strong architecture, testing, performance, accessibility, and deployment.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 14",
+        "keyTopics": [
+          "app architecture",
+          "deployment",
+          "observability",
+          "maintainability",
+          "DX",
+          "portfolio readiness"
+        ],
+        "prerequisites": [
+          "Performance, Security, and Web Platform Depth"
+        ],
+        "miniProject": "Build and deploy a full product-grade frontend application with documentation.",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Deployment and Hosting Guide",
+            "platform": "Vercel Docs",
+            "url": "https://vercel.com/docs"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Frontend Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+deploy+frontend+app"
+          },
+          {
+            "type": "project",
+            "title": "Portfolio-Grade Frontend Build",
+            "platform": "SkillForge Suggested Project",
+            "url": "https://www.google.com/search?q=frontend+capstone+project+ideas"
+          }
+        ]
+      }
+    ]
+  }
+}

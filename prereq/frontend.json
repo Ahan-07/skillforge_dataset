@@ -1,0 +1,264 @@
+{
+  "key": "frontend",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.0",
+    "domain": "Frontend"
+  },
+  "prerequisite_test": {
+    "domain": "Frontend",
+    "prerequisites": [
+      "HTML Basics",
+      "CSS Basics",
+      "JavaScript Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Frontend Signal Check",
+        "questions": [
+          {
+            "question": "A landing page is built entirely with div elements. What is the strongest reason to refactor it using semantic elements like header, main, nav, and footer?",
+            "options": [
+              "A) Semantic tags automatically add responsive CSS",
+              "B) Semantic structure improves accessibility, maintainability, and document meaning",
+              "C) It removes the need for JavaScript",
+              "D) It guarantees better SEO rankings instantly"
+            ],
+            "correctAnswer": "B) Semantic structure improves accessibility, maintainability, and document meaning",
+            "topicTag": "HTML",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A form field has placeholder text but no visible label. What is the main issue?",
+            "options": [
+              "A) Placeholders are enough for accessibility",
+              "B) The input loses accessible labeling and usability once placeholder text disappears",
+              "C) The browser cannot submit the form",
+              "D) CSS will stop working"
+            ],
+            "correctAnswer": "B) The input loses accessible labeling and usability once placeholder text disappears",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Your component layout needs horizontal alignment of items in a single row with gaps and vertical centering. Which CSS layout tool is the best default starting point?",
+            "options": [
+              "A) CSS Grid",
+              "B) Flexbox",
+              "C) Float layout",
+              "D) Absolute positioning"
+            ],
+            "correctAnswer": "B) Flexbox",
+            "topicTag": "CSS",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A dashboard requires rows and columns controlled at the same time, with sidebar and content regions. Which CSS layout model is usually the better fit?",
+            "options": [
+              "A) Inline-block",
+              "B) CSS Grid",
+              "C) Flexbox only",
+              "D) position: fixed"
+            ],
+            "correctAnswer": "B) CSS Grid",
+            "topicTag": "CSS",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is mobile-first styling often preferred in frontend projects?",
+            "options": [
+              "A) It prevents use of desktop screens",
+              "B) It starts from constrained layouts and scales upward more predictably with progressive enhancement",
+              "C) It disables media queries",
+              "D) It improves Git performance"
+            ],
+            "correctAnswer": "B) It starts from constrained layouts and scales upward more predictably with progressive enhancement",
+            "topicTag": "Responsive",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A button click should open a modal. Which browser API pattern is directly involved at the first interaction step?",
+            "options": [
+              "A) addEventListener handling a click event",
+              "B) localStorage serialization",
+              "C) DNS lookup",
+              "D) CSS inheritance"
+            ],
+            "correctAnswer": "A) addEventListener handling a click event",
+            "topicTag": "JavaScript",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does fetch() give you before you call response.json() or response.text()?",
+            "options": [
+              "A) Parsed JavaScript object automatically",
+              "B) A Promise that resolves to a Response object",
+              "C) Raw CSS text",
+              "D) A synchronous result"
+            ],
+            "correctAnswer": "B) A Promise that resolves to a Response object",
+            "topicTag": "JavaScript",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A page feels slow after initial load because one large bundle ships every route and feature at once. Which technique directly addresses that?",
+            "options": [
+              "A) Semantic HTML",
+              "B) Code splitting and lazy loading",
+              "C) Using more global CSS",
+              "D) Replacing buttons with divs"
+            ],
+            "correctAnswer": "B) Code splitting and lazy loading",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main benefit of using browser DevTools during frontend debugging?",
+            "options": [
+              "A) It deploys the app automatically",
+              "B) It lets you inspect DOM, CSS, network, performance, storage, and runtime errors in one place",
+              "C) It writes tests for you",
+              "D) It replaces version control"
+            ],
+            "correctAnswer": "B) It lets you inspect DOM, CSS, network, performance, storage, and runtime errors in one place",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does a frontend project typically use npm, pnpm, or yarn?",
+            "options": [
+              "A) To replace the browser rendering engine",
+              "B) To manage dependencies, scripts, and build/test tooling",
+              "C) To store SQL tables",
+              "D) To create semantic HTML tags"
+            ],
+            "correctAnswer": "B) To manage dependencies, scripts, and build/test tooling",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem does Git solve in a frontend team workflow?",
+            "options": [
+              "A) It replaces package managers",
+              "B) It tracks changes, supports collaboration, and enables safe branching/history",
+              "C) It renders UI components",
+              "D) It optimizes CSS selectors"
+            ],
+            "correctAnswer": "B) It tracks changes, supports collaboration, and enables safe branching/history",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are reusable components valuable in a frontend codebase?",
+            "options": [
+              "A) They eliminate all state management",
+              "B) They reduce duplication and help keep UI and behavior consistent",
+              "C) They remove the need for CSS",
+              "D) They make testing impossible"
+            ],
+            "correctAnswer": "B) They reduce duplication and help keep UI and behavior consistent",
+            "topicTag": "Frameworks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is client-side routing?",
+            "options": [
+              "A) DNS configuration",
+              "B) Navigating between views in a single-page app without full page reloads",
+              "C) Database sharding",
+              "D) CSS cascade resolution"
+            ],
+            "correctAnswer": "B) Navigating between views in a single-page app without full page reloads",
+            "topicTag": "Frameworks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is TypeScript often adopted in growing frontend projects?",
+            "options": [
+              "A) It removes build tools",
+              "B) It adds static typing that improves refactoring safety and developer feedback",
+              "C) It replaces JSX",
+              "D) It eliminates runtime bugs entirely"
+            ],
+            "correctAnswer": "B) It adds static typing that improves refactoring safety and developer feedback",
+            "topicTag": "TypeScript",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What kind of problem do automated frontend tests best help prevent?",
+            "options": [
+              "A) DNS resolution failures",
+              "B) Behavior regressions in UI, interactions, and user flows after code changes",
+              "C) Browser installation issues",
+              "D) CSS file downloads"
+            ],
+            "correctAnswer": "B) Behavior regressions in UI, interactions, and user flows after code changes",
+            "topicTag": "Testing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should frontend developers understand XSS at a practical level?",
+            "options": [
+              "A) It is only a backend concern",
+              "B) Rendering untrusted content unsafely in the UI can create serious client-side security issues",
+              "C) It only affects SQL databases",
+              "D) It improves animation performance"
+            ],
+            "correctAnswer": "B) Rendering untrusted content unsafely in the UI can create serious client-side security issues",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What do Core Web Vitals primarily measure?",
+            "options": [
+              "A) Database latency and API uptime",
+              "B) Real-user page loading, responsiveness, and layout stability experience",
+              "C) Only CSS bundle size",
+              "D) Git branch health"
+            ],
+            "correctAnswer": "B) Real-user page loading, responsiveness, and layout stability experience",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A page looks fine visually but cannot be used by keyboard-only users. Which area is weakest?",
+            "options": [
+              "A) Database design",
+              "B) Accessibility and interaction semantics",
+              "C) DNS configuration",
+              "D) Image compression"
+            ],
+            "correctAnswer": "B) Accessibility and interaction semantics",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest reason to keep a frontend app modular with clear folders, components, and utilities?",
+            "options": [
+              "A) It makes the first commit smaller",
+              "B) It improves maintainability, onboarding, reuse, and long-term scaling of the codebase",
+              "C) It removes the need for tests",
+              "D) It guarantees zero bugs"
+            ],
+            "correctAnswer": "B) It improves maintainability, onboarding, reuse, and long-term scaling of the codebase",
+            "topicTag": "Architecture",
+            "difficulty": "hard"
+          },
+          {
+            "question": "A production-ready frontend is more than screens and styles. Which set best reflects that expectation?",
+            "options": [
+              "A) Colors, icons, and animations only",
+              "B) Accessibility, performance, testing, deployment readiness, and maintainable architecture",
+              "C) CSS and HTML only",
+              "D) Git branches and README only"
+            ],
+            "correctAnswer": "B) Accessibility, performance, testing, deployment readiness, and maintainable architecture",
+            "topicTag": "Production",
+            "difficulty": "hard"
+          }
+        ]
+      }
+    ]
+  }
+}

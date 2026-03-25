@@ -1,0 +1,351 @@
+{
+  "key": "java",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Java"
+  },
+  "roadmap": {
+    "topic": "Java",
+    "emoji": "☕",
+    "overview": "SkillForge original Java path focused on language fundamentals, backend architecture, persistence, testing, and production service development.",
+    "totalWeeks": 18,
+    "nodes": [
+      {
+        "id": "java_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "Java Syntax and Core Programming Basics",
+        "description": "Start with Java setup, variables, control flow, methods, classes, compilation, and the JVM model behind Java applications.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "jdk and jvm",
+          "variables and types",
+          "conditionals and loops",
+          "methods",
+          "classes",
+          "compilation flow"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a command-line utility that reads input, validates it, and performs business logic with reusable methods.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Java Language Basics",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html"
+          },
+          {
+            "type": "article",
+            "title": "Java Documentation",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/en/java/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Java Syntax and Core Programming Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+java+full+course"
+          }
+        ]
+      },
+      {
+        "id": "java_oop",
+        "step": 2,
+        "phase": 1,
+        "title": "Object-Oriented Programming and Design",
+        "description": "Learn encapsulation, inheritance, polymorphism, abstraction, interfaces, and clean class design.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "encapsulation",
+          "inheritance",
+          "polymorphism",
+          "abstraction",
+          "interfaces",
+          "class design"
+        ],
+        "prerequisites": [
+          "Java Syntax and Core Programming Basics"
+        ],
+        "miniProject": "Model a simple domain like banking or inventory with interfaces, inheritance, and validation rules.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Object-Oriented Concepts",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/java/concepts/"
+          },
+          {
+            "type": "article",
+            "title": "Classes and Objects",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/java/javaOO/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Object-Oriented Programming and Design",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=programming+with+mosh+java+oop"
+          }
+        ]
+      },
+      {
+        "id": "java_collections_exceptions",
+        "step": 3,
+        "phase": 1,
+        "title": "Collections, Generics, and Exceptions",
+        "description": "Move into lists, sets, maps, generic types, iteration, custom exceptions, and robust error handling.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "lists and sets",
+          "maps",
+          "generics",
+          "iterators",
+          "checked vs unchecked exceptions",
+          "error handling"
+        ],
+        "prerequisites": [
+          "Object-Oriented Programming and Design"
+        ],
+        "miniProject": "Build a catalog or task manager using collections, generic helpers, and exception-driven validation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Collections Framework",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/collections/"
+          },
+          {
+            "type": "article",
+            "title": "Generics Tutorial",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/java/generics/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Collections, Generics, and Exceptions",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=amigoscode+java+collections"
+          }
+        ]
+      },
+      {
+        "id": "java_advanced",
+        "step": 4,
+        "phase": 2,
+        "title": "Streams, Functional Patterns, and Concurrency",
+        "description": "Study stream processing, lambdas, functional interfaces, threads, executors, synchronization, and concurrency basics.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "streams",
+          "lambdas",
+          "functional interfaces",
+          "threads",
+          "executors",
+          "synchronization"
+        ],
+        "prerequisites": [
+          "Collections, Generics, and Exceptions"
+        ],
+        "miniProject": "Process a large data set with streams and build a background task worker with safe concurrency boundaries.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Lambda Expressions",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html"
+          },
+          {
+            "type": "article",
+            "title": "Concurrency Trail",
+            "platform": "Oracle",
+            "url": "https://docs.oracle.com/javase/tutorial/essential/concurrency/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Streams, Functional Patterns, and Concurrency",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=java+brains+java+streams+concurrency"
+          }
+        ]
+      },
+      {
+        "id": "java_backend_spring",
+        "step": 5,
+        "phase": 2,
+        "title": "Spring, REST APIs, and Backend Architecture",
+        "description": "Use Spring Boot to build APIs, dependency injection, configuration, controllers, services, validation, and structured backend layers.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 9-12",
+        "keyTopics": [
+          "spring boot basics",
+          "dependency injection",
+          "controllers and services",
+          "validation",
+          "rest apis",
+          "configuration"
+        ],
+        "prerequisites": [
+          "Streams, Functional Patterns, and Concurrency"
+        ],
+        "miniProject": "Build a REST API using Spring Boot with validation, service layers, and consistent error responses.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Spring Quickstart",
+            "platform": "Spring",
+            "url": "https://spring.io/quickstart"
+          },
+          {
+            "type": "article",
+            "title": "Spring Guides",
+            "platform": "Spring",
+            "url": "https://spring.io/guides"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Spring, REST APIs, and Backend Architecture",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=amigoscode+spring+boot+course"
+          }
+        ]
+      },
+      {
+        "id": "java_data_persistence",
+        "step": 6,
+        "phase": 2,
+        "title": "SQL, JPA, and Data Persistence",
+        "description": "Add relational databases, schema design, JPA/Hibernate basics, repository patterns, transactions, and performance-aware data access.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 12-14",
+        "keyTopics": [
+          "sql basics",
+          "schema design",
+          "jpa and hibernate",
+          "repositories",
+          "transactions",
+          "query performance"
+        ],
+        "prerequisites": [
+          "Spring, REST APIs, and Backend Architecture"
+        ],
+        "miniProject": "Connect a Spring API to a relational database with entities, repositories, migrations, and pagination.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Spring Data JPA",
+            "platform": "Spring",
+            "url": "https://spring.io/projects/spring-data-jpa"
+          },
+          {
+            "type": "article",
+            "title": "PostgreSQL Tutorial",
+            "platform": "PostgreSQL",
+            "url": "https://www.postgresql.org/docs/current/tutorial.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SQL, JPA, and Data Persistence",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=java+brains+hibernate+jpa+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "java_testing_security",
+        "step": 7,
+        "phase": 3,
+        "title": "Testing, Security, and Production Concerns",
+        "description": "Cover unit testing, integration testing, authentication, authorization, configuration security, observability, and API hardening.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 14-16",
+        "keyTopics": [
+          "junit",
+          "integration testing",
+          "spring security",
+          "authentication",
+          "logging",
+          "api hardening"
+        ],
+        "prerequisites": [
+          "SQL, JPA, and Data Persistence"
+        ],
+        "miniProject": "Add tests, role-based access control, secure configuration, and request monitoring to a Java service.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "JUnit 5 User Guide",
+            "platform": "JUnit",
+            "url": "https://junit.org/junit5/docs/current/user-guide/"
+          },
+          {
+            "type": "article",
+            "title": "Spring Security",
+            "platform": "Spring",
+            "url": "https://spring.io/projects/spring-security"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Testing, Security, and Production Concerns",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=amigoscode+spring+security+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "java_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Java Studio Build",
+        "description": "Combine Java fundamentals, Spring APIs, persistence, testing, and deployment into a production-style backend project.",
+        "difficulty": "advanced",
+        "estimatedHours": 22,
+        "weekRange": "Week 16-18",
+        "keyTopics": [
+          "service architecture",
+          "deployment packaging",
+          "performance review",
+          "observability",
+          "security checklist",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "Testing, Security, and Production Concerns"
+        ],
+        "miniProject": "Ship a Java backend with auth, persistence, tests, monitoring, deployment config, and technical documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Maven Getting Started",
+            "platform": "Apache Maven",
+            "url": "https://maven.apache.org/guides/getting-started/"
+          },
+          {
+            "type": "article",
+            "title": "Spring Boot Production",
+            "platform": "Spring",
+            "url": "https://docs.spring.io/spring-boot/reference/actuator/index.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Java Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=amigoscode+java+backend+project"
+          }
+        ]
+      }
+    ]
+  }
+}

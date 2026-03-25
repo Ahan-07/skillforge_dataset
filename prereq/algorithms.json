@@ -1,0 +1,304 @@
+{
+  "key": "algorithms",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Algorithms"
+  },
+  "prerequisite_test": {
+    "domain": "Algorithms",
+    "prerequisites": [
+      "Basic Programming",
+      "Data Structures Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Algorithms Signal Check",
+        "questions": [
+          {
+            "question": "What does Big O notation describe?",
+            "options": [
+              "A) Exact runtime in seconds",
+              "B) Upper-bound growth of time or space complexity as input size increases",
+              "C) Average CPU temperature",
+              "D) Memory address size"
+            ],
+            "correctAnswer": "B) Upper-bound growth of time or space complexity as input size increases",
+            "topicTag": "Complexity",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When is binary search valid?",
+            "options": [
+              "A) On any unsorted array",
+              "B) Only when the search space is ordered or monotonic",
+              "C) Only on linked lists",
+              "D) Only with recursion"
+            ],
+            "correctAnswer": "B) Only when the search space is ordered or monotonic",
+            "topicTag": "Searching",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the key idea behind divide and conquer?",
+            "options": [
+              "A) Random guessing",
+              "B) Split a problem into smaller independent subproblems, solve them, then combine results",
+              "C) Use more memory to reduce code",
+              "D) Only solve half the problem"
+            ],
+            "correctAnswer": "B) Split a problem into smaller independent subproblems, solve them, then combine results",
+            "topicTag": "Paradigms",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is merge sort guaranteed O(n log n)?",
+            "options": [
+              "A) Because merging is constant time",
+              "B) It divides input into log n levels and processes all n elements per level",
+              "C) It never uses recursion",
+              "D) It sorts in place"
+            ],
+            "correctAnswer": "B) It divides input into log n levels and processes all n elements per level",
+            "topicTag": "Sorting",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What makes quicksort worst-case O(n^2)?",
+            "options": [
+              "A) Too much memory usage",
+              "B) Consistently poor pivot choices causing highly unbalanced partitions",
+              "C) Duplicate values only",
+              "D) Using recursion instead of loops"
+            ],
+            "correctAnswer": "B) Consistently poor pivot choices causing highly unbalanced partitions",
+            "topicTag": "Sorting",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the sliding window technique best suited for?",
+            "options": [
+              "A) Arbitrary graph traversal",
+              "B) Problems over contiguous ranges where you expand/shrink a current window efficiently",
+              "C) Sorting linked lists",
+              "D) Dynamic memory allocation"
+            ],
+            "correctAnswer": "B) Problems over contiguous ranges where you expand/shrink a current window efficiently",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does a hash map often reduce brute-force nested loops?",
+            "options": [
+              "A) It sorts automatically",
+              "B) It gives near O(1) average lookup for previously seen values",
+              "C) It removes duplicates by default",
+              "D) It uses recursion internally"
+            ],
+            "correctAnswer": "B) It gives near O(1) average lookup for previously seen values",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is recursion base case for?",
+            "options": [
+              "A) Improving memory locality",
+              "B) Stopping the recursive process to avoid infinite calls",
+              "C) Sorting inputs first",
+              "D) Avoiding stack usage"
+            ],
+            "correctAnswer": "B) Stopping the recursive process to avoid infinite calls",
+            "topicTag": "Recursion",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What distinguishes backtracking from plain recursion?",
+            "options": [
+              "A) Backtracking never uses recursion",
+              "B) Backtracking explores choices, then undoes state to try other possibilities",
+              "C) Backtracking only works on trees",
+              "D) Plain recursion always memoizes"
+            ],
+            "correctAnswer": "B) Backtracking explores choices, then undoes state to try other possibilities",
+            "topicTag": "Recursion",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When is BFS preferred over DFS for shortest path?",
+            "options": [
+              "A) In weighted graphs with negative edges",
+              "B) In unweighted graphs when minimum number of edges matters",
+              "C) Only in trees",
+              "D) Never"
+            ],
+            "correctAnswer": "B) In unweighted graphs when minimum number of edges matters",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does Dijkstra's algorithm fail with negative edge weights?",
+            "options": [
+              "A) It cannot use a priority queue",
+              "B) A node finalized early may later get a cheaper path through a negative edge",
+              "C) It requires directed graphs only",
+              "D) It only works on trees"
+            ],
+            "correctAnswer": "B) A node finalized early may later get a cheaper path through a negative edge",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem does topological sorting solve?",
+            "options": [
+              "A) Finding shortest cycle",
+              "B) Ordering DAG nodes so every directed edge goes from earlier to later",
+              "C) Balancing a BST",
+              "D) Removing duplicates"
+            ],
+            "correctAnswer": "B) Ordering DAG nodes so every directed edge goes from earlier to later",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is dynamic programming primarily about?",
+            "options": [
+              "A) Sorting faster than O(n log n)",
+              "B) Solving overlapping subproblems and storing results to avoid recomputation",
+              "C) Avoiding recursion entirely",
+              "D) Using dynamic arrays"
+            ],
+            "correctAnswer": "B) Solving overlapping subproblems and storing results to avoid recomputation",
+            "topicTag": "DP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between memoization and tabulation?",
+            "options": [
+              "A) None",
+              "B) Memoization is top-down cached recursion; tabulation is bottom-up iterative table filling",
+              "C) Tabulation is recursive only",
+              "D) Memoization never stores state"
+            ],
+            "correctAnswer": "B) Memoization is top-down cached recursion; tabulation is bottom-up iterative table filling",
+            "topicTag": "DP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What makes a greedy algorithm valid?",
+            "options": [
+              "A) It always runs in O(n)",
+              "B) The problem must have a property where locally optimal choices lead to a global optimum",
+              "C) It uses no extra space",
+              "D) It can always replace DP"
+            ],
+            "correctAnswer": "B) The problem must have a property where locally optimal choices lead to a global optimum",
+            "topicTag": "Greedy",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does a min-heap guarantee?",
+            "options": [
+              "A) All elements are sorted",
+              "B) The smallest element is at the root, with heap-order property maintained",
+              "C) Fast O(1) search for any arbitrary value",
+              "D) Stable ordering"
+            ],
+            "correctAnswer": "B) The smallest element is at the root, with heap-order property maintained",
+            "topicTag": "Priority Queue",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is Union-Find effective for connectivity problems?",
+            "options": [
+              "A) It sorts edges",
+              "B) It supports near-constant-time union and find with path compression and union by rank",
+              "C) It stores all paths explicitly",
+              "D) It avoids graphs"
+            ],
+            "correctAnswer": "B) It supports near-constant-time union and find with path compression and union by rank",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does an invariant mean in algorithm design?",
+            "options": [
+              "A) Randomized behavior",
+              "B) A condition that remains true during execution and helps prove correctness",
+              "C) Temporary variable",
+              "D) Compiler optimization"
+            ],
+            "correctAnswer": "B) A condition that remains true during execution and helps prove correctness",
+            "topicTag": "Correctness",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are prefix sums useful?",
+            "options": [
+              "A) They speed up sorting",
+              "B) They allow O(1) range-sum queries after O(n) preprocessing",
+              "C) They replace hashing",
+              "D) They compress arrays"
+            ],
+            "correctAnswer": "B) They allow O(1) range-sum queries after O(n) preprocessing",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main benefit of amortized analysis?",
+            "options": [
+              "A) It gives exact best-case time",
+              "B) It bounds the average cost per operation over a sequence, even if some operations are expensive",
+              "C) It ignores worst cases",
+              "D) It measures memory only"
+            ],
+            "correctAnswer": "B) It bounds the average cost per operation over a sequence, even if some operations are expensive",
+            "topicTag": "Complexity",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Algorithms",
+        "questions": [
+          {
+            "question": "What is the time complexity of binary search?",
+            "options": [
+              "A) O(n)",
+              "B) O(log n)",
+              "C) O(n log n)",
+              "D) O(1)"
+            ],
+            "correctAnswer": "B) O(log n)",
+            "topicTag": "algorithms",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which algorithm is used for shortest path?",
+            "options": [
+              "A) DFS",
+              "B) BFS",
+              "C) Dijkstra",
+              "D) Kruskal"
+            ],
+            "correctAnswer": "C) Dijkstra",
+            "topicTag": "algorithms",
+            "difficulty": "medium"
+          },
+          {
+            "question": "What is the worst-case time complexity of quicksort?",
+            "options": [
+              "A) O(n log n)",
+              "B) O(n^2)",
+              "C) O(log n)",
+              "D) O(n)"
+            ],
+            "correctAnswer": "B) O(n^2)",
+            "topicTag": "algorithms",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

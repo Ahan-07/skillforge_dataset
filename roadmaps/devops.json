@@ -1,0 +1,351 @@
+{
+  "key": "devops",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "DevOps"
+  },
+  "roadmap": {
+    "topic": "DevOps",
+    "emoji": "⚙️",
+    "overview": "SkillForge original DevOps path focused on automation, delivery systems, cloud infrastructure, platform reliability, and operational feedback loops.",
+    "totalWeeks": 18,
+    "nodes": [
+      {
+        "id": "devops_foundations",
+        "step": 1,
+        "phase": 1,
+        "title": "Linux, Networking, and Command Line Foundations",
+        "description": "Start with Linux usage, shells, files, processes, permissions, networking basics, and the operational mindset required for infrastructure work.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "linux basics",
+          "filesystem and permissions",
+          "processes and services",
+          "shell usage",
+          "networking basics",
+          "ports and protocols"
+        ],
+        "prerequisites": [],
+        "miniProject": "Provision a Linux VM, document users, services, firewall basics, and common shell workflows.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Journey",
+            "platform": "linuxjourney.com",
+            "url": "https://linuxjourney.com/"
+          },
+          {
+            "type": "article",
+            "title": "Networking Fundamentals",
+            "platform": "Cloudflare",
+            "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Linux, Networking, and Command Line Foundations",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+linux+for+beginners"
+          }
+        ]
+      },
+      {
+        "id": "devops_scripting_git",
+        "step": 2,
+        "phase": 1,
+        "title": "Scripting, Git, and Automation Basics",
+        "description": "Learn shell scripting, environment management, Git workflows, branching, and repeatable automation for common tasks.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "bash scripting",
+          "environment variables",
+          "git basics",
+          "branching",
+          "automation workflows",
+          "task repeatability"
+        ],
+        "prerequisites": [
+          "Linux, Networking, and Command Line Foundations"
+        ],
+        "miniProject": "Automate a local setup workflow with shell scripts and manage the project in Git.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Git Documentation",
+            "platform": "Git",
+            "url": "https://git-scm.com/doc"
+          },
+          {
+            "type": "article",
+            "title": "Bash Guide",
+            "platform": "GNU",
+            "url": "https://www.gnu.org/software/bash/manual/bash.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Scripting, Git, and Automation Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+git+and+github+course"
+          }
+        ]
+      },
+      {
+        "id": "devops_ci_cd",
+        "step": 3,
+        "phase": 1,
+        "title": "Build Pipelines and CI/CD",
+        "description": "Understand build stages, test automation, deployment workflows, rollback thinking, artifacts, and pipeline reliability.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "ci basics",
+          "cd basics",
+          "build artifacts",
+          "test automation",
+          "release workflows",
+          "rollback planning"
+        ],
+        "prerequisites": [
+          "Scripting, Git, and Automation Basics"
+        ],
+        "miniProject": "Create a CI pipeline that runs checks and deploys a sample app to a staging target.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "GitHub Actions Documentation",
+            "platform": "GitHub",
+            "url": "https://docs.github.com/en/actions"
+          },
+          {
+            "type": "article",
+            "title": "CI/CD Concepts",
+            "platform": "Red Hat",
+            "url": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Build Pipelines and CI/CD",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+ci+cd+course"
+          }
+        ]
+      },
+      {
+        "id": "devops_containers",
+        "step": 4,
+        "phase": 2,
+        "title": "Containers and Containerized Workloads",
+        "description": "Move into Docker images, registries, networking, volumes, compose-style orchestration, and local-to-production parity.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "docker images",
+          "containers",
+          "registries",
+          "volumes",
+          "container networking",
+          "compose workflows"
+        ],
+        "prerequisites": [
+          "Build Pipelines and CI/CD"
+        ],
+        "miniProject": "Containerize a multi-service app with separate frontend, backend, and data services.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Docker Get Started",
+            "platform": "Docker",
+            "url": "https://docs.docker.com/get-started/"
+          },
+          {
+            "type": "article",
+            "title": "Docker Compose Guide",
+            "platform": "Docker",
+            "url": "https://docs.docker.com/compose/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Containers and Containerized Workloads",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=techworld+with+nana+docker+course"
+          }
+        ]
+      },
+      {
+        "id": "devops_cloud_iac",
+        "step": 5,
+        "phase": 2,
+        "title": "Cloud Platforms and Infrastructure as Code",
+        "description": "Learn cloud primitives, networking, IAM, provisioning, environment isolation, and declarative infrastructure management.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 9-12",
+        "keyTopics": [
+          "cloud basics",
+          "virtual networks",
+          "iam",
+          "terraform basics",
+          "state management",
+          "environment design"
+        ],
+        "prerequisites": [
+          "Containers and Containerized Workloads"
+        ],
+        "miniProject": "Provision a simple cloud environment with IaC for an application and its supporting resources.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Terraform Tutorials",
+            "platform": "HashiCorp",
+            "url": "https://developer.hashicorp.com/terraform/tutorials"
+          },
+          {
+            "type": "article",
+            "title": "AWS Cloud Essentials",
+            "platform": "AWS",
+            "url": "https://aws.amazon.com/getting-started/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Cloud Platforms and Infrastructure as Code",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+terraform+course"
+          }
+        ]
+      },
+      {
+        "id": "devops_kubernetes",
+        "step": 6,
+        "phase": 2,
+        "title": "Kubernetes and Service Orchestration",
+        "description": "Study pods, deployments, services, ingress, config, secrets, scaling, and cluster-aware operational patterns.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 12-14",
+        "keyTopics": [
+          "pods and deployments",
+          "services",
+          "ingress",
+          "configmaps and secrets",
+          "autoscaling",
+          "cluster operations"
+        ],
+        "prerequisites": [
+          "Cloud Platforms and Infrastructure as Code"
+        ],
+        "miniProject": "Deploy a containerized app to a local or cloud Kubernetes cluster with config and service exposure.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Kubernetes Concepts",
+            "platform": "Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/"
+          },
+          {
+            "type": "article",
+            "title": "Kubernetes Basics",
+            "platform": "Kubernetes",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Kubernetes and Service Orchestration",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=techworld+with+nana+kubernetes+course"
+          }
+        ]
+      },
+      {
+        "id": "devops_observability_security",
+        "step": 7,
+        "phase": 3,
+        "title": "Observability, Reliability, and Platform Security",
+        "description": "Add logs, metrics, traces, alerting, incident readiness, secrets handling, policy, and secure operational baselines.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 14-16",
+        "keyTopics": [
+          "logging",
+          "metrics",
+          "tracing",
+          "alerting",
+          "secrets management",
+          "platform security"
+        ],
+        "prerequisites": [
+          "Kubernetes and Service Orchestration"
+        ],
+        "miniProject": "Instrument an application with logs and metrics and define alert thresholds for key failures.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Prometheus Overview",
+            "platform": "Prometheus",
+            "url": "https://prometheus.io/docs/introduction/overview/"
+          },
+          {
+            "type": "article",
+            "title": "OpenTelemetry Docs",
+            "platform": "OpenTelemetry",
+            "url": "https://opentelemetry.io/docs/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Observability, Reliability, and Platform Security",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=google+cloud+tech+monitoring+basics"
+          }
+        ]
+      },
+      {
+        "id": "devops_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge DevOps Studio Build",
+        "description": "Combine CI/CD, containers, cloud, orchestration, observability, and security into a production-style delivery and operations system.",
+        "difficulty": "advanced",
+        "estimatedHours": 22,
+        "weekRange": "Week 16-18",
+        "keyTopics": [
+          "platform architecture",
+          "release strategy",
+          "incident handling",
+          "cost awareness",
+          "security review",
+          "operational runbooks"
+        ],
+        "prerequisites": [
+          "Observability, Reliability, and Platform Security"
+        ],
+        "miniProject": "Ship and operate a cloud-hosted app platform with automated delivery, monitoring, rollback, and runbook documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Site Reliability Basics",
+            "platform": "Google",
+            "url": "https://sre.google/sre-book/table-of-contents/"
+          },
+          {
+            "type": "article",
+            "title": "DevOps Culture and Practice",
+            "platform": "AWS",
+            "url": "https://aws.amazon.com/devops/what-is-devops/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge DevOps Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=techworld+with+nana+devops+project"
+          }
+        ]
+      }
+    ]
+  }
+}

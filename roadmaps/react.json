@@ -1,0 +1,241 @@
+{
+  "key": "react",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "React"
+  },
+  "roadmap": {
+    "topic": "React",
+    "emoji": "⚛️",
+    "overview": "SkillForge original React path focused on component design, stateful UI systems, data flow, testing, and scalable frontend architecture.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "react_prereq_js",
+        "step": 1,
+        "phase": 1,
+        "title": "JavaScript Prerequisites",
+        "description": "ES6+, destructuring, array methods, async/await — must know before React.",
+        "difficulty": "beginner",
+        "estimatedHours": 6,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "destructuring",
+          "spread operator",
+          "map/filter/reduce",
+          "async/await",
+          "modules"
+        ],
+        "prerequisites": [],
+        "miniProject": "Practice all ES6 features in exercises",
+        "resources": [
+          {
+            "type": "article",
+            "title": "JavaScript for React Devs",
+            "platform": "javascript.info",
+            "url": "https://www.google.com/search?q=site%3Ajavascript.info%20JavaScript%20for%20React%20Devs"
+          }
+        ]
+      },
+      {
+        "id": "react_basics",
+        "step": 2,
+        "phase": 1,
+        "title": "React Fundamentals",
+        "description": "JSX, components, props, state with useState, rendering lists, conditional rendering.",
+        "difficulty": "beginner",
+        "estimatedHours": 12,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "JSX",
+          "components",
+          "props",
+          "useState",
+          "lists & keys",
+          "conditional rendering"
+        ],
+        "prerequisites": [
+          "JavaScript Prerequisites"
+        ],
+        "miniProject": "Build a simple counter and todo app",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Official Docs",
+            "platform": "react.dev",
+            "url": "https://react.dev"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: React Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=React%20Crash%20Course%20Traversy%20Media"
+          }
+        ]
+      },
+      {
+        "id": "react_hooks",
+        "step": 3,
+        "phase": 2,
+        "title": "React Hooks",
+        "description": "useEffect, useContext, useRef, useMemo, useCallback, custom hooks.",
+        "difficulty": "intermediate",
+        "estimatedHours": 14,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "useEffect",
+          "useContext",
+          "useRef",
+          "useMemo",
+          "useCallback",
+          "custom hooks"
+        ],
+        "prerequisites": [
+          "React Fundamentals"
+        ],
+        "miniProject": "Build a data fetching app with useEffect + loading states",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Hooks Reference",
+            "platform": "react.dev",
+            "url": "https://react.dev/reference/react"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: React Hooks",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=React%20Hooks%20Tutorial%20The%20Net%20Ninja"
+          }
+        ]
+      },
+      {
+        "id": "react_routing",
+        "step": 4,
+        "phase": 2,
+        "title": "React Router & Navigation",
+        "description": "Client-side routing with React Router v6, nested routes, protected routes, URL params.",
+        "difficulty": "intermediate",
+        "estimatedHours": 8,
+        "weekRange": "Week 5-6",
+        "keyTopics": [
+          "BrowserRouter",
+          "Routes/Route",
+          "useNavigate",
+          "useParams",
+          "nested routes",
+          "protected routes"
+        ],
+        "prerequisites": [
+          "React Hooks"
+        ],
+        "miniProject": "Multi-page app with authentication flow",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Router Docs",
+            "platform": "reactrouter.com",
+            "url": "https://reactrouter.com"
+          }
+        ]
+      },
+      {
+        "id": "react_state",
+        "step": 5,
+        "phase": 2,
+        "title": "State Management",
+        "description": "Context API, useReducer, Zustand or Redux Toolkit for global state.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 6-7",
+        "keyTopics": [
+          "Context API",
+          "useReducer",
+          "Redux Toolkit",
+          "Zustand",
+          "state patterns"
+        ],
+        "prerequisites": [
+          "React Hooks"
+        ],
+        "miniProject": "Shopping cart with global state",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: State Management",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Redux%20Toolkit%20Tutorial%20Dave%20Gray"
+          },
+          {
+            "type": "article",
+            "title": "Zustand Docs",
+            "platform": "GitHub",
+            "url": "https://github.com/pmndrs/zustand"
+          }
+        ]
+      },
+      {
+        "id": "react_advanced",
+        "step": 6,
+        "phase": 3,
+        "title": "Advanced React Patterns",
+        "description": "Code splitting, lazy loading, error boundaries, compound components, render props, HOCs.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "lazy/Suspense",
+          "error boundaries",
+          "compound components",
+          "HOCs",
+          "render props",
+          "portals"
+        ],
+        "prerequisites": [
+          "State Management",
+          "React Routing & Navigation"
+        ],
+        "miniProject": "Build a reusable component library",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Patterns",
+            "platform": "patterns.dev",
+            "url": "https://patterns.dev"
+          }
+        ]
+      },
+      {
+        "id": "react_project",
+        "step": 7,
+        "phase": 3,
+        "title": "SkillForge React Studio Build",
+        "description": "Build and deploy a complete React app with authentication, API, routing, and state management.",
+        "difficulty": "advanced",
+        "estimatedHours": 20,
+        "weekRange": "Week 9-10",
+        "keyTopics": [
+          "project architecture",
+          "API integration",
+          "auth flow",
+          "deployment",
+          "performance"
+        ],
+        "prerequisites": [
+          "Advanced React Patterns"
+        ],
+        "miniProject": "Full-stack CRUD app with Firebase or REST API",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge React Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=React%20Project%20Build%20Traversy%20Media"
+          }
+        ]
+      }
+    ]
+  }
+}

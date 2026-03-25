@@ -1,0 +1,351 @@
+{
+  "key": "php",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "PHP"
+  },
+  "roadmap": {
+    "topic": "PHP",
+    "emoji": "🐘",
+    "overview": "SkillForge original PHP path focused on modern server-side web development, frameworks, security, persistence, and maintainable product delivery.",
+    "totalWeeks": 16,
+    "nodes": [
+      {
+        "id": "php_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "PHP Syntax, Runtime, and Core Language Basics",
+        "description": "Start with PHP setup, variables, functions, arrays, control flow, error reporting, and the request lifecycle for PHP applications.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "variables",
+          "arrays",
+          "functions",
+          "control flow",
+          "request lifecycle",
+          "error reporting"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a small form-processing app that validates input and renders dynamic responses.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "PHP Manual",
+            "platform": "PHP",
+            "url": "https://www.php.net/manual/en/"
+          },
+          {
+            "type": "article",
+            "title": "Language Reference",
+            "platform": "PHP",
+            "url": "https://www.php.net/manual/en/langref.php"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: PHP Syntax, Runtime, and Core Language Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+php+full+course"
+          }
+        ]
+      },
+      {
+        "id": "php_oop_forms",
+        "step": 2,
+        "phase": 1,
+        "title": "OOP, Forms, and Server-Side Web Fundamentals",
+        "description": "Learn classes, objects, interfaces, form handling, sessions, cookies, and HTTP-aware web application behavior.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "classes",
+          "interfaces",
+          "forms",
+          "sessions",
+          "cookies",
+          "http basics"
+        ],
+        "prerequisites": [
+          "PHP Syntax, Runtime, and Core Language Basics"
+        ],
+        "miniProject": "Build a multi-page session-driven app with forms, validation, and simple account flows.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Classes and Objects",
+            "platform": "PHP",
+            "url": "https://www.php.net/manual/en/language.oop5.php"
+          },
+          {
+            "type": "article",
+            "title": "Sessions",
+            "platform": "PHP",
+            "url": "https://www.php.net/manual/en/book.session.php"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: OOP, Forms, and Server-Side Web Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=traversy+media+php+oop"
+          }
+        ]
+      },
+      {
+        "id": "php_tooling_composer",
+        "step": 3,
+        "phase": 1,
+        "title": "Composer, Project Structure, and Modern PHP Practices",
+        "description": "Move into Composer, autoloading, dependency management, project organization, and modern PHP coding conventions.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "composer",
+          "autoloading",
+          "dependency management",
+          "psr conventions",
+          "project structure",
+          "code organization"
+        ],
+        "prerequisites": [
+          "OOP, Forms, and Server-Side Web Fundamentals"
+        ],
+        "miniProject": "Create a modular PHP project using Composer autoloading and a cleaner application structure.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Composer Introduction",
+            "platform": "Composer",
+            "url": "https://getcomposer.org/doc/00-intro.md"
+          },
+          {
+            "type": "article",
+            "title": "PHP-FIG PSR Standards",
+            "platform": "PHP-FIG",
+            "url": "https://www.php-fig.org/psr/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Composer, Project Structure, and Modern PHP Practices",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=laracasts+composer+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "php_databases_apis",
+        "step": 4,
+        "phase": 2,
+        "title": "Databases, Validation, and API Development",
+        "description": "Add SQL, prepared statements, ORM-friendly thinking, input validation, JSON responses, and API route design.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "sql",
+          "prepared statements",
+          "validation",
+          "json apis",
+          "routing",
+          "error handling"
+        ],
+        "prerequisites": [
+          "Composer, Project Structure, and Modern PHP Practices"
+        ],
+        "miniProject": "Build a CRUD API with validation, database persistence, and structured JSON responses.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "PDO",
+            "platform": "PHP",
+            "url": "https://www.php.net/manual/en/book.pdo.php"
+          },
+          {
+            "type": "article",
+            "title": "PostgreSQL Tutorial",
+            "platform": "PostgreSQL",
+            "url": "https://www.postgresql.org/docs/current/tutorial.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Databases, Validation, and API Development",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+php+api+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "php_frameworks",
+        "step": 5,
+        "phase": 2,
+        "title": "Laravel or Symfony and Framework Workflows",
+        "description": "Learn routing, middleware, controllers, services, migrations, auth, and framework-level application structure.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 9-11",
+        "keyTopics": [
+          "laravel basics",
+          "symfony basics",
+          "routing",
+          "middleware",
+          "migrations",
+          "services"
+        ],
+        "prerequisites": [
+          "Databases, Validation, and API Development"
+        ],
+        "miniProject": "Build a framework-based application with database migrations, auth, and modular route organization.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Laravel Docs",
+            "platform": "Laravel",
+            "url": "https://laravel.com/docs"
+          },
+          {
+            "type": "article",
+            "title": "Symfony Docs",
+            "platform": "Symfony",
+            "url": "https://symfony.com/doc/current/index.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Laravel or Symfony and Framework Workflows",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=laravel+beginner+guide"
+          }
+        ]
+      },
+      {
+        "id": "php_testing_security",
+        "step": 6,
+        "phase": 2,
+        "title": "Testing, Authentication, and Security",
+        "description": "Study test automation, password handling, authorization, CSRF, validation, safe database access, and secure deployment habits.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 11-13",
+        "keyTopics": [
+          "testing",
+          "authentication",
+          "authorization",
+          "csrf",
+          "secure database access",
+          "validation"
+        ],
+        "prerequisites": [
+          "Laravel or Symfony and Framework Workflows"
+        ],
+        "miniProject": "Secure a PHP app with tests, login flows, role checks, and safer request handling.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "PHPUnit",
+            "platform": "PHPUnit",
+            "url": "https://phpunit.de/documentation.html"
+          },
+          {
+            "type": "article",
+            "title": "OWASP Top 10",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-top-ten/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Testing, Authentication, and Security",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=laracasts+php+security"
+          }
+        ]
+      },
+      {
+        "id": "php_performance_deployment",
+        "step": 7,
+        "phase": 3,
+        "title": "Performance, Caching, and Deployment",
+        "description": "Add caching, queues, deployment basics, production configuration, monitoring awareness, and performance troubleshooting.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 13-15",
+        "keyTopics": [
+          "caching",
+          "queues",
+          "deployment",
+          "production config",
+          "performance",
+          "monitoring"
+        ],
+        "prerequisites": [
+          "Testing, Authentication, and Security"
+        ],
+        "miniProject": "Deploy a PHP application with caching, background tasks, and environment-aware production settings.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Laravel Queues",
+            "platform": "Laravel",
+            "url": "https://laravel.com/docs/queues"
+          },
+          {
+            "type": "article",
+            "title": "PHP Performance",
+            "platform": "PHP",
+            "url": "https://www.php.net/manual/en/info.configuration.php"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Performance, Caching, and Deployment",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+deploy+laravel+app"
+          }
+        ]
+      },
+      {
+        "id": "php_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge PHP Studio Build",
+        "description": "Combine modern PHP, framework workflows, auth, persistence, testing, and deployment into a production-style product.",
+        "difficulty": "advanced",
+        "estimatedHours": 20,
+        "weekRange": "Week 15-16",
+        "keyTopics": [
+          "application architecture",
+          "security review",
+          "performance review",
+          "ops basics",
+          "testing strategy",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "Performance, Caching, and Deployment"
+        ],
+        "miniProject": "Ship a PHP product with auth, database-backed features, tests, deployment notes, and operational documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "PHP The Right Way",
+            "platform": "PHP The Right Way",
+            "url": "https://phptherightway.com/"
+          },
+          {
+            "type": "article",
+            "title": "MDN Web Security",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Security"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge PHP Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+php+project"
+          }
+        ]
+      }
+    ]
+  }
+}

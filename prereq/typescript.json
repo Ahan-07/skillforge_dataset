@@ -1,0 +1,262 @@
+{
+  "key": "typescript",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.0",
+    "domain": "TypeScript"
+  },
+  "prerequisite_test": {
+    "domain": "TypeScript",
+    "prerequisites": [
+      "JavaScript Fundamentals"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge TypeScript Signal Check",
+        "questions": [
+          {
+            "question": "What is TypeScript?",
+            "options": [
+              "A) A database language",
+              "B) A typed superset of JavaScript that compiles to JavaScript",
+              "C) A browser engine",
+              "D) A CSS preprocessor"
+            ],
+            "correctAnswer": "B) A typed superset of JavaScript that compiles to JavaScript",
+            "topicTag": "TS Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does TypeScript type inference do?",
+            "options": [
+              "A) Removes all types",
+              "B) Infers variable or expression types when explicit annotations are omitted",
+              "C) Converts types at runtime",
+              "D) Generates API docs only"
+            ],
+            "correctAnswer": "B) Infers variable or expression types when explicit annotations are omitted",
+            "topicTag": "TS Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between interface and type alias in TypeScript?",
+            "options": [
+              "A) They are unrelated",
+              "B) Interfaces are primarily for object shapes and can merge; type aliases can represent unions, primitives, tuples, and more",
+              "C) Type aliases support merging but interfaces do not",
+              "D) Interfaces cannot describe objects"
+            ],
+            "correctAnswer": "B) Interfaces are primarily for object shapes and can merge; type aliases can represent unions, primitives, tuples, and more",
+            "topicTag": "Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does a union type like string | number mean?",
+            "options": [
+              "A) Value must be both string and number",
+              "B) Value can be either string or number",
+              "C) Value is converted automatically",
+              "D) Value is always string"
+            ],
+            "correctAnswer": "B) Value can be either string or number",
+            "topicTag": "Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the unknown type enforce compared to any?",
+            "options": [
+              "A) It behaves exactly like any",
+              "B) It requires narrowing or assertion before unsafe operations",
+              "C) It cannot hold any value",
+              "D) It is only for arrays"
+            ],
+            "correctAnswer": "B) It requires narrowing or assertion before unsafe operations",
+            "topicTag": "Safety",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the never type used for?",
+            "options": [
+              "A) Variables that are always null",
+              "B) Values that never occur, such as functions that always throw or impossible union branches",
+              "C) Optional properties only",
+              "D) Generic defaults"
+            ],
+            "correctAnswer": "B) Values that never occur, such as functions that always throw or impossible union branches",
+            "topicTag": "Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem do generics solve?",
+            "options": [
+              "A) Runtime performance issues",
+              "B) Writing reusable code while preserving type information",
+              "C) CSS component reuse",
+              "D) Database schema design"
+            ],
+            "correctAnswer": "B) Writing reusable code while preserving type information",
+            "topicTag": "Generics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does keyof T produce?",
+            "options": [
+              "A) Runtime values of object T",
+              "B) A union of property names of type T",
+              "C) Keys sorted alphabetically",
+              "D) Only numeric keys"
+            ],
+            "correctAnswer": "B) A union of property names of type T",
+            "topicTag": "Advanced Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a discriminated union?",
+            "options": [
+              "A) Union with duplicated values",
+              "B) Union of object types sharing a common literal field used for narrowing",
+              "C) A union that cannot be narrowed",
+              "D) Interface inheritance"
+            ],
+            "correctAnswer": "B) Union of object types sharing a common literal field used for narrowing",
+            "topicTag": "Narrowing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of type guards?",
+            "options": [
+              "A) To prevent imports",
+              "B) To narrow broader types into more specific ones safely in control flow",
+              "C) To replace generics",
+              "D) To compile faster"
+            ],
+            "correctAnswer": "B) To narrow broader types into more specific ones safely in control flow",
+            "topicTag": "Narrowing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Partial<T> do?",
+            "options": [
+              "A) Removes all properties",
+              "B) Makes all properties of T optional",
+              "C) Makes all properties readonly",
+              "D) Extracts one property only"
+            ],
+            "correctAnswer": "B) Makes all properties of T optional",
+            "topicTag": "Utility Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Record<K, V> represent?",
+            "options": [
+              "A) Array of tuples only",
+              "B) An object type whose keys are K and whose values are V",
+              "C) Runtime Map object",
+              "D) Database row"
+            ],
+            "correctAnswer": "B) An object type whose keys are K and whose values are V",
+            "topicTag": "Utility Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does tsconfig.json control?",
+            "options": [
+              "A) Browser cache settings",
+              "B) TypeScript compiler options such as target, module, strictness, and included files",
+              "C) Runtime environment variables",
+              "D) CSS variables"
+            ],
+            "correctAnswer": "B) TypeScript compiler options such as target, module, strictness, and included files",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does strict mode in TypeScript improve?",
+            "options": [
+              "A) UI rendering",
+              "B) Type safety by enabling stricter compiler checks",
+              "C) Bundle size only",
+              "D) Node.js concurrency"
+            ],
+            "correctAnswer": "B) Type safety by enabling stricter compiler checks",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are declaration files (.d.ts) useful?",
+            "options": [
+              "A) They execute faster",
+              "B) They describe type information for JavaScript libraries without TS source",
+              "C) They replace compiled JS",
+              "D) They store environment config"
+            ],
+            "correctAnswer": "B) They describe type information for JavaScript libraries without TS source",
+            "topicTag": "Tooling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is indexed access type T[K]?",
+            "options": [
+              "A) Runtime property lookup",
+              "B) A type-level way to access the type of property K on T",
+              "C) Array indexing only",
+              "D) A syntax error"
+            ],
+            "correctAnswer": "B) A type-level way to access the type of property K on T",
+            "topicTag": "Advanced Types",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of extends in a generic constraint like <T extends { id: string }>?",
+            "options": [
+              "A) Runtime inheritance",
+              "B) Restricting T to types compatible with the required shape",
+              "C) Making T optional",
+              "D) Merging modules"
+            ],
+            "correctAnswer": "B) Restricting T to types compatible with the required shape",
+            "topicTag": "Generics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is any considered dangerous?",
+            "options": [
+              "A) It slows down Node.js",
+              "B) It disables type checking and can hide bugs that TypeScript would otherwise catch",
+              "C) It cannot be assigned",
+              "D) It only works in classes"
+            ],
+            "correctAnswer": "B) It disables type checking and can hide bugs that TypeScript would otherwise catch",
+            "topicTag": "Safety",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is exhaustive checking in a switch over a discriminated union?",
+            "options": [
+              "A) Logging all cases",
+              "B) Ensuring every possible variant is handled, often using never in the default branch",
+              "C) Sorting union members",
+              "D) Enabling recursion"
+            ],
+            "correctAnswer": "B) Ensuring every possible variant is handled, often using never in the default branch",
+            "topicTag": "Narrowing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between compile-time types and runtime values in TypeScript?",
+            "options": [
+              "A) There is no difference",
+              "B) Types are erased during compilation and do not exist at runtime unless represented by actual JS values",
+              "C) Types run before values in the browser",
+              "D) Runtime values are optional"
+            ],
+            "correctAnswer": "B) Types are erased during compilation and do not exist at runtime unless represented by actual JS values",
+            "topicTag": "TS Basics",
+            "difficulty": "hard"
+          }
+        ]
+      }
+    ]
+  }
+}

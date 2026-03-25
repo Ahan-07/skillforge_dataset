@@ -1,0 +1,350 @@
+{
+  "key": "full_stack",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Full Stack"
+  },
+  "roadmap": {
+    "topic": "Full Stack",
+    "emoji": "🧩",
+    "overview": "SkillForge original full stack path focused on end-to-end product engineering across frontend, backend, persistence, deployment, and system integration.",
+    "totalWeeks": 18,
+    "nodes": [
+      {
+        "id": "fs_web_foundations",
+        "step": 1,
+        "phase": 1,
+        "title": "Web Foundations and HTML",
+        "description": "Start with browsers, DNS, HTTP, semantic HTML, forms, accessibility, and the request-response model behind web applications.",
+        "difficulty": "beginner",
+        "estimatedHours": 12,
+        "weekRange": "Week 1-2",
+        "keyTopics": [
+          "internet basics",
+          "http and https",
+          "semantic html",
+          "forms",
+          "accessibility"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a semantic multi-page site with forms and accessibility-friendly structure.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "HTML Guides",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+          },
+          {
+            "type": "article",
+            "title": "HTTP Overview",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Web Foundations and HTML",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+html+full+course"
+          }
+        ]
+      },
+      {
+        "id": "fs_css_ui",
+        "step": 2,
+        "phase": 1,
+        "title": "CSS, Layouts, and Responsive UI",
+        "description": "Learn modern CSS, box model, flexbox, grid, responsive design, components, and interface polish.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 2-4",
+        "keyTopics": [
+          "selectors",
+          "box model",
+          "flexbox",
+          "grid",
+          "responsive design",
+          "css architecture"
+        ],
+        "prerequisites": [
+          "Web Foundations and HTML"
+        ],
+        "miniProject": "Create a responsive landing page and dashboard layout for desktop and mobile.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "CSS Guides",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
+          },
+          {
+            "type": "article",
+            "title": "Responsive Design Basics",
+            "platform": "web.dev",
+            "url": "https://web.dev/explore/learn/design"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: CSS, Layouts, and Responsive UI",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+css+full+course"
+          }
+        ]
+      },
+      {
+        "id": "fs_javascript_frontend",
+        "step": 3,
+        "phase": 1,
+        "title": "JavaScript and Browser Programming",
+        "description": "Understand JavaScript fundamentals, DOM events, async flows, modules, fetch, state, and common frontend patterns.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 4-6",
+        "keyTopics": [
+          "variables and functions",
+          "arrays and objects",
+          "dom manipulation",
+          "events",
+          "fetch api",
+          "async and promises"
+        ],
+        "prerequisites": [
+          "CSS, Layouts, and Responsive UI"
+        ],
+        "miniProject": "Build a client-side app with API fetching, filtering, and local state management.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "JavaScript Guide",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+          },
+          {
+            "type": "article",
+            "title": "Fetch API",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: JavaScript and Browser Programming",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+javascript+full+course"
+          }
+        ]
+      },
+      {
+        "id": "fs_frameworks_tooling",
+        "step": 4,
+        "phase": 2,
+        "title": "Frontend Frameworks and Tooling",
+        "description": "Move into component-driven development, routing, build tools, package management, environment variables, and testing basics.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 6-8",
+        "keyTopics": [
+          "react fundamentals",
+          "component architecture",
+          "routing",
+          "bundlers",
+          "npm scripts",
+          "frontend testing"
+        ],
+        "prerequisites": [
+          "JavaScript and Browser Programming"
+        ],
+        "miniProject": "Build a small frontend app with routing, reusable components, and test coverage for core flows.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "React Learn",
+            "platform": "react.dev",
+            "url": "https://react.dev/learn"
+          },
+          {
+            "type": "article",
+            "title": "Vite Guide",
+            "platform": "Vite",
+            "url": "https://vite.dev/guide/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Frontend Frameworks and Tooling",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=react+beginner+guide"
+          }
+        ]
+      },
+      {
+        "id": "fs_backend_apis",
+        "step": 5,
+        "phase": 2,
+        "title": "Backend APIs and Server Design",
+        "description": "Learn server architecture, REST APIs, validation, error handling, middleware, background tasks, and secure request processing.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 8-11",
+        "keyTopics": [
+          "node and express basics",
+          "routing",
+          "middleware",
+          "request validation",
+          "rest api design",
+          "error handling"
+        ],
+        "prerequisites": [
+          "Frontend Frameworks and Tooling"
+        ],
+        "miniProject": "Build a backend API with CRUD routes, validation, auth-ready middleware, and structured error responses.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Node.js Learn",
+            "platform": "Node.js",
+            "url": "https://nodejs.org/en/learn"
+          },
+          {
+            "type": "article",
+            "title": "Express Guide",
+            "platform": "Express",
+            "url": "https://expressjs.com/en/guide/routing.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Backend APIs and Server Design",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+node+express+course"
+          }
+        ]
+      },
+      {
+        "id": "fs_data_auth",
+        "step": 6,
+        "phase": 2,
+        "title": "Databases, Auth, and Data Modeling",
+        "description": "Add SQL or NoSQL fundamentals, schema design, indexing, relationships, authentication, authorization, sessions, and tokens.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 11-13",
+        "keyTopics": [
+          "sql basics",
+          "mongodb basics",
+          "schema design",
+          "indexes",
+          "authentication",
+          "authorization"
+        ],
+        "prerequisites": [
+          "Backend APIs and Server Design"
+        ],
+        "miniProject": "Add persistent storage and user authentication to a full stack app with role-aware access control.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "SQL Tutorial",
+            "platform": "PostgreSQL",
+            "url": "https://www.postgresql.org/docs/current/tutorial.html"
+          },
+          {
+            "type": "article",
+            "title": "MongoDB University",
+            "platform": "MongoDB",
+            "url": "https://learn.mongodb.com/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Databases, Auth, and Data Modeling",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=web+dev+simplified+node+authentication"
+          }
+        ]
+      },
+      {
+        "id": "fs_devops_production",
+        "step": 7,
+        "phase": 3,
+        "title": "Deployment, DevOps, and Production Readiness",
+        "description": "Prepare applications for production using environment management, CI/CD, containers, monitoring, logging, performance, and security hardening.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 13-16",
+        "keyTopics": [
+          "deployment workflows",
+          "docker basics",
+          "ci cd",
+          "logging and monitoring",
+          "performance tuning",
+          "security basics"
+        ],
+        "prerequisites": [
+          "Databases, Auth, and Data Modeling"
+        ],
+        "miniProject": "Containerize and deploy a full stack app with environment configs, health checks, and observability hooks.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Docker Get Started",
+            "platform": "Docker",
+            "url": "https://docs.docker.com/get-started/"
+          },
+          {
+            "type": "article",
+            "title": "Production Best Practices",
+            "platform": "web.dev",
+            "url": "https://web.dev/explore/fast"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Deployment, DevOps, and Production Readiness",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+ci+cd+web+apps"
+          }
+        ]
+      },
+      {
+        "id": "fs_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Full Stack Studio Build",
+        "description": "Combine frontend, backend, databases, auth, deployment, and debugging into a production-style portfolio project with clear architecture decisions.",
+        "difficulty": "advanced",
+        "estimatedHours": 22,
+        "weekRange": "Week 16-18",
+        "keyTopics": [
+          "architecture tradeoffs",
+          "api contracts",
+          "state and data flow",
+          "security review",
+          "observability",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "Deployment, DevOps, and Production Readiness"
+        ],
+        "miniProject": "Ship a full stack product with user accounts, dashboard features, admin controls, tests, deployment, and technical documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "System Design Basics",
+            "platform": "Cloudflare",
+            "url": "https://www.cloudflare.com/learning/"
+          },
+          {
+            "type": "article",
+            "title": "Web App Security",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-top-ten/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Full Stack Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=javascript+mastery+full+stack+project"
+          }
+        ]
+      }
+    ]
+  }
+}

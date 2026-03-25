@@ -1,0 +1,185 @@
+{
+    "metadata":  {
+                     "version":  "1.1",
+                     "source":  "skillforge",
+                     "generatedAt":  "2026-03-22T17:33:29.3967862+05:30"
+                 },
+    "roadmaps":  {
+    "algorithms":  {
+                        "path":  "./roadmaps/algorithms.json",
+                        "label":  "Algorithms"
+                    },
+    "backend":  {
+                    "path":  "./roadmaps/backend.json",
+                    "label":  "Backend"
+                },
+    "cpp":  {
+                "path":  "./roadmaps/cpp.json",
+                "label":  "C++"
+            },
+    "css":  {
+                 "path":  "./roadmaps/css.json",
+                 "label":  "CSS"
+             },
+    "cyber_security":  {
+                            "path":  "./roadmaps/cyber_security.json",
+                            "label":  "Cyber Security"
+                        },
+    "devops":  {
+                    "path":  "./roadmaps/devops.json",
+                    "label":  "DevOps"
+                },
+    "data_structures":  {
+                             "path":  "./roadmaps/data_structures.json",
+                             "label":  "Data Structures"
+                                         },
+    "frontend":  {
+                      "path":  "./roadmaps/frontend.json",
+                      "label":  "Frontend"
+                  },
+    "full_stack":  {
+                        "path":  "./roadmaps/full_stack.json",
+                        "label":  "Full Stack"
+                    },
+    "html":  {
+                  "path":  "./roadmaps/html.json",
+                  "label":  "HTML"
+              },
+    "java":  {
+                 "path":  "./roadmaps/java.json",
+                 "label":  "Java"
+             },
+    "javascript":  {
+                        "path":  "./roadmaps/javascript.json",
+                        "label":  "JavaScript"
+                                    },
+    "mongodb":  {
+                     "path":  "./roadmaps/mongodb.json",
+                     "label":  "MongoDB"
+                 },
+    "machine_learning":  {
+                             "path":  "./roadmaps/machine_learning.json",
+                             "label":  "Machine Learning"
+                         },
+    "nextjs":  {
+                   "path":  "./roadmaps/nextjs.json",
+                   "label":  "Next.js"
+               },
+    "nodejs":  {
+                    "path":  "./roadmaps/nodejs.json",
+                    "label":  "Node.js"
+                },
+    "php":  {
+                "path":  "./roadmaps/php.json",
+                "label":  "PHP"
+            },
+    "python":  {
+                    "path":  "./roadmaps/python.json",
+                    "label":  "Python"
+                },
+                     "react":  {
+                                   "path":  "./roadmaps/react.json",
+                                   "label":  "React"
+                               },
+                     "sql":  {
+                                 "path":  "./roadmaps/sql.json",
+                                 "label":  "SQL"
+                             },
+                     "typescript":  {
+                                        "path":  "./roadmaps/typescript.json",
+                                        "label":  "TypeScript"
+                                    }
+                 },
+    "prerequisite_tests":  {
+    "algorithms":  {
+                          "path":  "./prereq/algorithms.json",
+                          "label":  "Algorithms"
+                      },
+    "backend":  {
+                   "path":  "./prereq/backend.json",
+                   "label":  "Backend"
+               },
+    "cpp":  {
+               "path":  "./prereq/cpp.json",
+               "label":  "C++"
+           },
+    "css":  {
+                 "path":  "./prereq/css.json",
+                 "label":  "CSS"
+             },
+    "cyber_security":  {
+                              "path":  "./prereq/cyber_security.json",
+                              "label":  "Cyber Security"
+                          },
+    "devops":  {
+                   "path":  "./prereq/devops.json",
+                   "label":  "DevOps"
+               },
+    "data_structures":  {
+                               "path":  "./prereq/data_structures.json",
+                               "label":  "Data Structures"
+                                                   },
+    "frontend":  {
+                        "path":  "./prereq/frontend.json",
+                        "label":  "Frontend"
+                    },
+    "full_stack":  {
+                          "path":  "./prereq/full_stack.json",
+                          "label":  "Full Stack"
+                      },
+    "html":  {
+                 "path":  "./prereq/html.json",
+                 "label":  "HTML"
+             },
+    "java":  {
+                  "path":  "./prereq/java.json",
+                  "label":  "Java"
+              },
+    "javascript":  {
+                       "path":  "./prereq/javascript.json",
+                       "label":  "JavaScript"
+                                              },
+    "mongodb":  {
+                       "path":  "./prereq/mongodb.json",
+                       "label":  "MongoDB"
+                   },
+    "machine_learning":  {
+                            "path":  "./prereq/machine_learning.json",
+                            "label":  "Machine Learning"
+                        },
+    "nextjs":  {
+                  "path":  "./prereq/nextjs.json",
+                  "label":  "Next.js"
+              },
+    "nodejs":  {
+                      "path":  "./prereq/nodejs.json",
+                      "label":  "Node.js"
+                  },
+    "php":  {
+               "path":  "./prereq/php.json",
+               "label":  "PHP"
+           },
+    "python":  {
+                      "path":  "./prereq/python.json",
+                      "label":  "Python"
+                  },
+                               "react":  {
+                                             "path":  "./prereq/react.json",
+                                             "label":  "React"
+                                         },
+                               "sql":  {
+                                           "path":  "./prereq/sql.json",
+                                           "label":  "SQL"
+                                       },
+                               "typescript":  {
+                                                  "path":  "./prereq/typescript.json",
+                                                  "label":  "TypeScript"
+                                              }
+                           },
+    "roles":  {
+                  "frontend_developer":  {
+                                             "path":  "./roles/frontend_developer.json",
+                                             "label":  "Frontend Developer"
+                                         }
+              }
+}

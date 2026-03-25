@@ -1,0 +1,293 @@
+{
+  "key": "devops",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "DevOps"
+  },
+  "prerequisite_test": {
+    "domain": "DevOps",
+    "prerequisites": [
+      "Computer Basics",
+      "Networking Basics",
+      "Command Line Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge DevOps Signal Check",
+        "questions": [
+          {
+            "question": "Why is Linux knowledge foundational for many DevOps roles?",
+            "options": [
+              "A) Because web browsers only run on Linux",
+              "B) Because servers, automation, containers, and operational tooling frequently rely on Linux concepts",
+              "C) Because Linux replaces version control",
+              "D) Because cloud platforms disallow other operating systems"
+            ],
+            "correctAnswer": "B) Because servers, automation, containers, and operational tooling frequently rely on Linux concepts",
+            "topicTag": "Linux",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the operational value of scripting?",
+            "options": [
+              "A) Making repetitive work consistent and automatable",
+              "B) Replacing infrastructure entirely",
+              "C) Removing the need for testing",
+              "D) Styling terminal output only"
+            ],
+            "correctAnswer": "A) Making repetitive work consistent and automatable",
+            "topicTag": "Automation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does a DevOps engineer need to understand networking basics?",
+            "options": [
+              "A) Because deployments, service communication, DNS, ports, and load balancing depend on them",
+              "B) Only to write SQL",
+              "C) Because networking replaces logging",
+              "D) It is only useful for frontend work"
+            ],
+            "correctAnswer": "A) Because deployments, service communication, DNS, ports, and load balancing depend on them",
+            "topicTag": "Networking",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem does Git solve in an infrastructure or application workflow?",
+            "options": [
+              "A) It versions changes so teams can track, review, and recover work safely",
+              "B) It replaces cloud providers",
+              "C) It starts containers automatically without configuration",
+              "D) It is only a ticketing system"
+            ],
+            "correctAnswer": "A) It versions changes so teams can track, review, and recover work safely",
+            "topicTag": "Version Control",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CI mainly trying to improve?",
+            "options": [
+              "A) Repeated manual deployments",
+              "B) Early validation of changes through automated builds and checks",
+              "C) CSS layout consistency",
+              "D) Database sharding only"
+            ],
+            "correctAnswer": "B) Early validation of changes through automated builds and checks",
+            "topicTag": "CI/CD",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CD in a delivery pipeline?",
+            "options": [
+              "A) A database engine",
+              "B) The practice of preparing or automating software changes toward reliable release",
+              "C) A terminal theme",
+              "D) A browser extension"
+            ],
+            "correctAnswer": "B) The practice of preparing or automating software changes toward reliable release",
+            "topicTag": "CI/CD",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are containers useful in development and operations?",
+            "options": [
+              "A) They package software and dependencies into more consistent execution environments",
+              "B) They remove the need for networking",
+              "C) They replace source control",
+              "D) They only work for static sites"
+            ],
+            "correctAnswer": "A) They package software and dependencies into more consistent execution environments",
+            "topicTag": "Containers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of a container registry?",
+            "options": [
+              "A) Storing and distributing container images for deployment workflows",
+              "B) Rendering frontend components",
+              "C) Encrypting shell scripts by default",
+              "D) Managing DNS zones"
+            ],
+            "correctAnswer": "A) Storing and distributing container images for deployment workflows",
+            "topicTag": "Containers",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does infrastructure as code improve?",
+            "options": [
+              "A) It makes infrastructure definitions declarative, repeatable, reviewable, and automatable",
+              "B) It removes the need for cloud access",
+              "C) It only helps with mobile apps",
+              "D) It disables rollback"
+            ],
+            "correctAnswer": "A) It makes infrastructure definitions declarative, repeatable, reviewable, and automatable",
+            "topicTag": "IaC",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is IAM important in cloud operations?",
+            "options": [
+              "A) It controls identities, permissions, and access boundaries for users and services",
+              "B) It styles API responses",
+              "C) It replaces observability",
+              "D) It is only for billing dashboards"
+            ],
+            "correctAnswer": "A) It controls identities, permissions, and access boundaries for users and services",
+            "topicTag": "Cloud",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Kubernetes help manage?",
+            "options": [
+              "A) Orchestrating containerized workloads and services at scale",
+              "B) Writing backend business logic automatically",
+              "C) Replacing all monitoring tools",
+              "D) Editing Git history interactively"
+            ],
+            "correctAnswer": "A) Orchestrating containerized workloads and services at scale",
+            "topicTag": "Kubernetes",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are secrets managed separately from application code?",
+            "options": [
+              "A) To reduce exposure of sensitive credentials and control access more safely",
+              "B) Because code cannot read environment variables",
+              "C) To increase merge conflicts",
+              "D) Because secrets are only needed in development"
+            ],
+            "correctAnswer": "A) To reduce exposure of sensitive credentials and control access more safely",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of observability in a running system?",
+            "options": [
+              "A) To understand system behavior through logs, metrics, traces, and alerts",
+              "B) To replace incident response",
+              "C) To remove the need for deployments",
+              "D) To edit infrastructure manually"
+            ],
+            "correctAnswer": "A) To understand system behavior through logs, metrics, traces, and alerts",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is rollback planning important in deployment strategy?",
+            "options": [
+              "A) Because not every release works as intended, and recovery speed matters in production",
+              "B) Because rollbacks delete source control",
+              "C) Because production should never change",
+              "D) It only matters for design systems"
+            ],
+            "correctAnswer": "A) Because not every release works as intended, and recovery speed matters in production",
+            "topicTag": "Release Engineering",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical value of monitoring alerts?",
+            "options": [
+              "A) They can notify teams quickly when important thresholds or failure conditions are reached",
+              "B) They replace dashboards completely",
+              "C) They store container images",
+              "D) They only matter during local development"
+            ],
+            "correctAnswer": "A) They can notify teams quickly when important thresholds or failure conditions are reached",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does environment parity matter between local, staging, and production?",
+            "options": [
+              "A) It reduces surprises caused by inconsistent runtime behavior across environments",
+              "B) It ensures every machine has the same wallpaper",
+              "C) It removes the need for tests",
+              "D) It only applies to frontend CSS"
+            ],
+            "correctAnswer": "A) It reduces surprises caused by inconsistent runtime behavior across environments",
+            "topicTag": "Operations",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does capacity or scalability planning address?",
+            "options": [
+              "A) How systems behave as traffic, storage, and compute needs grow",
+              "B) Only how to rename Git branches",
+              "C) Only SQL syntax",
+              "D) It is unrelated to production systems"
+            ],
+            "correctAnswer": "A) How systems behave as traffic, storage, and compute needs grow",
+            "topicTag": "Reliability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are runbooks useful in operations?",
+            "options": [
+              "A) They document repeatable response steps for common incidents and tasks",
+              "B) They replace logging and monitoring",
+              "C) They are only useful for interns",
+              "D) They deploy infrastructure automatically by themselves"
+            ],
+            "correctAnswer": "A) They document repeatable response steps for common incidents and tasks",
+            "topicTag": "Operations",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a key reason to treat security as part of DevOps rather than a separate afterthought?",
+            "options": [
+              "A) Because delivery speed without secure defaults creates operational and business risk",
+              "B) Because security only matters after release",
+              "C) Because secrets belong in Git history",
+              "D) Because containers are inherently secure"
+            ],
+            "correctAnswer": "A) Because delivery speed without secure defaults creates operational and business risk",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest mindset for learning DevOps effectively?",
+            "options": [
+              "A) Tool memorization without system understanding",
+              "B) Building fundamentals, automating repeatable work, and operating systems with measurable feedback",
+              "C) Ignoring networking and Linux",
+              "D) Focusing only on dashboards"
+            ],
+            "correctAnswer": "B) Building fundamentals, automating repeatable work, and operating systems with measurable feedback",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Devops",
+        "questions": [
+          {
+            "question": "Which tool is used for containerization?",
+            "options": [
+              "A) Git",
+              "B) Docker",
+              "C) Jenkins",
+              "D) Maven"
+            ],
+            "correctAnswer": "B) Docker",
+            "topicTag": "devops",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which tool is used for CI/CD?",
+            "options": [
+              "A) Docker",
+              "B) Jenkins",
+              "C) GitHub",
+              "D) Nginx"
+            ],
+            "correctAnswer": "B) Jenkins",
+            "topicTag": "devops",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

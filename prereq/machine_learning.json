@@ -1,0 +1,293 @@
+{
+  "key": "machine_learning",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Machine Learning"
+  },
+  "prerequisite_test": {
+    "domain": "Machine Learning",
+    "prerequisites": [
+      "Python Basics",
+      "Math Basics",
+      "Statistics Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Machine Learning Signal Check",
+        "questions": [
+          {
+            "question": "Why are statistics important in machine learning?",
+            "options": [
+              "A) They help interpret data, uncertainty, distributions, and evaluation results",
+              "B) They only matter for frontend analytics",
+              "C) They replace programming",
+              "D) They are optional in all ML work"
+            ],
+            "correctAnswer": "A) They help interpret data, uncertainty, distributions, and evaluation results",
+            "topicTag": "Statistics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of linear algebra in ML?",
+            "options": [
+              "A) It underpins vectors, matrices, transformations, and many model computations",
+              "B) It only matters for CSS grids",
+              "C) It replaces datasets",
+              "D) It is only for finance"
+            ],
+            "correctAnswer": "A) It underpins vectors, matrices, transformations, and many model computations",
+            "topicTag": "Math",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is Python commonly used in ML workflows?",
+            "options": [
+              "A) Because of its ecosystem for data analysis, modeling, and experimentation",
+              "B) Because compiled languages cannot do ML",
+              "C) Because Python removes the need for math",
+              "D) Because browsers train models faster"
+            ],
+            "correctAnswer": "A) Because of its ecosystem for data analysis, modeling, and experimentation",
+            "topicTag": "Python",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does data cleaning primarily address?",
+            "options": [
+              "A) Missing values, inconsistencies, outliers, and quality issues before modeling",
+              "B) GPU acceleration only",
+              "C) Replacing feature engineering",
+              "D) Deployment configuration"
+            ],
+            "correctAnswer": "A) Missing values, inconsistencies, outliers, and quality issues before modeling",
+            "topicTag": "Data Preparation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is train-test separation important?",
+            "options": [
+              "A) It helps estimate how a model may behave on unseen data",
+              "B) It only improves plotting",
+              "C) It replaces cross-validation",
+              "D) It removes overfitting"
+            ],
+            "correctAnswer": "A) It helps estimate how a model may behave on unseen data",
+            "topicTag": "Evaluation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is feature engineering about?",
+            "options": [
+              "A) Creating or transforming inputs to improve model usefulness",
+              "B) Designing UI components",
+              "C) Replacing labels",
+              "D) Only deleting columns"
+            ],
+            "correctAnswer": "A) Creating or transforming inputs to improve model usefulness",
+            "topicTag": "Features",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is data leakage dangerous?",
+            "options": [
+              "A) It can make a model look stronger during evaluation than it really is in production",
+              "B) It only affects charts",
+              "C) It improves generalization",
+              "D) It only happens in unsupervised learning"
+            ],
+            "correctAnswer": "A) It can make a model look stronger during evaluation than it really is in production",
+            "topicTag": "Evaluation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between regression and classification?",
+            "options": [
+              "A) Regression predicts continuous values, classification predicts categories",
+              "B) Regression is unsupervised and classification is always deep learning",
+              "C) They are identical",
+              "D) Classification cannot use probabilities"
+            ],
+            "correctAnswer": "A) Regression predicts continuous values, classification predicts categories",
+            "topicTag": "Supervised Learning",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are evaluation metrics chosen carefully?",
+            "options": [
+              "A) Different problems need different measures of success and tradeoffs",
+              "B) Metrics only matter after deployment",
+              "C) Accuracy is always enough",
+              "D) Metrics replace validation sets"
+            ],
+            "correctAnswer": "A) Different problems need different measures of success and tradeoffs",
+            "topicTag": "Metrics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is overfitting?",
+            "options": [
+              "A) When a model learns training patterns too specifically and performs poorly on new data",
+              "B) When a model is too small to train",
+              "C) When data is normalized",
+              "D) When predictions are cached"
+            ],
+            "correctAnswer": "A) When a model learns training patterns too specifically and performs poorly on new data",
+            "topicTag": "Generalization",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is cross-validation useful?",
+            "options": [
+              "A) It provides a stronger estimate of model stability across different data splits",
+              "B) It replaces final testing",
+              "C) It only matters for neural networks",
+              "D) It removes hyperparameters"
+            ],
+            "correctAnswer": "A) It provides a stronger estimate of model stability across different data splits",
+            "topicTag": "Evaluation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is clustering used for?",
+            "options": [
+              "A) Grouping similar data points without explicit labels",
+              "B) Replacing regression",
+              "C) Encrypting data",
+              "D) Performing deployment rollbacks"
+            ],
+            "correctAnswer": "A) Grouping similar data points without explicit labels",
+            "topicTag": "Unsupervised Learning",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are neural networks useful?",
+            "options": [
+              "A) They can model complex patterns when simpler methods are insufficient",
+              "B) They remove the need for data quality",
+              "C) They always outperform classical models",
+              "D) They only work on images"
+            ],
+            "correctAnswer": "A) They can model complex patterns when simpler methods are insufficient",
+            "topicTag": "Deep Learning",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of backpropagation?",
+            "options": [
+              "A) Updating model parameters based on prediction error through the network",
+              "B) Deploying models to production",
+              "C) Scaling datasets",
+              "D) Replacing training loops"
+            ],
+            "correctAnswer": "A) Updating model parameters based on prediction error through the network",
+            "topicTag": "Deep Learning",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is experiment tracking important?",
+            "options": [
+              "A) It helps compare runs, hyperparameters, and reproducibility over time",
+              "B) It only matters for notebooks",
+              "C) It replaces model evaluation",
+              "D) It stores labels permanently"
+            ],
+            "correctAnswer": "A) It helps compare runs, hyperparameters, and reproducibility over time",
+            "topicTag": "MLOps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is model drift?",
+            "options": [
+              "A) Performance degradation caused by changes in data or real-world conditions over time",
+              "B) A plotting issue only",
+              "C) A GPU memory optimization",
+              "D) A feature scaling method"
+            ],
+            "correctAnswer": "A) Performance degradation caused by changes in data or real-world conditions over time",
+            "topicTag": "MLOps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is model deployment a separate concern from model training?",
+            "options": [
+              "A) Serving, latency, monitoring, and integration constraints differ from offline experimentation",
+              "B) Because deployed models do not need data",
+              "C) Because training and deployment are identical",
+              "D) Because APIs cannot serve models"
+            ],
+            "correctAnswer": "A) Serving, latency, monitoring, and integration constraints differ from offline experimentation",
+            "topicTag": "Deployment",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should ML practitioners think about bias and ethics?",
+            "options": [
+              "A) Because models can amplify harmful patterns and affect real users or decisions",
+              "B) Because ethics only matters in law",
+              "C) Because bias improves every model",
+              "D) Because it replaces evaluation"
+            ],
+            "correctAnswer": "A) Because models can amplify harmful patterns and affect real users or decisions",
+            "topicTag": "Responsible AI",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the value of a baseline model?",
+            "options": [
+              "A) It gives a simple reference point before more complex approaches are adopted",
+              "B) It replaces final deployment",
+              "C) It is always the best model",
+              "D) It prevents overfitting automatically"
+            ],
+            "correctAnswer": "A) It gives a simple reference point before more complex approaches are adopted",
+            "topicTag": "Experimentation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest way to learn machine learning effectively?",
+            "options": [
+              "A) Build end-to-end projects that include data prep, modeling, evaluation, and deployment thinking",
+              "B) Memorize algorithm names only",
+              "C) Ignore math and metrics",
+              "D) Focus only on notebooks without reproducibility"
+            ],
+            "correctAnswer": "A) Build end-to-end projects that include data prep, modeling, evaluation, and deployment thinking",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Machine Learning",
+        "questions": [
+          {
+            "question": "Which ML algorithm is supervised?",
+            "options": [
+              "A) K-means",
+              "B) Linear Regression",
+              "C) PCA",
+              "D) Apriori"
+            ],
+            "correctAnswer": "B) Linear Regression",
+            "topicTag": "machine_learning",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which ML model is used for classification?",
+            "options": [
+              "A) Linear Regression",
+              "B) Logistic Regression",
+              "C) PCA",
+              "D) K-means"
+            ],
+            "correctAnswer": "B) Logistic Regression",
+            "topicTag": "machine_learning",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

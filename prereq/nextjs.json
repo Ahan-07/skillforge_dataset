@@ -1,0 +1,282 @@
+{
+  "key": "nextjs",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Next.js"
+  },
+  "prerequisite_test": {
+    "domain": "Next.js",
+    "prerequisites": [
+      "HTML Basics",
+      "CSS Basics",
+      "JavaScript Basics",
+      "React Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Next.js Signal Check",
+        "questions": [
+          {
+            "question": "Why is React knowledge a prerequisite for Next.js?",
+            "options": [
+              "A) Because Next.js apps are built on React component and rendering concepts",
+              "B) Because Next.js replaces JavaScript entirely",
+              "C) Because React is only used for databases",
+              "D) Because Next.js does not support components"
+            ],
+            "correctAnswer": "A) Because Next.js apps are built on React component and rendering concepts",
+            "topicTag": "React",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the benefit of file-based routing in frameworks like Next.js?",
+            "options": [
+              "A) It maps project structure to routes in a predictable way",
+              "B) It removes the need for components",
+              "C) It only helps CSS organization",
+              "D) It replaces authentication"
+            ],
+            "correctAnswer": "A) It maps project structure to routes in a predictable way",
+            "topicTag": "Routing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does Next.js distinguish between server and client behavior?",
+            "options": [
+              "A) Because some logic can run on the server for data and rendering while interactive logic runs in the browser",
+              "B) Because browsers can access databases directly",
+              "C) Because servers only render CSS",
+              "D) Because JavaScript cannot run on the client"
+            ],
+            "correctAnswer": "A) Because some logic can run on the server for data and rendering while interactive logic runs in the browser",
+            "topicTag": "Rendering",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of server-side rendering or pre-rendering?",
+            "options": [
+              "A) To control when HTML is produced and improve delivery for specific app needs",
+              "B) To eliminate JavaScript from all apps",
+              "C) To replace routing",
+              "D) To avoid HTTP requests"
+            ],
+            "correctAnswer": "A) To control when HTML is produced and improve delivery for specific app needs",
+            "topicTag": "Rendering",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is data fetching strategy important in Next.js?",
+            "options": [
+              "A) It affects performance, freshness, caching, and user experience",
+              "B) It only affects CSS loading",
+              "C) It has no effect after deployment",
+              "D) It replaces database schema design"
+            ],
+            "correctAnswer": "A) It affects performance, freshness, caching, and user experience",
+            "topicTag": "Data Fetching",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem do layouts solve in a routed application?",
+            "options": [
+              "A) Reusing shared structure and navigation across route segments",
+              "B) Replacing API calls",
+              "C) Storing secrets",
+              "D) Compiling React code"
+            ],
+            "correctAnswer": "A) Reusing shared structure and navigation across route segments",
+            "topicTag": "Layouts",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are forms and mutation flows important in app development?",
+            "options": [
+              "A) They support create, update, and user interaction workflows that change data",
+              "B) They only matter for static blogs",
+              "C) They replace route handlers",
+              "D) They remove the need for validation"
+            ],
+            "correctAnswer": "A) They support create, update, and user interaction workflows that change data",
+            "topicTag": "Mutations",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is validation meant to do in server actions or API handlers?",
+            "options": [
+              "A) Prevent invalid or unsafe input from reaching business logic",
+              "B) Improve typography",
+              "C) Replace authentication",
+              "D) Only speed up image loading"
+            ],
+            "correctAnswer": "A) Prevent invalid or unsafe input from reaching business logic",
+            "topicTag": "Validation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does authentication matter in a Next.js product app?",
+            "options": [
+              "A) Because protected pages and user-specific actions require identity and access control",
+              "B) Because routing works only after login",
+              "C) Because it replaces caching",
+              "D) Because server rendering is impossible without it"
+            ],
+            "correctAnswer": "A) Because protected pages and user-specific actions require identity and access control",
+            "topicTag": "Authentication",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the value of environment variables in a deployed Next.js app?",
+            "options": [
+              "A) They keep environment-specific settings out of hardcoded source",
+              "B) They replace components",
+              "C) They style layouts",
+              "D) They remove build steps"
+            ],
+            "correctAnswer": "A) They keep environment-specific settings out of hardcoded source",
+            "topicTag": "Configuration",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is image optimization a common concern in Next.js apps?",
+            "options": [
+              "A) Because media delivery strongly affects performance and user experience",
+              "B) Because apps cannot display raw images",
+              "C) Because it replaces SEO",
+              "D) Because databases require optimized images"
+            ],
+            "correctAnswer": "A) Because media delivery strongly affects performance and user experience",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does SEO work involve in a web framework?",
+            "options": [
+              "A) Making pages and metadata easier for search engines and link previews to understand",
+              "B) Replacing routing",
+              "C) Storing passwords securely",
+              "D) Only minifying JavaScript"
+            ],
+            "correctAnswer": "A) Making pages and metadata easier for search engines and link previews to understand",
+            "topicTag": "SEO",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does caching strategy need deliberate decisions?",
+            "options": [
+              "A) Because cached results affect freshness, correctness, and performance",
+              "B) Because caches automatically solve all backend problems",
+              "C) Because caches only matter in local development",
+              "D) Because routing disables caches"
+            ],
+            "correctAnswer": "A) Because cached results affect freshness, correctness, and performance",
+            "topicTag": "Caching",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of route handlers or backend integration in Next.js?",
+            "options": [
+              "A) Handling server-side request logic close to the application",
+              "B) Replacing all databases automatically",
+              "C) Styling forms",
+              "D) Eliminating deployment"
+            ],
+            "correctAnswer": "A) Handling server-side request logic close to the application",
+            "topicTag": "Backend Integration",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are tests useful in a Next.js codebase?",
+            "options": [
+              "A) They help verify critical UI and data flows as features evolve",
+              "B) They only matter for CSS",
+              "C) They make reviews unnecessary",
+              "D) They replace observability"
+            ],
+            "correctAnswer": "A) They help verify critical UI and data flows as features evolve",
+            "topicTag": "Testing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does deployment knowledge matter for framework-based apps?",
+            "options": [
+              "A) Because runtime behavior, environment config, and hosting choices affect production outcomes",
+              "B) Because local development is enough",
+              "C) Because deployment replaces monitoring",
+              "D) Because apps run the same everywhere without setup"
+            ],
+            "correctAnswer": "A) Because runtime behavior, environment config, and hosting choices affect production outcomes",
+            "topicTag": "Deployment",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of monitoring in production?",
+            "options": [
+              "A) To observe failures, latency, and behavior after real users begin using the app",
+              "B) To compile JSX",
+              "C) To replace logging",
+              "D) To remove the need for authentication"
+            ],
+            "correctAnswer": "A) To observe failures, latency, and behavior after real users begin using the app",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is accessibility still important in a Next.js app?",
+            "options": [
+              "A) Because rendering strategy does not replace semantic and usable interface requirements",
+              "B) Because only static HTML needs accessibility",
+              "C) Because screen readers ignore framework apps",
+              "D) Because auth flows disable accessibility"
+            ],
+            "correctAnswer": "A) Because rendering strategy does not replace semantic and usable interface requirements",
+            "topicTag": "Accessibility",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of route-level architecture in larger apps?",
+            "options": [
+              "A) It keeps features organized and makes scaling navigation and ownership easier",
+              "B) It removes the need for components",
+              "C) It disables caching",
+              "D) It only matters for blogs"
+            ],
+            "correctAnswer": "A) It keeps features organized and makes scaling navigation and ownership easier",
+            "topicTag": "Architecture",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest way to learn Next.js effectively?",
+            "options": [
+              "A) Build real apps that mix rendering, routing, mutations, auth, and deployment concerns",
+              "B) Memorize route filenames only",
+              "C) Ignore React fundamentals",
+              "D) Focus only on static marketing pages"
+            ],
+            "correctAnswer": "A) Build real apps that mix rendering, routing, mutations, auth, and deployment concerns",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Nextjs",
+        "questions": [
+          {
+            "question": "Which framework is built on React?",
+            "options": [
+              "A) Angular",
+              "B) Vue",
+              "C) Next.js",
+              "D) Django"
+            ],
+            "correctAnswer": "C) Next.js",
+            "topicTag": "nextjs",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

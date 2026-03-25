@@ -1,0 +1,304 @@
+{
+  "key": "css",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "CSS"
+  },
+  "roadmap": {
+    "topic": "CSS",
+    "emoji": "🎨",
+    "overview": "SkillForge original CSS path focused on layout systems, responsive interfaces, component styling, design consistency, and production UI craftsmanship.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "css_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "CSS Fundamentals",
+        "description": "Learn selectors, the cascade, inheritance, specificity, the box model, and units.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "selectors",
+          "specificity",
+          "cascade",
+          "box model",
+          "units",
+          "display"
+        ],
+        "prerequisites": [
+          "HTML Basics"
+        ],
+        "miniProject": "Style a personal profile card page",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Learn CSS",
+            "platform": "web.dev",
+            "url": "https://web.dev/learn/css/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: CSS Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+css+full+course"
+          }
+        ]
+      },
+      {
+        "id": "css_layout",
+        "step": 2,
+        "phase": 1,
+        "title": "Layout with Flexbox and Grid",
+        "description": "Build modern page layouts using Flexbox, Grid, alignment, gap, and positioning.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 2-3",
+        "keyTopics": [
+          "Flexbox",
+          "Grid",
+          "positioning",
+          "stacking context",
+          "alignment",
+          "gap"
+        ],
+        "prerequisites": [
+          "CSS Fundamentals"
+        ],
+        "miniProject": "Recreate a landing page hero and pricing grid",
+        "resources": [
+          {
+            "type": "article",
+            "title": "MDN Layout Cookbook",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Layout with Flexbox and Grid",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+css+grid+flexbox"
+          }
+        ]
+      },
+      {
+        "id": "css_responsive",
+        "step": 3,
+        "phase": 1,
+        "title": "Responsive Design",
+        "description": "Make interfaces adapt across devices using media queries, fluid typography, relative units, and mobile-first thinking.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 3-4",
+        "keyTopics": [
+          "media queries",
+          "mobile-first",
+          "rem/em",
+          "clamp",
+          "fluid layouts",
+          "responsive images"
+        ],
+        "prerequisites": [
+          "Layout with Flexbox and Grid"
+        ],
+        "miniProject": "Convert a desktop-only page into a mobile-first design",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Responsive Design Basics",
+            "platform": "web.dev",
+            "url": "https://web.dev/explore/responsive-design"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Responsive Design",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+responsive+web+design"
+          }
+        ]
+      },
+      {
+        "id": "css_components",
+        "step": 4,
+        "phase": 2,
+        "title": "Forms, Components, and Pseudo Selectors",
+        "description": "Style accessible forms, buttons, cards, navbars, and use pseudo-classes and pseudo-elements effectively.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 4-5",
+        "keyTopics": [
+          ":hover",
+          ":focus-visible",
+          "::before",
+          "::after",
+          "form states",
+          "component styling"
+        ],
+        "prerequisites": [
+          "Responsive Design"
+        ],
+        "miniProject": "Build a reusable UI kit in plain CSS",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Pseudo-classes",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Forms, Components, and Pseudo Selectors",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+css+forms+buttons"
+          }
+        ]
+      },
+      {
+        "id": "css_animation",
+        "step": 5,
+        "phase": 2,
+        "title": "Transitions, Transforms, and Animation",
+        "description": "Use transforms, transitions, keyframes, and motion principles without hurting performance.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 6",
+        "keyTopics": [
+          "transform",
+          "transition",
+          "@keyframes",
+          "timing functions",
+          "motion design",
+          "performance"
+        ],
+        "prerequisites": [
+          "Forms, Components, and Pseudo Selectors"
+        ],
+        "miniProject": "Animate a polished product card and navbar system",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Using CSS Animations",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Transitions, Transforms, and Animation",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=web+dev+simplified+css+animations"
+          }
+        ]
+      },
+      {
+        "id": "css_architecture",
+        "step": 6,
+        "phase": 2,
+        "title": "Architecture and Design Systems",
+        "description": "Organize CSS with variables, BEM, utility classes, tokens, and scalable component conventions.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 7",
+        "keyTopics": [
+          "custom properties",
+          "BEM",
+          "utility-first mindset",
+          "design tokens",
+          "theming",
+          "scalability"
+        ],
+        "prerequisites": [
+          "Transitions, Transforms, and Animation"
+        ],
+        "miniProject": "Create a mini design system with tokens and themes",
+        "resources": [
+          {
+            "type": "article",
+            "title": "CSS Custom Properties",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/--*"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Architecture and Design Systems",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+css+architecture"
+          }
+        ]
+      },
+      {
+        "id": "css_advanced",
+        "step": 7,
+        "phase": 3,
+        "title": "Advanced CSS and Performance",
+        "description": "Explore container queries, modern color functions, subgrid, accessibility, and rendering performance.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 8-9",
+        "keyTopics": [
+          "container queries",
+          "subgrid",
+          "color spaces",
+          "will-change",
+          "contain",
+          "a11y styling"
+        ],
+        "prerequisites": [
+          "Architecture and Design Systems"
+        ],
+        "miniProject": "Build a complex dashboard layout with modern CSS features",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Container Queries",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Advanced CSS and Performance",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+modern+css"
+          }
+        ]
+      },
+      {
+        "id": "css_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge CSS Studio Build",
+        "description": "Ship a full responsive multi-section website with polished motion, accessible components, and clean CSS organization.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 10",
+        "keyTopics": [
+          "responsive polish",
+          "component reuse",
+          "accessibility",
+          "performance",
+          "maintainability"
+        ],
+        "prerequisites": [
+          "Advanced CSS and Performance"
+        ],
+        "miniProject": "Build a SaaS marketing site and dashboard UI from scratch",
+        "resources": [
+          {
+            "type": "course",
+            "title": "CSS Learning Path",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/curriculum/core/styling-basics/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge CSS Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+css+project"
+          }
+        ]
+      }
+    ]
+  }
+}

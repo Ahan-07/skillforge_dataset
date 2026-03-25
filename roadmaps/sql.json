@@ -1,0 +1,305 @@
+{
+  "key": "sql",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "SQL"
+  },
+  "roadmap": {
+    "topic": "SQL",
+    "emoji": "🗄️",
+    "overview": "SkillForge original SQL path focused on relational thinking, query design, schema modeling, optimization, and application-facing data work.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "sql_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "SQL Queries and CRUD",
+        "description": "Learn SELECT, INSERT, UPDATE, DELETE, filtering, sorting, limits, and basic schema understanding.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "SELECT",
+          "WHERE",
+          "ORDER BY",
+          "LIMIT",
+          "INSERT",
+          "UPDATE",
+          "DELETE"
+        ],
+        "prerequisites": [],
+        "miniProject": "Query and manage a student records database",
+        "resources": [
+          {
+            "type": "article",
+            "title": "SQL Tutorial",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/tutorial.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SQL Queries and CRUD",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sql+full+course"
+          }
+        ]
+      },
+      {
+        "id": "sql_joins",
+        "step": 2,
+        "phase": 1,
+        "title": "Joins and Multi-Table Thinking",
+        "description": "Understand table relationships and combine data with inner, left, right, full, and self joins.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 2",
+        "keyTopics": [
+          "INNER JOIN",
+          "LEFT JOIN",
+          "RIGHT JOIN",
+          "FULL JOIN",
+          "self join",
+          "foreign keys"
+        ],
+        "prerequisites": [
+          "SQL Queries and CRUD"
+        ],
+        "miniProject": "Build reports from a bookstore relational schema",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Queries Table Expressions",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Joins and Multi-Table Thinking",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sql+joins"
+          }
+        ]
+      },
+      {
+        "id": "sql_aggregation",
+        "step": 3,
+        "phase": 1,
+        "title": "Aggregation, Grouping, and Subqueries",
+        "description": "Use aggregate functions, GROUP BY, HAVING, subqueries, and common table expressions.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 3",
+        "keyTopics": [
+          "COUNT",
+          "SUM",
+          "AVG",
+          "GROUP BY",
+          "HAVING",
+          "subqueries",
+          "CTEs"
+        ],
+        "prerequisites": [
+          "Joins and Multi-Table Thinking"
+        ],
+        "miniProject": "Create analytics queries for sales and user data",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Queries with Aggregates",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/tutorial-agg.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Aggregation, Grouping, and Subqueries",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=khan+academy+sql+group+by"
+          }
+        ]
+      },
+      {
+        "id": "sql_schema_design",
+        "step": 4,
+        "phase": 2,
+        "title": "Schema Design and Normalization",
+        "description": "Design relational schemas with primary keys, foreign keys, normalization, and constraints.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 4-5",
+        "keyTopics": [
+          "primary key",
+          "foreign key",
+          "normalization",
+          "constraints",
+          "ER modeling",
+          "denormalization"
+        ],
+        "prerequisites": [
+          "Aggregation, Grouping, and Subqueries"
+        ],
+        "miniProject": "Design a normalized schema for an LMS or commerce app",
+        "resources": [
+          {
+            "type": "article",
+            "title": "DDL Constraints",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Schema Design and Normalization",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+database+design"
+          }
+        ]
+      },
+      {
+        "id": "sql_advanced_queries",
+        "step": 5,
+        "phase": 2,
+        "title": "Window Functions and Advanced SQL",
+        "description": "Write ranking, running totals, partitions, recursive CTEs, and high-signal reporting queries.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 6",
+        "keyTopics": [
+          "ROW_NUMBER",
+          "RANK",
+          "LAG",
+          "LEAD",
+          "PARTITION BY",
+          "recursive CTE"
+        ],
+        "prerequisites": [
+          "Schema Design and Normalization"
+        ],
+        "miniProject": "Build leaderboard and cohort analytics queries",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Window Functions",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Window Functions and Advanced SQL",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sql+window+functions"
+          }
+        ]
+      },
+      {
+        "id": "sql_indexing",
+        "step": 6,
+        "phase": 2,
+        "title": "Indexes and Query Optimization",
+        "description": "Speed up queries with indexes and learn to read execution plans and avoid common performance traps.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 7",
+        "keyTopics": [
+          "B-tree indexes",
+          "composite indexes",
+          "EXPLAIN",
+          "query plans",
+          "N+1 problem",
+          "tuning"
+        ],
+        "prerequisites": [
+          "Window Functions and Advanced SQL"
+        ],
+        "miniProject": "Optimize a slow reporting workload",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Using EXPLAIN",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/using-explain.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Indexes and Query Optimization",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sql+performance+tuning"
+          }
+        ]
+      },
+      {
+        "id": "sql_transactions",
+        "step": 7,
+        "phase": 3,
+        "title": "Transactions, Isolation, and Reliability",
+        "description": "Understand ACID, isolation levels, locking, rollbacks, and safe concurrent updates.",
+        "difficulty": "advanced",
+        "estimatedHours": 10,
+        "weekRange": "Week 8-9",
+        "keyTopics": [
+          "ACID",
+          "transactions",
+          "isolation levels",
+          "locking",
+          "deadlocks",
+          "rollback"
+        ],
+        "prerequisites": [
+          "Indexes and Query Optimization"
+        ],
+        "miniProject": "Implement a safe wallet transfer workflow",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Transaction Isolation",
+            "platform": "PostgreSQL Docs",
+            "url": "https://www.postgresql.org/docs/current/transaction-iso.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Transactions, Isolation, and Reliability",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+database+transactions"
+          }
+        ]
+      },
+      {
+        "id": "sql_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge SQL Studio Build",
+        "description": "Design, query, optimize, and document a complete relational database for a real application.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 10",
+        "keyTopics": [
+          "schema review",
+          "migrations",
+          "analytics",
+          "performance",
+          "backup mindset",
+          "documentation"
+        ],
+        "prerequisites": [
+          "Transactions, Isolation, and Reliability"
+        ],
+        "miniProject": "Ship a fully designed and optimized relational backend schema",
+        "resources": [
+          {
+            "type": "course",
+            "title": "PostgreSQL Documentation",
+            "platform": "postgresql.org",
+            "url": "https://www.postgresql.org/docs/current/index.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge SQL Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sql+project"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "key": "backend",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Backend"
+  },
+  "roadmap": {
+    "topic": "Backend",
+    "emoji": "🛠️",
+    "overview": "SkillForge original backend path focused on APIs, persistence, security, service design, observability, and production-ready server engineering.",
+    "totalWeeks": 18,
+    "nodes": [
+      {
+        "id": "be_programming_foundations",
+        "step": 1,
+        "phase": 1,
+        "title": "Programming and HTTP Foundations",
+        "description": "Start with variables, functions, data structures, debugging, HTTP, request-response flow, status codes, and API basics.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "programming basics",
+          "data structures",
+          "debugging",
+          "http and https",
+          "status codes",
+          "request response model"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a simple command-line service simulator and document a few sample HTTP endpoints.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "HTTP Overview",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+          },
+          {
+            "type": "article",
+            "title": "REST API Tutorial",
+            "platform": "Red Hat",
+            "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Programming and HTTP Foundations",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+backend+development+basics"
+          }
+        ]
+      },
+      {
+        "id": "be_server_frameworks",
+        "step": 2,
+        "phase": 1,
+        "title": "Server Frameworks, Routing, and Middleware",
+        "description": "Learn how backend frameworks structure routes, handlers, middleware, configuration, and error management.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "routing",
+          "request handlers",
+          "middleware",
+          "configuration",
+          "error handling",
+          "layered structure"
+        ],
+        "prerequisites": [
+          "Programming and HTTP Foundations"
+        ],
+        "miniProject": "Create a small API with routes, middleware, validation, and consistent error responses.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Express Routing Guide",
+            "platform": "Express",
+            "url": "https://expressjs.com/en/guide/routing.html"
+          },
+          {
+            "type": "article",
+            "title": "Node.js Learn",
+            "platform": "Node.js",
+            "url": "https://nodejs.org/en/learn"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Server Frameworks, Routing, and Middleware",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+rest+api+course"
+          }
+        ]
+      },
+      {
+        "id": "be_databases",
+        "step": 3,
+        "phase": 1,
+        "title": "Databases, Modeling, and Querying",
+        "description": "Understand SQL and NoSQL fundamentals, schema design, indexing, relationships, migrations, and performance-aware query patterns.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "sql basics",
+          "nosql basics",
+          "schema design",
+          "indexes",
+          "relationships",
+          "migrations"
+        ],
+        "prerequisites": [
+          "Server Frameworks, Routing, and Middleware"
+        ],
+        "miniProject": "Design a schema for a small product and build CRUD endpoints backed by a real database.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "PostgreSQL Tutorial",
+            "platform": "PostgreSQL",
+            "url": "https://www.postgresql.org/docs/current/tutorial.html"
+          },
+          {
+            "type": "article",
+            "title": "MongoDB Learn",
+            "platform": "MongoDB",
+            "url": "https://learn.mongodb.com/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Databases, Modeling, and Querying",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+sql+for+developers"
+          }
+        ]
+      },
+      {
+        "id": "be_auth_security",
+        "step": 4,
+        "phase": 2,
+        "title": "Authentication, Authorization, and Security Basics",
+        "description": "Add sessions, tokens, password handling, role checks, validation, input safety, and secure backend defaults.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "authentication",
+          "authorization",
+          "password hashing",
+          "sessions and tokens",
+          "validation",
+          "secure defaults"
+        ],
+        "prerequisites": [
+          "Databases, Modeling, and Querying"
+        ],
+        "miniProject": "Secure an API with login, registration, access control, and input validation for core routes.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "OWASP Top 10",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-top-ten/"
+          },
+          {
+            "type": "article",
+            "title": "Web Security",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Security"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Authentication, Authorization, and Security Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=web+dev+simplified+backend+authentication"
+          }
+        ]
+      },
+      {
+        "id": "be_architecture_scaling",
+        "step": 5,
+        "phase": 2,
+        "title": "Architecture, Caching, and Performance",
+        "description": "Study service boundaries, clean architecture, caching, pagination, background jobs, and bottleneck-aware backend design.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 9-12",
+        "keyTopics": [
+          "service layers",
+          "architecture patterns",
+          "caching",
+          "pagination",
+          "background jobs",
+          "performance tuning"
+        ],
+        "prerequisites": [
+          "Authentication, Authorization, and Security Basics"
+        ],
+        "miniProject": "Add caching and background processing to an API and measure improvements in a few critical endpoints.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Redis Documentation",
+            "platform": "Redis",
+            "url": "https://redis.io/docs/latest/"
+          },
+          {
+            "type": "article",
+            "title": "Caching Best Practices",
+            "platform": "AWS",
+            "url": "https://aws.amazon.com/caching/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Architecture, Caching, and Performance",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=hussein+nasser+backend+architecture"
+          }
+        ]
+      },
+      {
+        "id": "be_messaging_reliability",
+        "step": 6,
+        "phase": 2,
+        "title": "Messaging, Async Workflows, and Reliability",
+        "description": "Move into queues, retries, idempotency, failure handling, event-driven thinking, and resilient processing.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 12-14",
+        "keyTopics": [
+          "message queues",
+          "async workflows",
+          "retries",
+          "idempotency",
+          "event driven design",
+          "failure recovery"
+        ],
+        "prerequisites": [
+          "Architecture, Caching, and Performance"
+        ],
+        "miniProject": "Implement a queue-based task flow with retries, dead-letter handling, and result tracking.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "RabbitMQ Tutorials",
+            "platform": "RabbitMQ",
+            "url": "https://www.rabbitmq.com/tutorials"
+          },
+          {
+            "type": "article",
+            "title": "Event-Driven Architecture",
+            "platform": "AWS",
+            "url": "https://aws.amazon.com/event-driven-architecture/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Messaging, Async Workflows, and Reliability",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=hussein+nasser+queues+event+driven"
+          }
+        ]
+      },
+      {
+        "id": "be_observability_deployments",
+        "step": 7,
+        "phase": 3,
+        "title": "Observability, Testing, and Deployment Readiness",
+        "description": "Add structured logs, metrics, tracing, integration tests, CI/CD, environment management, and safe deployments.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 14-16",
+        "keyTopics": [
+          "logging",
+          "metrics",
+          "tracing",
+          "integration testing",
+          "ci cd",
+          "deployment workflows"
+        ],
+        "prerequisites": [
+          "Messaging, Async Workflows, and Reliability"
+        ],
+        "miniProject": "Instrument an API with logs and metrics, add automated tests, and deploy it through a repeatable pipeline.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "OpenTelemetry Docs",
+            "platform": "OpenTelemetry",
+            "url": "https://opentelemetry.io/docs/"
+          },
+          {
+            "type": "article",
+            "title": "GitHub Actions Docs",
+            "platform": "GitHub",
+            "url": "https://docs.github.com/en/actions"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Observability, Testing, and Deployment Readiness",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+backend+monitoring+basics"
+          }
+        ]
+      },
+      {
+        "id": "be_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Backend Studio Build",
+        "description": "Combine APIs, auth, persistence, caching, async workflows, observability, and deployment into a production-style backend system.",
+        "difficulty": "advanced",
+        "estimatedHours": 22,
+        "weekRange": "Week 16-18",
+        "keyTopics": [
+          "system design",
+          "api contracts",
+          "security review",
+          "performance review",
+          "runbooks",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "Observability, Testing, and Deployment Readiness"
+        ],
+        "miniProject": "Ship a backend service with auth, roles, database, caching, async jobs, tests, monitoring, and deployment documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Cloudflare Learning Center",
+            "platform": "Cloudflare",
+            "url": "https://www.cloudflare.com/learning/"
+          },
+          {
+            "type": "article",
+            "title": "OWASP API Security",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-api-security/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Backend Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+production+backend+project"
+          }
+        ]
+      }
+    ]
+  }
+}

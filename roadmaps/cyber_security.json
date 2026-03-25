@@ -1,0 +1,350 @@
+{
+  "key": "cyber_security",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Cyber Security"
+  },
+  "roadmap": {
+    "topic": "Cyber Security",
+    "emoji": "🔐",
+    "overview": "SkillForge original cyber security path focused on defense, systems understanding, safe assessment practice, cloud risk, and incident response readiness.",
+    "totalWeeks": 16,
+    "nodes": [
+      {
+        "id": "cyber_foundations",
+        "step": 1,
+        "phase": 1,
+        "title": "Computing and Security Foundations",
+        "description": "Build the base: how computers, operating systems, files, users, permissions, and networks work before touching security tooling.",
+        "difficulty": "beginner",
+        "estimatedHours": 12,
+        "weekRange": "Week 1-2",
+        "keyTopics": [
+          "computer architecture basics",
+          "operating system concepts",
+          "users and permissions",
+          "processes and services",
+          "security mindset"
+        ],
+        "prerequisites": [],
+        "miniProject": "Harden a local machine with proper accounts, updates, and permission review.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Security Basics",
+            "platform": "CISA",
+            "url": "https://www.cisa.gov/resources-tools/resources"
+          },
+          {
+            "type": "article",
+            "title": "Introduction to Operating Systems",
+            "platform": "Red Hat",
+            "url": "https://www.redhat.com/en/topics/linux/what-is-an-operating-system"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Computing and Security Foundations",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+cyber+security+basics"
+          }
+        ]
+      },
+      {
+        "id": "cyber_networks",
+        "step": 2,
+        "phase": 1,
+        "title": "Networking, Protocols, and Traffic",
+        "description": "Understand IP addressing, DNS, HTTP, TLS, ports, routing, and packet flow because security incidents travel across networks.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 2-4",
+        "keyTopics": [
+          "OSI and TCP/IP",
+          "DNS",
+          "HTTP and HTTPS",
+          "ports and protocols",
+          "TLS basics",
+          "packet inspection"
+        ],
+        "prerequisites": [
+          "Computing and Security Foundations"
+        ],
+        "miniProject": "Capture and analyze normal web traffic in Wireshark and document the flow.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Intro to Network Security",
+            "platform": "Cisco",
+            "url": "https://www.cisco.com/c/en/us/products/security/what-is-network-security.html"
+          },
+          {
+            "type": "article",
+            "title": "HTTP Overview",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Networking, Protocols, and Traffic",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+networking+for+cyber+security"
+          }
+        ]
+      },
+      {
+        "id": "cyber_linux_web",
+        "step": 3,
+        "phase": 1,
+        "title": "Linux, CLI, and Web Fundamentals",
+        "description": "Use Linux confidently, navigate logs and services, and understand browser-server behavior and web app structure.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 4-6",
+        "keyTopics": [
+          "linux command line",
+          "filesystems",
+          "system logs",
+          "web applications",
+          "cookies and sessions",
+          "authentication basics"
+        ],
+        "prerequisites": [
+          "Networking, Protocols, and Traffic"
+        ],
+        "miniProject": "Set up a Linux lab VM and document service configs, logs, and a small web app stack.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Linux Journey",
+            "platform": "linuxjourney.com",
+            "url": "https://linuxjourney.com/"
+          },
+          {
+            "type": "article",
+            "title": "Web Security Testing Guide",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-web-security-testing-guide/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Linux, CLI, and Web Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=networkchuck+linux+for+cyber+security"
+          }
+        ]
+      },
+      {
+        "id": "cyber_defense",
+        "step": 4,
+        "phase": 2,
+        "title": "Defensive Security and Hardening",
+        "description": "Learn patching, configuration review, least privilege, logging, monitoring, EDR/SIEM basics, and secure defaults.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 6-8",
+        "keyTopics": [
+          "hardening",
+          "least privilege",
+          "logging",
+          "SIEM basics",
+          "EDR concepts",
+          "vulnerability management"
+        ],
+        "prerequisites": [
+          "Linux, CLI, and Web Fundamentals"
+        ],
+        "miniProject": "Create a system hardening and logging checklist for a small organization.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "OWASP Top 10",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-top-ten/"
+          },
+          {
+            "type": "article",
+            "title": "CIS Benchmarks",
+            "platform": "CIS",
+            "url": "https://www.cisecurity.org/cis-benchmarks"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Defensive Security and Hardening",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=tcm+security+blue+team+fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "cyber_appsec",
+        "step": 5,
+        "phase": 2,
+        "title": "Web Security and AppSec",
+        "description": "Study common application vulnerabilities, secure coding awareness, session attacks, injection, XSS, CSRF, and API risks.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 8-10",
+        "keyTopics": [
+          "xss",
+          "csrf",
+          "sql injection",
+          "broken auth",
+          "api security",
+          "security headers"
+        ],
+        "prerequisites": [
+          "Defensive Security and Hardening"
+        ],
+        "miniProject": "Audit a demo application and write a risk report with remediation steps.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "OWASP API Security",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-api-security/"
+          },
+          {
+            "type": "article",
+            "title": "Web Security",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Security"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Web Security and AppSec",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=portswigger+web+security+basics"
+          }
+        ]
+      },
+      {
+        "id": "cyber_offsec",
+        "step": 6,
+        "phase": 2,
+        "title": "Offensive Security and Assessment Basics",
+        "description": "Understand reconnaissance, enumeration, scanning, exploitation workflow, and safe lab-based validation of weaknesses.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 10-12",
+        "keyTopics": [
+          "reconnaissance",
+          "enumeration",
+          "nmap",
+          "service analysis",
+          "exploit validation",
+          "reporting"
+        ],
+        "prerequisites": [
+          "Web Security and AppSec"
+        ],
+        "miniProject": "Run a controlled lab assessment and produce a concise findings report.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Nmap Reference Guide",
+            "platform": "Nmap",
+            "url": "https://nmap.org/book/man.html"
+          },
+          {
+            "type": "article",
+            "title": "OWASP Testing Guide",
+            "platform": "OWASP",
+            "url": "https://owasp.org/www-project-web-security-testing-guide/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Offensive Security and Assessment Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=tcm+security+ethical+hacking+beginner"
+          }
+        ]
+      },
+      {
+        "id": "cyber_cloud_identity",
+        "step": 7,
+        "phase": 3,
+        "title": "Cloud, Identity, and Modern Security",
+        "description": "Move into IAM, secrets management, cloud misconfigurations, zero trust concepts, and shared-responsibility models.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 12-14",
+        "keyTopics": [
+          "IAM",
+          "secrets management",
+          "cloud misconfiguration",
+          "zero trust",
+          "MFA",
+          "shared responsibility"
+        ],
+        "prerequisites": [
+          "Offensive Security and Assessment Basics"
+        ],
+        "miniProject": "Review a sample cloud architecture and identify identity and configuration risks.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "AWS Security Best Practices",
+            "platform": "AWS",
+            "url": "https://aws.amazon.com/architecture/security-identity-compliance/"
+          },
+          {
+            "type": "article",
+            "title": "Zero Trust Maturity Model",
+            "platform": "CISA",
+            "url": "https://www.cisa.gov/zero-trust-maturity-model"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Cloud, Identity, and Modern Security",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+cloud+security+fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "cyber_ir_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Cyber Security Studio Build",
+        "description": "Bring everything together through triage, investigation, communication, containment, remediation, and post-incident review.",
+        "difficulty": "advanced",
+        "estimatedHours": 20,
+        "weekRange": "Week 15-16",
+        "keyTopics": [
+          "incident response lifecycle",
+          "triage",
+          "forensics awareness",
+          "containment",
+          "communication",
+          "postmortem"
+        ],
+        "prerequisites": [
+          "Cloud, Identity, and Modern Security"
+        ],
+        "miniProject": "Run a tabletop incident simulation and deliver timeline, root cause, and remediation plan.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Incident Response Framework",
+            "platform": "NIST",
+            "url": "https://www.nist.gov/cyberframework"
+          },
+          {
+            "type": "article",
+            "title": "Incident Response Steps",
+            "platform": "CISA",
+            "url": "https://www.cisa.gov/news-events/news/6-best-practices-effective-incident-handling"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Cyber Security Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=john+hammond+incident+response+basics"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "key": "css",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "CSS"
+  },
+  "prerequisite_test": {
+    "domain": "CSS",
+    "prerequisites": [
+      "HTML Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge CSS Signal Check",
+        "questions": [
+          {
+            "question": "What is the CSS box model?",
+            "options": [
+              "A) CSS animation system",
+              "B) content + padding + border + margin — defines space element takes and how dimensions are calculated",
+              "C) CSS grid system",
+              "D) Flexbox model"
+            ],
+            "correctAnswer": "B) content + padding + border + margin — defines space element takes and how dimensions are calculated",
+            "topicTag": "Box Model",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between box-sizing: content-box and border-box?",
+            "options": [
+              "A) No difference",
+              "B) content-box: width=content only; border-box: width includes padding+border — border-box easier to work with",
+              "C) border-box adds margin",
+              "D) content-box includes border"
+            ],
+            "correctAnswer": "B) content-box: width=content only; border-box: width includes padding+border — border-box easier to work with",
+            "topicTag": "Box Model",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS specificity?",
+            "options": [
+              "A) CSS speed",
+              "B) Weight system determining which CSS rule applies — inline > ID > class > element",
+              "C) CSS validation",
+              "D) Browser compatibility"
+            ],
+            "correctAnswer": "B) Weight system determining which CSS rule applies — inline > ID > class > element",
+            "topicTag": "Selectors",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between display:none and visibility:hidden?",
+            "options": [
+              "A) Same effect",
+              "B) display:none removes element from layout (no space); visibility:hidden hides but keeps space",
+              "C) visibility:hidden removes space",
+              "D) display:none only hides visually"
+            ],
+            "correctAnswer": "B) display:none removes element from layout (no space); visibility:hidden hides but keeps space",
+            "topicTag": "Display",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS Flexbox main purpose?",
+            "options": [
+              "A) 2D layout system",
+              "B) 1D layout system distributing space along single axis (row or column) with alignment control",
+              "C) Grid replacement",
+              "D) Animation system"
+            ],
+            "correctAnswer": "B) 1D layout system distributing space along single axis (row or column) with alignment control",
+            "topicTag": "Flexbox",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between justify-content and align-items in Flexbox?",
+            "options": [
+              "A) Same",
+              "B) justify-content aligns along main axis; align-items aligns along cross axis",
+              "C) align-items is for main axis",
+              "D) Both align on same axis"
+            ],
+            "correctAnswer": "B) justify-content aligns along main axis; align-items aligns along cross axis",
+            "topicTag": "Flexbox",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS Grid vs Flexbox?",
+            "options": [
+              "A) Same",
+              "B) Grid is 2D (rows AND columns simultaneously); Flexbox is 1D (row OR column)",
+              "C) Flexbox is 2D",
+              "D) Grid is older"
+            ],
+            "correctAnswer": "B) Grid is 2D (rows AND columns simultaneously); Flexbox is 1D (row OR column)",
+            "topicTag": "Grid",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a CSS pseudo-class?",
+            "options": [
+              "A) Fake CSS class",
+              "B) Selector targeting element in specific state: :hover, :focus, :nth-child, :not()",
+              "C) CSS variable",
+              "D) Media query"
+            ],
+            "correctAnswer": "B) Selector targeting element in specific state: :hover, :focus, :nth-child, :not()",
+            "topicTag": "Selectors",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between :before and ::before?",
+            "options": [
+              "A) No difference",
+              "B) ::before is CSS3 syntax (preferred); :before is CSS2 (still works) — both insert content before element",
+              "C) :before inserts after",
+              "D) ::before is deprecated"
+            ],
+            "correctAnswer": "B) ::before is CSS3 syntax (preferred); :before is CSS2 (still works) — both insert content before element",
+            "topicTag": "Selectors",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS position:sticky?",
+            "options": [
+              "A) Fixed position always",
+              "B) Element scrolls normally until reaching threshold, then sticks in place relative to viewport",
+              "C) Relative positioning",
+              "D) Absolute within parent"
+            ],
+            "correctAnswer": "B) Element scrolls normally until reaching threshold, then sticks in place relative to viewport",
+            "topicTag": "Positioning",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is z-index and what does it require?",
+            "options": [
+              "A) Works on all elements",
+              "B) Controls stacking order — only works on positioned elements (position not static)",
+              "C) Works with display:flex only",
+              "D) Controls opacity"
+            ],
+            "correctAnswer": "B) Controls stacking order — only works on positioned elements (position not static)",
+            "topicTag": "Positioning",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a CSS custom property (variable)?",
+            "options": [
+              "A) SCSS variable",
+              "B) Variables defined with --name: value syntax, accessed with var(--name) — scoped to selector",
+              "C) JavaScript CSS variable",
+              "D) Preprocessor feature"
+            ],
+            "correctAnswer": "B) Variables defined with --name: value syntax, accessed with var(--name) — scoped to selector",
+            "topicTag": "CSS Variables",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS specificity order from highest to lowest?",
+            "options": [
+              "A) class > ID > inline",
+              "B) inline styles > ID (#) > class/pseudo-class (.) > element tag",
+              "C) element > class > ID",
+              "D) All have equal specificity"
+            ],
+            "correctAnswer": "B) inline styles > ID (#) > class/pseudo-class (.) > element tag",
+            "topicTag": "Selectors",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a media query?",
+            "options": [
+              "A) Database query",
+              "B) CSS rule applying styles conditionally based on device characteristics like screen width",
+              "C) JavaScript DOM query",
+              "D) Image loading query"
+            ],
+            "correctAnswer": "B) CSS rule applying styles conditionally based on device characteristics like screen width",
+            "topicTag": "Responsive",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS transform vs transition?",
+            "options": [
+              "A) Same",
+              "B) transform changes element geometry (rotate/scale/translate); transition animates property change over time",
+              "C) transition is for 3D only",
+              "D) transform requires JavaScript"
+            ],
+            "correctAnswer": "B) transform changes element geometry (rotate/scale/translate); transition animates property change over time",
+            "topicTag": "Animation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is BEM naming convention?",
+            "options": [
+              "A) CSS framework",
+              "B) Block__Element--Modifier — structured naming methodology preventing CSS conflicts",
+              "C) Build tool",
+              "D) Browser extension"
+            ],
+            "correctAnswer": "B) Block__Element--Modifier — structured naming methodology preventing CSS conflicts",
+            "topicTag": "Methodology",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is CSS inheritance?",
+            "options": [
+              "A) CSS file inheritance",
+              "B) Some CSS properties automatically passed from parent to children (color, font) unless overridden",
+              "C) Class inheritance",
+              "D) Selector inheritance"
+            ],
+            "correctAnswer": "B) Some CSS properties automatically passed from parent to children (color, font) unless overridden",
+            "topicTag": "Cascade",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is will-change property used for?",
+            "options": [
+              "A) Conditional styles",
+              "B) Hints browser about upcoming transform/opacity changes — allows GPU optimization in advance",
+              "C) CSS variables",
+              "D) Lazy loading"
+            ],
+            "correctAnswer": "B) Hints browser about upcoming transform/opacity changes — allows GPU optimization in advance",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between em and rem?",
+            "options": [
+              "A) Same unit",
+              "B) em is relative to parent element's font-size; rem is relative to root (html) element's font-size",
+              "C) rem is relative to parent",
+              "D) Both relative to viewport"
+            ],
+            "correctAnswer": "B) em is relative to parent element's font-size; rem is relative to root (html) element's font-size",
+            "topicTag": "Units",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does contain:layout do in CSS?",
+            "options": [
+              "A) Contains overflow",
+              "B) Creates containment boundary — browser can optimize element independently without recalculating rest of page",
+              "C) Prevents layout shifts",
+              "D) Locks element position"
+            ],
+            "correctAnswer": "B) Creates containment boundary — browser can optimize element independently without recalculating rest of page",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Css",
+        "questions": [
+          {
+            "question": "What does CSS stand for?",
+            "options": [
+              "A) Computer Style Sheets",
+              "B) Cascading Style Sheets",
+              "C) Creative Style System",
+              "D) Colorful Style Sheets"
+            ],
+            "correctAnswer": "B) Cascading Style Sheets",
+            "topicTag": "css",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which CSS property controls text size?",
+            "options": [
+              "A) font-style",
+              "B) font-size",
+              "C) text-size",
+              "D) size"
+            ],
+            "correctAnswer": "B) font-size",
+            "topicTag": "css",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "key": "javascript",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "JavaScript"
+  },
+  "prerequisite_test": {
+    "domain": "JavaScript",
+    "prerequisites": [],
+    "chunks": [
+      {
+        "focus": "SkillForge JavaScript Signal Check",
+        "questions": [
+          {
+            "question": "What is the output of: console.log(typeof null)?",
+            "options": [
+              "A) null",
+              "B) object",
+              "C) undefined",
+              "D) string"
+            ],
+            "correctAnswer": "B) object",
+            "topicTag": "Core JS",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is hoisting in JavaScript?",
+            "options": [
+              "A) Moving DOM elements up",
+              "B) Variable and function declarations moved to top of scope before execution",
+              "C) Compiling code to machine language",
+              "D) Optimizing loops"
+            ],
+            "correctAnswer": "B) Variable and function declarations moved to top of scope before execution",
+            "topicTag": "Scope",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What will this output: var x=1; function f(){ console.log(x); var x=2; } f();",
+            "options": [
+              "A) 1",
+              "B) 2",
+              "C) undefined",
+              "D) ReferenceError"
+            ],
+            "correctAnswer": "C) undefined",
+            "topicTag": "Hoisting",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a closure?",
+            "options": [
+              "A) A way to close browser tabs",
+              "B) Function that retains access to outer scope even after outer function returns",
+              "C) A try/catch block",
+              "D) An IIFE"
+            ],
+            "correctAnswer": "B) Function that retains access to outer scope even after outer function returns",
+            "topicTag": "Closures",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the temporal dead zone?",
+            "options": [
+              "A) Network timeout period",
+              "B) Period where let/const is declared but not yet initialized — accessing throws ReferenceError",
+              "C) Time between page load and script run",
+              "D) setTimeout delay period"
+            ],
+            "correctAnswer": "B) Period where let/const is declared but not yet initialized — accessing throws ReferenceError",
+            "topicTag": "Scope",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does const guarantee in JavaScript?",
+            "options": [
+              "A) Value can never change",
+              "B) Binding cannot be reassigned but object/array contents can still mutate",
+              "C) Creates an immutable deep-frozen object",
+              "D) Variable is deleted after block"
+            ],
+            "correctAnswer": "B) Binding cannot be reassigned but object/array contents can still mutate",
+            "topicTag": "Core JS",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between == and ===?",
+            "options": [
+              "A) No difference",
+              "B) == does type coercion before comparing; === checks value AND type strictly",
+              "C) === is slower",
+              "D) == is only for primitives"
+            ],
+            "correctAnswer": "B) == does type coercion before comparing; === checks value AND type strictly",
+            "topicTag": "Core JS",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Object.freeze() do?",
+            "options": [
+              "A) Converts object to string",
+              "B) Prevents any property from being added, removed, or modified",
+              "C) Creates a deep immutable clone",
+              "D) Locks object in memory"
+            ],
+            "correctAnswer": "B) Prevents any property from being added, removed, or modified",
+            "topicTag": "Objects",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the nullish coalescing operator (??) vs OR (||)?",
+            "options": [
+              "A) Same thing",
+              "B) ?? only triggers on null/undefined; || triggers on any falsy value (0, '', false too)",
+              "C) || is stricter than ??",
+              "D) ?? works on arrays only"
+            ],
+            "correctAnswer": "B) ?? only triggers on null/undefined; || triggers on any falsy value (0, '', false too)",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the output of: [1,2,3].reduce((acc,v) => acc+v, 10)?",
+            "options": [
+              "A) 6",
+              "B) 16",
+              "C) 10",
+              "D) NaN"
+            ],
+            "correctAnswer": "B) 16",
+            "topicTag": "Arrays",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a generator function?",
+            "options": [
+              "A) Generates random numbers",
+              "B) Function that can pause and resume using yield keyword",
+              "C) Function that creates classes",
+              "D) Async function shorthand"
+            ],
+            "correctAnswer": "B) Function that can pause and resume using yield keyword",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Symbol() create?",
+            "options": [
+              "A) A string symbol",
+              "B) A unique, immutable primitive value guaranteed to never equal another Symbol",
+              "C) A numeric identifier",
+              "D) A CSS symbol"
+            ],
+            "correctAnswer": "B) A unique, immutable primitive value guaranteed to never equal another Symbol",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between let and var scope?",
+            "options": [
+              "A) No difference",
+              "B) let is block-scoped {}; var is function-scoped",
+              "C) var is block-scoped; let is global",
+              "D) Both are block-scoped"
+            ],
+            "correctAnswer": "B) let is block-scoped {}; var is function-scoped",
+            "topicTag": "Scope",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Array.from('hello') produce?",
+            "options": [
+              "A) Error",
+              "B) ['h','e','l','l','o']",
+              "C) ['hello']",
+              "D) {0:'h',1:'e',...}"
+            ],
+            "correctAnswer": "B) ['h','e','l','l','o']",
+            "topicTag": "Arrays",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is optional chaining (?.) used for?",
+            "options": [
+              "A) Optional function parameters",
+              "B) Safely accessing nested properties — returns undefined instead of throwing if intermediate is null/undefined",
+              "C) Optional imports",
+              "D) Conditional rendering"
+            ],
+            "correctAnswer": "B) Safely accessing nested properties — returns undefined instead of throwing if intermediate is null/undefined",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the spread operator do with objects: const c = {...a, ...b}?",
+            "options": [
+              "A) Merges arrays only",
+              "B) Creates shallow copy merging both objects — b properties override a on conflict",
+              "C) Deep merges objects",
+              "D) Creates reference to both"
+            ],
+            "correctAnswer": "B) Creates shallow copy merging both objects — b properties override a on conflict",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is WeakMap different from Map?",
+            "options": [
+              "A) WeakMap is smaller",
+              "B) WeakMap keys must be objects and are weakly held — garbage collected when no other reference exists",
+              "C) WeakMap has weaker encryption",
+              "D) WeakMap cannot be iterated (correct) but also keys are primitives"
+            ],
+            "correctAnswer": "B) WeakMap keys must be objects and are weakly held — garbage collected when no other reference exists",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the output of: typeof class {}?",
+            "options": [
+              "A) class",
+              "B) object",
+              "C) function",
+              "D) undefined"
+            ],
+            "correctAnswer": "C) function",
+            "topicTag": "Core JS",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Object.assign(target, source) do?",
+            "options": [
+              "A) Deep clones source into target",
+              "B) Copies enumerable own properties from source to target — shallow copy",
+              "C) Merges prototypes",
+              "D) Assigns event handlers"
+            ],
+            "correctAnswer": "B) Copies enumerable own properties from source to target — shallow copy",
+            "topicTag": "Objects",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of IIFE (Immediately Invoked Function Expression)?",
+            "options": [
+              "A) To delay function execution",
+              "B) Creates isolated scope to avoid polluting global namespace — executes immediately",
+              "C) Creates async functions",
+              "D) Defines class methods"
+            ],
+            "correctAnswer": "B) Creates isolated scope to avoid polluting global namespace — executes immediately",
+            "topicTag": "Closures",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Async JS & Event Loop",
+        "questions": [
+          {
+            "question": "What is the event loop?",
+            "options": [
+              "A) A for loop for DOM events",
+              "B) Mechanism that picks callbacks from queue and executes them when call stack is empty",
+              "C) Timer function",
+              "D) Async/await syntax"
+            ],
+            "correctAnswer": "B) Mechanism that picks callbacks from queue and executes them when call stack is empty",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Microtasks vs macrotasks — which runs first?",
+            "options": [
+              "A) Macrotasks always first",
+              "B) Microtasks (Promise.then, queueMicrotask) run before macrotasks (setTimeout, setInterval)",
+              "C) They run in parallel",
+              "D) Order is random"
+            ],
+            "correctAnswer": "B) Microtasks (Promise.then, queueMicrotask) run before macrotasks (setTimeout, setInterval)",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the output order: setTimeout(()=>console.log(1),0); Promise.resolve().then(()=>console.log(2)); console.log(3);",
+            "options": [
+              "A) 1,2,3",
+              "B) 3,1,2",
+              "C) 3,2,1",
+              "D) 2,3,1"
+            ],
+            "correctAnswer": "C) 3,2,1",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does async/await compile to under the hood?",
+            "options": [
+              "A) Web Workers",
+              "B) Syntactic sugar over Promises — async returns Promise, await pauses until Promise resolves",
+              "C) Callback functions",
+              "D) Generator functions only"
+            ],
+            "correctAnswer": "B) Syntactic sugar over Promises — async returns Promise, await pauses until Promise resolves",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Promise.allSettled() vs Promise.all()?",
+            "options": [
+              "A) Same",
+              "B) allSettled waits for ALL promises regardless; all rejects immediately on first rejection",
+              "C) all is faster always",
+              "D) allSettled runs in sequence"
+            ],
+            "correctAnswer": "B) allSettled waits for ALL promises regardless; all rejects immediately on first rejection",
+            "topicTag": "Promises",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Promise.race() return?",
+            "options": [
+              "A) The fastest successful promise",
+              "B) Settles with result of FIRST promise to settle — whether resolved or rejected",
+              "C) All results as array",
+              "D) Slowest promise result"
+            ],
+            "correctAnswer": "B) Settles with result of FIRST promise to settle — whether resolved or rejected",
+            "topicTag": "Promises",
+            "difficulty": "hard"
+          },
+          {
+            "question": "How do you handle errors in async/await?",
+            "options": [
+              "A) .catch() only",
+              "B) try/catch block around await calls",
+              "C) .error() handler",
+              "D) Errors cannot be caught in async"
+            ],
+            "correctAnswer": "B) try/catch block around await calls",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is AbortController used for in fetch?",
+            "options": [
+              "A) Controlling server responses",
+              "B) Cancelling ongoing fetch requests by calling abort() on its signal",
+              "C) Aborting JavaScript execution",
+              "D) Controlling CORS"
+            ],
+            "correctAnswer": "B) Cancelling ongoing fetch requests by calling abort() on its signal",
+            "topicTag": "Fetch",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is debouncing?",
+            "options": [
+              "A) Removing event listeners",
+              "B) Delaying function execution until after specified time has passed since last invocation",
+              "C) Limiting function call frequency to once per interval",
+              "D) Caching API responses"
+            ],
+            "correctAnswer": "B) Delaying function execution until after specified time has passed since last invocation",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is throttling vs debouncing?",
+            "options": [
+              "A) Same thing",
+              "B) Throttle ensures function runs at most once per interval; debounce delays until inactivity period ends",
+              "C) Debounce runs at fixed intervals",
+              "D) Both prevent function execution"
+            ],
+            "correctAnswer": "B) Throttle ensures function runs at most once per interval; debounce delays until inactivity period ends",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Promise chain?",
+            "options": [
+              "A) Multiple promises in array",
+              "B) Sequence of .then() calls where each returns value passed to next handler",
+              "C) Linked list of callbacks",
+              "D) Multiple async functions"
+            ],
+            "correctAnswer": "B) Sequence of .then() calls where each returns value passed to next handler",
+            "topicTag": "Promises",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does fetch() return?",
+            "options": [
+              "A) Response body directly",
+              "B) A Promise that resolves to Response object — need .json() or .text() to get body",
+              "C) JSON automatically",
+              "D) Callback with data"
+            ],
+            "correctAnswer": "B) A Promise that resolves to Response object — need .json() or .text() to get body",
+            "topicTag": "Fetch",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the call stack?",
+            "options": [
+              "A) Stack of function calls waiting to be made",
+              "B) Data structure tracking currently executing functions — LIFO, stack overflow if too deep",
+              "C) List of async operations",
+              "D) Queue of events"
+            ],
+            "correctAnswer": "B) Data structure tracking currently executing functions — LIFO, stack overflow if too deep",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          },
+          {
+            "question": "When does the callback queue get processed?",
+            "options": [
+              "A) Immediately when callback is ready",
+              "B) Only when call stack is completely empty",
+              "C) Every 10ms regardless of stack",
+              "D) After each function call"
+            ],
+            "correctAnswer": "B) Only when call stack is completely empty",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Promise.any() used for?",
+            "options": [
+              "A) Runs any random promise",
+              "B) Resolves with value of FIRST fulfilled promise — ignores rejections unless ALL reject",
+              "C) Same as Promise.race()",
+              "D) Runs promises conditionally"
+            ],
+            "correctAnswer": "B) Resolves with value of FIRST fulfilled promise — ignores rejections unless ALL reject",
+            "topicTag": "Promises",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Can you use await outside an async function?",
+            "options": [
+              "A) Never",
+              "B) Yes — at top level of ES modules (top-level await)",
+              "C) Only in Node.js",
+              "D) Only in browsers"
+            ],
+            "correctAnswer": "B) Yes — at top level of ES modules (top-level await)",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does async function always return?",
+            "options": [
+              "A) The return value directly",
+              "B) Always wraps return value in a Promise — even if you return a plain value",
+              "C) undefined",
+              "D) A callback"
+            ],
+            "correctAnswer": "B) Always wraps return value in a Promise — even if you return a plain value",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between callback hell and Promises?",
+            "options": [
+              "A) No difference",
+              "B) Callbacks nest deeply (pyramid of doom); Promises chain flatly and handle errors better",
+              "C) Promises are slower",
+              "D) Callbacks are more readable"
+            ],
+            "correctAnswer": "B) Callbacks nest deeply (pyramid of doom); Promises chain flatly and handle errors better",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What happens if you throw inside an async function?",
+            "options": [
+              "A) Program crashes",
+              "B) The returned Promise is rejected with that error",
+              "C) Error is silently ignored",
+              "D) Function returns undefined"
+            ],
+            "correctAnswer": "B) The returned Promise is rejected with that error",
+            "topicTag": "Async",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is queueMicrotask() used for?",
+            "options": [
+              "A) Creating micro-animations",
+              "B) Scheduling a microtask — runs after current task but before any macrotasks",
+              "C) Running tasks on separate thread",
+              "D) Queuing API calls"
+            ],
+            "correctAnswer": "B) Scheduling a microtask — runs after current task but before any macrotasks",
+            "topicTag": "Event Loop",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "OOP, Patterns & Prototypes",
+        "questions": [
+          {
+            "question": "What is prototypal inheritance?",
+            "options": [
+              "A) Copying all properties",
+              "B) Objects inheriting properties/methods from other objects through prototype chain lookup",
+              "C) Class-based inheritance only",
+              "D) Mixin pattern"
+            ],
+            "correctAnswer": "B) Objects inheriting properties/methods from other objects through prototype chain lookup",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does 'this' refer to in an arrow function?",
+            "options": [
+              "A) The arrow function itself",
+              "B) Lexically inherited from enclosing scope — arrow functions have no own 'this'",
+              "C) Always window/global",
+              "D) Always undefined"
+            ],
+            "correctAnswer": "B) Lexically inherited from enclosing scope — arrow functions have no own 'this'",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does new keyword do?",
+            "options": [
+              "A) Creates new scope",
+              "B) Creates new object, sets __proto__ to constructor's prototype, binds this, returns object",
+              "C) Copies an existing object",
+              "D) Creates new module"
+            ],
+            "correctAnswer": "B) Creates new object, sets __proto__ to constructor's prototype, binds this, returns object",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between call() and bind()?",
+            "options": [
+              "A) No difference",
+              "B) call() invokes function immediately with given this; bind() returns new function with bound this",
+              "C) bind() is deprecated",
+              "D) call() only works with classes"
+            ],
+            "correctAnswer": "B) call() invokes function immediately with given this; bind() returns new function with bound this",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is memoization?",
+            "options": [
+              "A) Writing code comments",
+              "B) Optimization caching results of expensive function calls — same inputs return cached output",
+              "C) Memory management technique",
+              "D) Storing user data"
+            ],
+            "correctAnswer": "B) Optimization caching results of expensive function calls — same inputs return cached output",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is currying?",
+            "options": [
+              "A) Adding spice to code",
+              "B) Transforming f(a,b,c) into f(a)(b)(c) — each call takes one argument and returns function",
+              "C) Combining functions",
+              "D) Partial application only"
+            ],
+            "correctAnswer": "B) Transforming f(a,b,c) into f(a)(b)(c) — each call takes one argument and returns function",
+            "topicTag": "Functional",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a pure function?",
+            "options": [
+              "A) Function without parameters",
+              "B) Always produces same output for same input AND has no side effects",
+              "C) Function with return statement only",
+              "D) Synchronous function"
+            ],
+            "correctAnswer": "B) Always produces same output for same input AND has no side effects",
+            "topicTag": "Functional",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the observer/pub-sub pattern?",
+            "options": [
+              "A) Watching DOM changes",
+              "B) Objects subscribe to events and get notified automatically when publisher emits event",
+              "C) CSS observer API",
+              "D) Database monitoring"
+            ],
+            "correctAnswer": "B) Objects subscribe to events and get notified automatically when publisher emits event",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is composition over inheritance?",
+            "options": [
+              "A) Writing shorter classes",
+              "B) Assembling complex behavior from small reusable functions instead of deep class hierarchies",
+              "C) Avoiding OOP completely",
+              "D) Using fewer files"
+            ],
+            "correctAnswer": "B) Assembling complex behavior from small reusable functions instead of deep class hierarchies",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does Object.create(proto) do?",
+            "options": [
+              "A) Copies proto",
+              "B) Creates new object with proto as its __proto__ — inheritance without constructor call",
+              "C) Clones object deeply",
+              "D) Creates class from object"
+            ],
+            "correctAnswer": "B) Creates new object with proto as its __proto__ — inheritance without constructor call",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a Proxy object?",
+            "options": [
+              "A) Network proxy in JS",
+              "B) Wraps target object intercepting fundamental operations like get, set, delete via handlers",
+              "C) A Promise wrapper",
+              "D) Security middleware"
+            ],
+            "correctAnswer": "B) Wraps target object intercepting fundamental operations like get, set, delete via handlers",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is function composition?",
+            "options": [
+              "A) Writing complex functions",
+              "B) Combining f and g to create h where h(x) = f(g(x)) — output of one is input of next",
+              "C) Creating function arrays",
+              "D) Async function chaining"
+            ],
+            "correctAnswer": "B) Combining f and g to create h where h(x) = f(g(x)) — output of one is input of next",
+            "topicTag": "Functional",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the singleton pattern?",
+            "options": [
+              "A) Single variable pattern",
+              "B) Design pattern ensuring only ONE instance of class exists — returns same instance every time",
+              "C) Single file architecture",
+              "D) One function per module"
+            ],
+            "correctAnswer": "B) Design pattern ensuring only ONE instance of class exists — returns same instance every time",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the factory pattern?",
+            "options": [
+              "A) Building factories in code",
+              "B) Function that creates and returns objects without using 'new' — centralizes object creation",
+              "C) Using multiple constructors",
+              "D) Creating class instances only"
+            ],
+            "correctAnswer": "B) Function that creates and returns objects without using 'new' — centralizes object creation",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does class syntax in JS compile to?",
+            "options": [
+              "A) New class type",
+              "B) Syntactic sugar over constructor functions and prototype-based inheritance",
+              "C) New object type",
+              "D) TypeScript interface"
+            ],
+            "correctAnswer": "B) Syntactic sugar over constructor functions and prototype-based inheritance",
+            "topicTag": "OOP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Symbol.iterator?",
+            "options": [
+              "A) Creates symbols",
+              "B) Well-known symbol defining custom iteration — makes object compatible with for...of",
+              "C) Counts iterations",
+              "D) Symbol comparison method"
+            ],
+            "correctAnswer": "B) Well-known symbol defining custom iteration — makes object compatible with for...of",
+            "topicTag": "ES6+",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strategy pattern used for?",
+            "options": [
+              "A) Planning code",
+              "B) Encapsulating interchangeable algorithms — select algorithm at runtime without changing client code",
+              "C) Switch statement replacement only",
+              "D) Choosing databases"
+            ],
+            "correctAnswer": "B) Encapsulating interchangeable algorithms — select algorithm at runtime without changing client code",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is tail call optimization (TCO)?",
+            "options": [
+              "A) Optimizing array end",
+              "B) Reusing current stack frame for recursive call in tail position — prevents stack overflow",
+              "C) Removing last function",
+              "D) Optimizing last loop iteration"
+            ],
+            "correctAnswer": "B) Reusing current stack frame for recursive call in tail position — prevents stack overflow",
+            "topicTag": "Functional",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the module pattern vs ES6 modules?",
+            "options": [
+              "A) Same thing",
+              "B) Module pattern uses IIFE for privacy; ES6 modules use import/export with file-level scope",
+              "C) ES6 modules use IIFE too",
+              "D) No difference in scope"
+            ],
+            "correctAnswer": "B) Module pattern uses IIFE for privacy; ES6 modules use import/export with file-level scope",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the decorator pattern?",
+            "options": [
+              "A) Adding UI styles",
+              "B) Dynamically adding behavior to objects/functions without modifying original — wraps with new functionality",
+              "C) Using @decorator syntax only",
+              "D) Extending all methods"
+            ],
+            "correctAnswer": "B) Dynamically adding behavior to objects/functions without modifying original — wraps with new functionality",
+            "topicTag": "Patterns",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Javascript",
+        "questions": [
+          {
+            "question": "Which keyword is used to declare constant in JavaScript?",
+            "options": [
+              "A) var",
+              "B) let",
+              "C) const",
+              "D) static"
+            ],
+            "correctAnswer": "C) const",
+            "topicTag": "javascript",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which symbol is used for comments in JS?",
+            "options": [
+              "A) //",
+              "B) ##",
+              "C) <!-- -->",
+              "D) **"
+            ],
+            "correctAnswer": "A) //",
+            "topicTag": "javascript",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which operator compares value and type in JS?",
+            "options": [
+              "A) ==",
+              "B) ===",
+              "C) !=",
+              "D) ="
+            ],
+            "correctAnswer": "B) ===",
+            "topicTag": "javascript",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

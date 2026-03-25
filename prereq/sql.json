@@ -1,0 +1,301 @@
+{
+  "key": "sql",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "SQL"
+  },
+  "prerequisite_test": {
+    "domain": "SQL",
+    "prerequisites": [],
+    "chunks": [
+      {
+        "focus": "SkillForge SQL Signal Check",
+        "questions": [
+          {
+            "question": "What is the difference between WHERE and HAVING?",
+            "options": [
+              "A) Same",
+              "B) WHERE filters rows before grouping; HAVING filters groups after GROUP BY",
+              "C) HAVING filters before GROUP BY",
+              "D) WHERE works on aggregates"
+            ],
+            "correctAnswer": "B) WHERE filters rows before grouping; HAVING filters groups after GROUP BY",
+            "topicTag": "Filtering",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+            "options": [
+              "A) Same",
+              "B) INNER JOIN returns only matching rows; LEFT JOIN returns all left rows + matching right (NULL if no match)",
+              "C) LEFT JOIN returns only left table",
+              "D) INNER JOIN includes all rows"
+            ],
+            "correctAnswer": "B) INNER JOIN returns only matching rows; LEFT JOIN returns all left rows + matching right (NULL if no match)",
+            "topicTag": "Joins",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a database index?",
+            "options": [
+              "A) Table row number",
+              "B) Data structure speeding up data retrieval — trade-off: faster reads, slower writes, more storage",
+              "C) Primary key only",
+              "D) Foreign key"
+            ],
+            "correctAnswer": "B) Data structure speeding up data retrieval — trade-off: faster reads, slower writes, more storage",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a PRIMARY KEY?",
+            "options": [
+              "A) Most important column",
+              "B) Uniquely identifies each row — must be unique and NOT NULL, can be composite",
+              "C) First column in table",
+              "D) Auto-increment column only"
+            ],
+            "correctAnswer": "B) Uniquely identifies each row — must be unique and NOT NULL, can be composite",
+            "topicTag": "Constraints",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is database normalization?",
+            "options": [
+              "A) Making database normal",
+              "B) Organizing tables to reduce redundancy and improve integrity — 1NF, 2NF, 3NF forms",
+              "C) Optimizing queries",
+              "D) Scaling database"
+            ],
+            "correctAnswer": "B) Organizing tables to reduce redundancy and improve integrity — 1NF, 2NF, 3NF forms",
+            "topicTag": "Design",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a transaction in SQL?",
+            "options": [
+              "A) Money transfer only",
+              "B) Sequence of operations treated as single unit — ACID: Atomicity, Consistency, Isolation, Durability",
+              "C) Single SQL query",
+              "D) Database connection"
+            ],
+            "correctAnswer": "B) Sequence of operations treated as single unit — ACID: Atomicity, Consistency, Isolation, Durability",
+            "topicTag": "Transactions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between DELETE, TRUNCATE, and DROP?",
+            "options": [
+              "A) Same",
+              "B) DELETE removes rows (logged, reversible); TRUNCATE removes all rows fast (less logged); DROP removes entire table",
+              "C) TRUNCATE is slowest",
+              "D) DROP only removes columns"
+            ],
+            "correctAnswer": "B) DELETE removes rows (logged, reversible); TRUNCATE removes all rows fast (less logged); DROP removes entire table",
+            "topicTag": "DML",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a subquery?",
+            "options": [
+              "A) Secondary database",
+              "B) Query nested inside another query — can be in SELECT, WHERE, or FROM clause",
+              "C) Simplified query",
+              "D) Query on subset of data"
+            ],
+            "correctAnswer": "B) Query nested inside another query — can be in SELECT, WHERE, or FROM clause",
+            "topicTag": "Queries",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a CTE (Common Table Expression)?",
+            "options": [
+              "A) Common table type",
+              "B) Named temporary result set defined with WITH clause — makes complex queries readable and reusable",
+              "C) Cached table",
+              "D) External table"
+            ],
+            "correctAnswer": "B) Named temporary result set defined with WITH clause — makes complex queries readable and reusable",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between UNION and UNION ALL?",
+            "options": [
+              "A) Same",
+              "B) UNION removes duplicates (slower); UNION ALL keeps all rows including duplicates (faster)",
+              "C) UNION ALL is slower",
+              "D) UNION keeps duplicates"
+            ],
+            "correctAnswer": "B) UNION removes duplicates (slower); UNION ALL keeps all rows including duplicates (faster)",
+            "topicTag": "Set Operations",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a window function?",
+            "options": [
+              "A) Popup window query",
+              "B) Performs calculation across rows related to current row without collapsing them — ROW_NUMBER, RANK, LAG",
+              "C) GROUP BY alternative",
+              "D) Subquery type"
+            ],
+            "correctAnswer": "B) Performs calculation across rows related to current row without collapsing them — ROW_NUMBER, RANK, LAG",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does EXPLAIN/EXPLAIN ANALYZE do?",
+            "options": [
+              "A) Explains SQL syntax",
+              "B) Shows query execution plan — helps identify slow operations, missing indexes, full table scans",
+              "C) Documents the table",
+              "D) Validates query syntax"
+            ],
+            "correctAnswer": "B) Shows query execution plan — helps identify slow operations, missing indexes, full table scans",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a foreign key?",
+            "options": [
+              "A) External database key",
+              "B) Column referencing primary key in another table — enforces referential integrity",
+              "C) Encrypted key",
+              "D) Composite primary key"
+            ],
+            "correctAnswer": "B) Column referencing primary key in another table — enforces referential integrity",
+            "topicTag": "Constraints",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is SQL injection?",
+            "options": [
+              "A) Inserting SQL files",
+              "B) Attack inserting malicious SQL through user input — prevented by parameterized queries/prepared statements",
+              "C) Database injection tool",
+              "D) Query optimization"
+            ],
+            "correctAnswer": "B) Attack inserting malicious SQL through user input — prevented by parameterized queries/prepared statements",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the N+1 query problem?",
+            "options": [
+              "A) Too many tables",
+              "B) Fetching parent records (1 query) then separate query for each child — use JOIN or eager loading instead",
+              "C) One query per row",
+              "D) Recursive queries"
+            ],
+            "correctAnswer": "B) Fetching parent records (1 query) then separate query for each child — use JOIN or eager loading instead",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is database sharding?",
+            "options": [
+              "A) Database backup",
+              "B) Horizontal partitioning distributing data across multiple database instances based on shard key",
+              "C) Table splitting vertically",
+              "D) Index partitioning"
+            ],
+            "correctAnswer": "B) Horizontal partitioning distributing data across multiple database instances based on shard key",
+            "topicTag": "Scaling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between optimistic and pessimistic locking?",
+            "options": [
+              "A) Same",
+              "B) Optimistic assumes no conflict — check on save; Pessimistic locks row immediately on read",
+              "C) Pessimistic is always better",
+              "D) Optimistic locks on read"
+            ],
+            "correctAnswer": "B) Optimistic assumes no conflict — check on save; Pessimistic locks row immediately on read",
+            "topicTag": "Transactions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a composite index?",
+            "options": [
+              "A) Multiple index files",
+              "B) Index on multiple columns — useful for queries filtering on those columns together; column order matters",
+              "C) Redundant index",
+              "D) Full-text index"
+            ],
+            "correctAnswer": "B) Index on multiple columns — useful for queries filtering on those columns together; column order matters",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does COALESCE() do?",
+            "options": [
+              "A) Combines strings",
+              "B) Returns first non-NULL value from its arguments — used for NULL handling/default values",
+              "C) Counts NULL values",
+              "D) Converts NULL to 0 only"
+            ],
+            "correctAnswer": "B) Returns first non-NULL value from its arguments — used for NULL handling/default values",
+            "topicTag": "Functions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is database denormalization?",
+            "options": [
+              "A) Removing normalization rules",
+              "B) Intentionally adding redundancy to improve read performance — trade-off against update anomalies",
+              "C) Database corruption",
+              "D) Removing indexes"
+            ],
+            "correctAnswer": "B) Intentionally adding redundancy to improve read performance — trade-off against update anomalies",
+            "topicTag": "Design",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Sql",
+        "questions": [
+          {
+            "question": "Which is not a NoSQL database?",
+            "options": [
+              "A) MongoDB",
+              "B) Cassandra",
+              "C) MySQL",
+              "D) Redis"
+            ],
+            "correctAnswer": "C) MySQL",
+            "topicTag": "sql",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which SQL clause is used to filter groups?",
+            "options": [
+              "A) WHERE",
+              "B) HAVING",
+              "C) GROUP BY",
+              "D) ORDER BY"
+            ],
+            "correctAnswer": "B) HAVING",
+            "topicTag": "sql",
+            "difficulty": "medium"
+          },
+          {
+            "question": "Which SQL command deletes table?",
+            "options": [
+              "A) DELETE",
+              "B) DROP",
+              "C) REMOVE",
+              "D) CLEAR"
+            ],
+            "correctAnswer": "B) DROP",
+            "topicTag": "sql",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

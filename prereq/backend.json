@@ -1,0 +1,293 @@
+{
+  "key": "backend",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Backend"
+  },
+  "prerequisite_test": {
+    "domain": "Backend",
+    "prerequisites": [
+      "Programming Basics",
+      "Web Basics",
+      "Command Line Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Backend Signal Check",
+        "questions": [
+          {
+            "question": "What is the main responsibility of a backend system in a web application?",
+            "options": [
+              "A) Styling components in the browser",
+              "B) Handling business logic, data access, security, and server-side processing",
+              "C) Replacing DNS",
+              "D) Rendering CSS animations"
+            ],
+            "correctAnswer": "B) Handling business logic, data access, security, and server-side processing",
+            "topicTag": "Backend",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is HTTP knowledge important for backend engineers?",
+            "options": [
+              "A) Because APIs, clients, caching, and browser-server communication depend on it",
+              "B) It only matters for designers",
+              "C) Because databases require HTTP syntax",
+              "D) It replaces version control"
+            ],
+            "correctAnswer": "A) Because APIs, clients, caching, and browser-server communication depend on it",
+            "topicTag": "HTTP",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does request validation protect against?",
+            "options": [
+              "A) Only slow internet speeds",
+              "B) Invalid or malicious input reaching business logic and storage layers",
+              "C) Browser rendering issues",
+              "D) Git conflicts"
+            ],
+            "correctAnswer": "B) Invalid or malicious input reaching business logic and storage layers",
+            "topicTag": "Validation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why do backend systems need databases?",
+            "options": [
+              "A) To persist and query application data reliably over time",
+              "B) Only to render frontend templates",
+              "C) To replace authentication",
+              "D) To compile source code"
+            ],
+            "correctAnswer": "A) To persist and query application data reliably over time",
+            "topicTag": "Databases",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main benefit of indexing in a database?",
+            "options": [
+              "A) It can improve lookup and filtering performance for targeted queries",
+              "B) It encrypts all tables automatically",
+              "C) It removes the need for schema design",
+              "D) It only helps frontend search bars"
+            ],
+            "correctAnswer": "A) It can improve lookup and filtering performance for targeted queries",
+            "topicTag": "Databases",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between authentication and authorization?",
+            "options": [
+              "A) Authentication identifies the user, authorization determines allowed actions",
+              "B) Authorization happens before login and authentication after logout",
+              "C) They are identical",
+              "D) Only frontend apps need authorization"
+            ],
+            "correctAnswer": "A) Authentication identifies the user, authorization determines allowed actions",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should passwords be hashed before storage?",
+            "options": [
+              "A) To reduce exposure if stored credentials are leaked",
+              "B) To make login pages look better",
+              "C) Because databases cannot store strings",
+              "D) To replace multi-factor authentication"
+            ],
+            "correctAnswer": "A) To reduce exposure if stored credentials are leaked",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem does caching usually solve in backend systems?",
+            "options": [
+              "A) Reducing repeated expensive work or repeated data retrieval for frequently accessed results",
+              "B) Replacing persistent storage entirely",
+              "C) Styling dashboards",
+              "D) Eliminating all security concerns"
+            ],
+            "correctAnswer": "A) Reducing repeated expensive work or repeated data retrieval for frequently accessed results",
+            "topicTag": "Performance",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is pagination commonly used in APIs?",
+            "options": [
+              "A) To control response size and make large datasets more efficient to serve and consume",
+              "B) To replace sorting",
+              "C) To compile JSON faster",
+              "D) To avoid authentication"
+            ],
+            "correctAnswer": "A) To control response size and make large datasets more efficient to serve and consume",
+            "topicTag": "API Design",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of middleware in many backend frameworks?",
+            "options": [
+              "A) Running shared request-processing logic such as auth, logging, parsing, or validation",
+              "B) Replacing route handlers completely",
+              "C) Editing database rows directly without code",
+              "D) Serving only image files"
+            ],
+            "correctAnswer": "A) Running shared request-processing logic such as auth, logging, parsing, or validation",
+            "topicTag": "Frameworks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are background jobs or queues useful?",
+            "options": [
+              "A) They move slower or retryable work out of the immediate request path",
+              "B) They replace APIs completely",
+              "C) They only matter for frontend rendering",
+              "D) They eliminate the need for databases"
+            ],
+            "correctAnswer": "A) They move slower or retryable work out of the immediate request path",
+            "topicTag": "Async Workflows",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does idempotency help with in distributed systems?",
+            "options": [
+              "A) Making repeated requests safer when retries happen",
+              "B) Improving CSS maintainability",
+              "C) Replacing transactions",
+              "D) Avoiding all failures"
+            ],
+            "correctAnswer": "A) Making repeated requests safer when retries happen",
+            "topicTag": "Reliability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is structured logging valuable?",
+            "options": [
+              "A) It makes logs more consistent and useful for search, debugging, and monitoring",
+              "B) It replaces exception handling",
+              "C) It stores user passwords securely",
+              "D) It only matters in development"
+            ],
+            "correctAnswer": "A) It makes logs more consistent and useful for search, debugging, and monitoring",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What do metrics help teams understand?",
+            "options": [
+              "A) System behavior such as throughput, latency, error rates, and resource usage",
+              "B) HTML semantics only",
+              "C) Git branch names",
+              "D) CSS selector performance in the browser"
+            ],
+            "correctAnswer": "A) System behavior such as throughput, latency, error rates, and resource usage",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is rate limiting useful on APIs?",
+            "options": [
+              "A) It can protect services from abuse and uncontrolled request volume",
+              "B) It automatically fixes database schema issues",
+              "C) It only improves frontend styling",
+              "D) It replaces authentication"
+            ],
+            "correctAnswer": "A) It can protect services from abuse and uncontrolled request volume",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the value of automated tests for backend services?",
+            "options": [
+              "A) They help verify logic and catch regressions as the codebase changes",
+              "B) They make deployment unnecessary",
+              "C) They replace code review completely",
+              "D) They only test UI animations"
+            ],
+            "correctAnswer": "A) They help verify logic and catch regressions as the codebase changes",
+            "topicTag": "Testing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is environment-based configuration important?",
+            "options": [
+              "A) It lets the same application run with different settings across local, staging, and production environments",
+              "B) It removes the need for version control",
+              "C) It prevents every runtime error",
+              "D) It is only useful in desktop software"
+            ],
+            "correctAnswer": "A) It lets the same application run with different settings across local, staging, and production environments",
+            "topicTag": "Configuration",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of CI/CD for backend delivery?",
+            "options": [
+              "A) To automate checks and releases so delivery becomes more repeatable and safer",
+              "B) To eliminate the need for monitoring",
+              "C) To replace application logs",
+              "D) To avoid using source control"
+            ],
+            "correctAnswer": "A) To automate checks and releases so delivery becomes more repeatable and safer",
+            "topicTag": "Delivery",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why do backend engineers need to think about failure modes and recovery?",
+            "options": [
+              "A) Because production systems will face bad inputs, dependency failures, and infrastructure issues",
+              "B) Because failure only happens in frontend code",
+              "C) Because retrying is always safe",
+              "D) Because databases cannot fail"
+            ],
+            "correctAnswer": "A) Because production systems will face bad inputs, dependency failures, and infrastructure issues",
+            "topicTag": "Reliability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest mindset for learning backend engineering?",
+            "options": [
+              "A) Focus only on one framework and ignore system behavior",
+              "B) Build solid fundamentals, understand data and network boundaries, and ship real services end to end",
+              "C) Avoid debugging production-style issues",
+              "D) Skip security until after launch"
+            ],
+            "correctAnswer": "B) Build solid fundamentals, understand data and network boundaries, and ship real services end to end",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Backend",
+        "questions": [
+          {
+            "question": "Which HTTP method is idempotent?",
+            "options": [
+              "A) POST",
+              "B) GET",
+              "C) PATCH",
+              "D) CONNECT"
+            ],
+            "correctAnswer": "B) GET",
+            "topicTag": "backend",
+            "difficulty": "medium"
+          },
+          {
+            "question": "Which HTTP status code means Not Found?",
+            "options": [
+              "A) 200",
+              "B) 301",
+              "C) 404",
+              "D) 500"
+            ],
+            "correctAnswer": "C) 404",
+            "topicTag": "backend",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

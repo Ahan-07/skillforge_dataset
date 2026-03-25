@@ -1,0 +1,428 @@
+{
+  "key": "data_structures",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Data Structures"
+  },
+  "prerequisite_test": {
+    "domain": "Data Structures",
+    "prerequisites": [
+      "Programming Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Data Structures Signal Check",
+        "questions": [
+          {
+            "question": "What is Big O notation?",
+            "options": [
+              "A) Code quality metric",
+              "B) Mathematical notation describing algorithm's worst-case time/space complexity as input grows",
+              "C) Memory allocation unit",
+              "D) CPU speed measurement"
+            ],
+            "correctAnswer": "B) Mathematical notation describing algorithm's worst-case time/space complexity as input grows",
+            "topicTag": "Complexity",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the time complexity of binary search?",
+            "options": [
+              "A) O(n)",
+              "B) O(n²)",
+              "C) O(log n)",
+              "D) O(1)"
+            ],
+            "correctAnswer": "C) O(log n)",
+            "topicTag": "Searching",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the two-pointer technique?",
+            "options": [
+              "A) Using two arrays",
+              "B) Two indices moving through array to solve problems in O(n) instead of O(n²)",
+              "C) Two dimensional arrays",
+              "D) Pointer arithmetic"
+            ],
+            "correctAnswer": "B) Two indices moving through array to solve problems in O(n) instead of O(n²)",
+            "topicTag": "Arrays",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the sliding window pattern?",
+            "options": [
+              "A) GUI windows",
+              "B) Maintain contiguous subarray window, slide it to avoid recalculating — O(n) instead of O(n²)",
+              "C) Circular buffer",
+              "D) Stack window"
+            ],
+            "correctAnswer": "B) Maintain contiguous subarray window, slide it to avoid recalculating — O(n) instead of O(n²)",
+            "topicTag": "Arrays",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Floyd's cycle detection algorithm?",
+            "options": [
+              "A) Graph cycle detection only",
+              "B) Slow pointer moves 1 step, fast moves 2 — they meet if cycle exists in linked list",
+              "C) Sorting algorithm",
+              "D) Tree traversal"
+            ],
+            "correctAnswer": "B) Slow pointer moves 1 step, fast moves 2 — they meet if cycle exists in linked list",
+            "topicTag": "Linked Lists",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the advantage of linked list over array?",
+            "options": [
+              "A) Faster random access",
+              "B) O(1) insertion/deletion at known node — no shifting required",
+              "C) Better cache performance",
+              "D) Less memory always"
+            ],
+            "correctAnswer": "B) O(1) insertion/deletion at known node — no shifting required",
+            "topicTag": "Linked Lists",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is amortized O(1) for dynamic array append?",
+            "options": [
+              "A) Always O(1)",
+              "B) Most appends are O(1) but occasional resize is O(n) — averages to O(1) over many operations",
+              "C) O(n) always",
+              "D) O(log n) average"
+            ],
+            "correctAnswer": "B) Most appends are O(1) but occasional resize is O(n) — averages to O(1) over many operations",
+            "topicTag": "Arrays",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a monotonic stack?",
+            "options": [
+              "A) Stack with one element",
+              "B) Stack maintaining elements in monotonically increasing or decreasing order — used for next greater/smaller element",
+              "C) Sorted stack",
+              "D) Priority stack"
+            ],
+            "correctAnswer": "B) Stack maintaining elements in monotonically increasing or decreasing order — used for next greater/smaller element",
+            "topicTag": "Stacks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is prefix sum used for?",
+            "options": [
+              "A) Prefix matching in strings",
+              "B) Precomputing cumulative sums enabling O(1) range sum queries after O(n) preprocessing",
+              "C) Sorting prefixes",
+              "D) String comparison"
+            ],
+            "correctAnswer": "B) Precomputing cumulative sums enabling O(1) range sum queries after O(n) preprocessing",
+            "topicTag": "Arrays",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a deque?",
+            "options": [
+              "A) Double queue",
+              "B) Double-ended queue allowing O(1) insert/delete from both front and back",
+              "C) Priority queue",
+              "D) Circular queue"
+            ],
+            "correctAnswer": "B) Double-ended queue allowing O(1) insert/delete from both front and back",
+            "topicTag": "Queues",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the time complexity of accessing nth element in linked list?",
+            "options": [
+              "A) O(1)",
+              "B) O(n) — must traverse from head",
+              "C) O(log n)",
+              "D) O(n²)"
+            ],
+            "correctAnswer": "B) O(n) — must traverse from head",
+            "topicTag": "Linked Lists",
+            "difficulty": "hard"
+          },
+          {
+            "question": "How do you find middle of linked list in one pass?",
+            "options": [
+              "A) Count then traverse again",
+              "B) Slow pointer (1 step) and fast pointer (2 steps) — when fast reaches end, slow is at middle",
+              "C) Use extra array",
+              "D) Binary search"
+            ],
+            "correctAnswer": "B) Slow pointer (1 step) and fast pointer (2 steps) — when fast reaches end, slow is at middle",
+            "topicTag": "Linked Lists",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is space complexity O(1) mean?",
+            "options": [
+              "A) Zero memory used",
+              "B) Constant extra memory regardless of input size — in-place algorithm",
+              "C) One variable only",
+              "D) Best possible space"
+            ],
+            "correctAnswer": "B) Constant extra memory regardless of input size — in-place algorithm",
+            "topicTag": "Complexity",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a hash collision?",
+            "options": [
+              "A) Hash function error",
+              "B) Two different keys producing same hash value — resolved by chaining or open addressing",
+              "C) Hash overflow",
+              "D) Invalid hash input"
+            ],
+            "correctAnswer": "B) Two different keys producing same hash value — resolved by chaining or open addressing",
+            "topicTag": "Hash Tables",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the average time complexity of HashMap lookup?",
+            "options": [
+              "A) O(n)",
+              "B) O(1) average — O(n) worst case with many collisions",
+              "C) O(log n)",
+              "D) O(1) always guaranteed"
+            ],
+            "correctAnswer": "B) O(1) average — O(n) worst case with many collisions",
+            "topicTag": "Hash Tables",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a min-heap property?",
+            "options": [
+              "A) Sorted array",
+              "B) Parent node is always smaller than or equal to its children — root is minimum element",
+              "C) All elements are minimum",
+              "D) Balanced BST"
+            ],
+            "correctAnswer": "B) Parent node is always smaller than or equal to its children — root is minimum element",
+            "topicTag": "Heaps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the time complexity of heapify?",
+            "options": [
+              "A) O(n log n)",
+              "B) O(n) — bottom-up heapify is O(n) though inserting n elements one-by-one is O(n log n)",
+              "C) O(log n)",
+              "D) O(n²)"
+            ],
+            "correctAnswer": "B) O(n) — bottom-up heapify is O(n) though inserting n elements one-by-one is O(n log n)",
+            "topicTag": "Heaps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a circular linked list?",
+            "options": [
+              "A) List that sorts itself",
+              "B) Linked list where last node points back to head — useful for round-robin scheduling",
+              "C) Doubly linked list",
+              "D) Self-balancing list"
+            ],
+            "correctAnswer": "B) Linked list where last node points back to head — useful for round-robin scheduling",
+            "topicTag": "Linked Lists",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between stack and queue?",
+            "options": [
+              "A) Same",
+              "B) Stack is LIFO (Last In First Out); Queue is FIFO (First In First Out)",
+              "C) Queue is LIFO",
+              "D) Both are FIFO"
+            ],
+            "correctAnswer": "B) Stack is LIFO (Last In First Out); Queue is FIFO (First In First Out)",
+            "topicTag": "Stacks",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is dynamic programming?",
+            "options": [
+              "A) Dynamic typing",
+              "B) Optimization technique breaking problem into overlapping subproblems, storing results (memoization/tabulation)",
+              "C) Recursive algorithms only",
+              "D) Runtime code generation"
+            ],
+            "correctAnswer": "B) Optimization technique breaking problem into overlapping subproblems, storing results (memoization/tabulation)",
+            "topicTag": "Algorithms",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Trees, Graphs & Advanced",
+        "questions": [
+          {
+            "question": "What is a Binary Search Tree (BST) property?",
+            "options": [
+              "A) All nodes are equal",
+              "B) Left subtree nodes < root < right subtree nodes — enables O(log n) search in balanced BST",
+              "C) Complete binary tree",
+              "D) Heap property"
+            ],
+            "correctAnswer": "B) Left subtree nodes < root < right subtree nodes — enables O(log n) search in balanced BST",
+            "topicTag": "Trees",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is inorder traversal of BST?",
+            "options": [
+              "A) Random order",
+              "B) Left → Root → Right — produces sorted ascending order for BST",
+              "C) Root → Left → Right",
+              "D) Level by level"
+            ],
+            "correctAnswer": "B) Left → Root → Right — produces sorted ascending order for BST",
+            "topicTag": "Trees",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is BFS vs DFS?",
+            "options": [
+              "A) Same algorithm",
+              "B) BFS uses queue, explores level by level; DFS uses stack/recursion, explores depth-first",
+              "C) DFS uses queue",
+              "D) BFS is for trees only"
+            ],
+            "correctAnswer": "B) BFS uses queue, explores level by level; DFS uses stack/recursion, explores depth-first",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a balanced binary tree?",
+            "options": [
+              "A) Tree with equal nodes on both sides",
+              "B) Height difference between left and right subtrees of any node is at most 1",
+              "C) Complete tree",
+              "D) Full binary tree"
+            ],
+            "correctAnswer": "B) Height difference between left and right subtrees of any node is at most 1",
+            "topicTag": "Trees",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is topological sort?",
+            "options": [
+              "A) Sorting topology",
+              "B) Linear ordering of vertices in DAG where for every edge u→v, u appears before v",
+              "C) BFS on trees",
+              "D) Alphabetical graph sort"
+            ],
+            "correctAnswer": "B) Linear ordering of vertices in DAG where for every edge u→v, u appears before v",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Dijkstra's algorithm used for?",
+            "options": [
+              "A) Sorting arrays",
+              "B) Finding shortest path from source to all vertices in weighted graph with non-negative weights",
+              "C) Detecting cycles",
+              "D) Minimum spanning tree"
+            ],
+            "correctAnswer": "B) Finding shortest path from source to all vertices in weighted graph with non-negative weights",
+            "topicTag": "Graphs",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a trie data structure?",
+            "options": [
+              "A) Type of binary tree",
+              "B) Tree-like structure storing strings — each node is a character, used for prefix search in O(L)",
+              "C) Sorted linked list",
+              "D) Hash table variant"
+            ],
+            "correctAnswer": "B) Tree-like structure storing strings — each node is a character, used for prefix search in O(L)",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a segment tree?",
+            "options": [
+              "A) Network segment tree",
+              "B) Tree enabling range queries (min/max/sum) and updates in O(log n) time",
+              "C) BST variant",
+              "D) B-tree variant"
+            ],
+            "correctAnswer": "B) Tree enabling range queries (min/max/sum) and updates in O(log n) time",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is Union-Find (Disjoint Set)?",
+            "options": [
+              "A) Set union operation",
+              "B) Data structure tracking elements in disjoint sets — supports union and find in near O(1) with path compression",
+              "C) Hash set variant",
+              "D) Graph adjacency structure"
+            ],
+            "correctAnswer": "B) Data structure tracking elements in disjoint sets — supports union and find in near O(1) with path compression",
+            "topicTag": "Advanced",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is memoization vs tabulation in DP?",
+            "options": [
+              "A) Same",
+              "B) Memoization is top-down recursive with cache; tabulation is bottom-up iterative filling table",
+              "C) Tabulation is recursive",
+              "D) Memoization uses loops"
+            ],
+            "correctAnswer": "B) Memoization is top-down recursive with cache; tabulation is bottom-up iterative filling table",
+            "topicTag": "Algorithms",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Data Structures",
+        "questions": [
+          {
+            "question": "Which data structure uses LIFO?",
+            "options": [
+              "A) Queue",
+              "B) Stack",
+              "C) Array",
+              "D) Tree"
+            ],
+            "correctAnswer": "B) Stack",
+            "topicTag": "data_structures",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which data structure is used in BFS?",
+            "options": [
+              "A) Stack",
+              "B) Queue",
+              "C) Heap",
+              "D) Tree"
+            ],
+            "correctAnswer": "B) Queue",
+            "topicTag": "data_structures",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which traversal is DFS?",
+            "options": [
+              "A) Level Order",
+              "B) Preorder",
+              "C) Breadth First",
+              "D) Circular"
+            ],
+            "correctAnswer": "B) Preorder",
+            "topicTag": "data_structures",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

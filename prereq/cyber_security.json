@@ -1,0 +1,293 @@
+{
+  "key": "cyber_security",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "Cyber Security"
+  },
+  "prerequisite_test": {
+    "domain": "Cyber Security",
+    "prerequisites": [
+      "Computer Basics",
+      "Networking Basics",
+      "Command Line Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Cyber Security Signal Check",
+        "questions": [
+          {
+            "question": "Why is knowing operating system basics important before advanced security work?",
+            "options": [
+              "A) Security tools replace the OS",
+              "B) Permissions, services, processes, and logs are central to both attack and defense",
+              "C) OS knowledge only matters for frontend developers",
+              "D) It only helps with design systems"
+            ],
+            "correctAnswer": "B) Permissions, services, processes, and logs are central to both attack and defense",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main security value of least privilege?",
+            "options": [
+              "A) It increases the number of admin users",
+              "B) It limits damage by giving users and services only the access they actually need",
+              "C) It disables logging",
+              "D) It replaces encryption"
+            ],
+            "correctAnswer": "B) It limits damage by giving users and services only the access they actually need",
+            "topicTag": "Defense",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why must a cyber security learner understand IPs, ports, and protocols?",
+            "options": [
+              "A) Only to write CSS",
+              "B) Because services, exposure, and attack surface are identified and communicated through them",
+              "C) They are only for cloud billing",
+              "D) They matter only for printers"
+            ],
+            "correctAnswer": "B) Because services, exposure, and attack surface are identified and communicated through them",
+            "topicTag": "Networking",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does DNS primarily do in normal web usage?",
+            "options": [
+              "A) Encrypts the hard drive",
+              "B) Translates domain names into IP-related answers clients can use",
+              "C) Stores passwords in the browser",
+              "D) Filters SQL queries"
+            ],
+            "correctAnswer": "B) Translates domain names into IP-related answers clients can use",
+            "topicTag": "Networking",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is HTTPS preferred over HTTP for security-sensitive traffic?",
+            "options": [
+              "A) It makes websites load without HTML",
+              "B) It protects confidentiality and integrity in transit using TLS",
+              "C) It removes authentication requirements",
+              "D) It blocks all attacks automatically"
+            ],
+            "correctAnswer": "B) It protects confidentiality and integrity in transit using TLS",
+            "topicTag": "Web Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical purpose of log collection in security operations?",
+            "options": [
+              "A) Decorating dashboards only",
+              "B) Supporting detection, investigation, auditing, and incident response",
+              "C) Replacing backups",
+              "D) Preventing users from logging in"
+            ],
+            "correctAnswer": "B) Supporting detection, investigation, auditing, and incident response",
+            "topicTag": "Defense",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a vulnerability scan mainly trying to find?",
+            "options": [
+              "A) UI color issues",
+              "B) Known weaknesses, missing patches, or unsafe configurations that should be reviewed",
+              "C) DNS records only",
+              "D) Browser bookmarks"
+            ],
+            "correctAnswer": "B) Known weaknesses, missing patches, or unsafe configurations that should be reviewed",
+            "topicTag": "Assessment",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is hardening a system different from simply installing antivirus?",
+            "options": [
+              "A) Hardening reduces attack surface through configuration and policy, not just one security tool",
+              "B) Antivirus already performs all hardening",
+              "C) Hardening is only for mobile apps",
+              "D) They are identical"
+            ],
+            "correctAnswer": "A) Hardening reduces attack surface through configuration and policy, not just one security tool",
+            "topicTag": "Defense",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is SQL injection fundamentally about?",
+            "options": [
+              "A) Styling database tables",
+              "B) Unsafe handling of input that lets attacker-controlled SQL alter intended queries",
+              "C) DNS tunneling",
+              "D) Packet fragmentation"
+            ],
+            "correctAnswer": "B) Unsafe handling of input that lets attacker-controlled SQL alter intended queries",
+            "topicTag": "AppSec",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is cross-site scripting (XSS)?",
+            "options": [
+              "A) A network routing protocol",
+              "B) A vulnerability where untrusted script can execute in a user browser context",
+              "C) A hashing method",
+              "D) A firewall rule"
+            ],
+            "correctAnswer": "B) A vulnerability where untrusted script can execute in a user browser context",
+            "topicTag": "AppSec",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are security headers useful in web applications?",
+            "options": [
+              "A) They replace backend authorization",
+              "B) They help browsers enforce safer behavior such as CSP, frame protections, and transport policies",
+              "C) They are only for CSS caching",
+              "D) They speed up SQL joins"
+            ],
+            "correctAnswer": "B) They help browsers enforce safer behavior such as CSP, frame protections, and transport policies",
+            "topicTag": "AppSec",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is reconnaissance in a security assessment?",
+            "options": [
+              "A) Writing incident reports",
+              "B) Gathering information about targets before deeper testing or validation",
+              "C) Encrypting logs",
+              "D) Deleting evidence"
+            ],
+            "correctAnswer": "B) Gathering information about targets before deeper testing or validation",
+            "topicTag": "Assessment",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should offensive techniques be practiced in labs and authorized environments only?",
+            "options": [
+              "A) Because real systems are easier",
+              "B) Because unauthorized testing is unsafe, unethical, and often illegal",
+              "C) Because labs have no value",
+              "D) Because tools only run on localhost"
+            ],
+            "correctAnswer": "B) Because unauthorized testing is unsafe, unethical, and often illegal",
+            "topicTag": "Ethics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is IAM in cloud security mainly concerned with?",
+            "options": [
+              "A) Image compression",
+              "B) Identities, permissions, roles, and access control for people and services",
+              "C) DNS caching only",
+              "D) CSS variables"
+            ],
+            "correctAnswer": "B) Identities, permissions, roles, and access control for people and services",
+            "topicTag": "Cloud Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is MFA important?",
+            "options": [
+              "A) It reduces the need for passwords entirely",
+              "B) It adds another verification factor, reducing risk when a password is stolen",
+              "C) It replaces logging",
+              "D) It disables SSO"
+            ],
+            "correctAnswer": "B) It adds another verification factor, reducing risk when a password is stolen",
+            "topicTag": "Identity",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is an incident response playbook?",
+            "options": [
+              "A) A UI style guide",
+              "B) A documented procedure for handling specific types of incidents consistently",
+              "C) A firewall appliance",
+              "D) A vulnerability scanner database"
+            ],
+            "correctAnswer": "B) A documented procedure for handling specific types of incidents consistently",
+            "topicTag": "Incident Response",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is containment different from eradication in incident response?",
+            "options": [
+              "A) They are the same phase",
+              "B) Containment limits spread and impact first; eradication removes root cause and malicious presence",
+              "C) Eradication always comes first",
+              "D) Containment is optional"
+            ],
+            "correctAnswer": "B) Containment limits spread and impact first; eradication removes root cause and malicious presence",
+            "topicTag": "Incident Response",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the value of a post-incident review?",
+            "options": [
+              "A) Assigning blame publicly",
+              "B) Learning what happened, what failed, and how to improve controls and response",
+              "C) Deleting logs immediately",
+              "D) Skipping remediation"
+            ],
+            "correctAnswer": "B) Learning what happened, what failed, and how to improve controls and response",
+            "topicTag": "Incident Response",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does the shared-responsibility model matter in cloud security?",
+            "options": [
+              "A) It means the cloud provider secures everything for you",
+              "B) It clarifies which security duties belong to the provider and which still belong to the customer",
+              "C) It only applies to on-prem networks",
+              "D) It removes the need for IAM"
+            ],
+            "correctAnswer": "B) It clarifies which security duties belong to the provider and which still belong to the customer",
+            "topicTag": "Cloud Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the most useful mindset for a beginner entering cyber security?",
+            "options": [
+              "A) Tool-first without fundamentals",
+              "B) Strong fundamentals, ethical boundaries, curiosity, and disciplined documentation",
+              "C) Memorizing exploits only",
+              "D) Avoiding networking concepts"
+            ],
+            "correctAnswer": "B) Strong fundamentals, ethical boundaries, curiosity, and disciplined documentation",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Cyber Security",
+        "questions": [
+          {
+            "question": "Which is a symmetric encryption algorithm?",
+            "options": [
+              "A) RSA",
+              "B) AES",
+              "C) ECC",
+              "D) DSA"
+            ],
+            "correctAnswer": "B) AES",
+            "topicTag": "cyber_security",
+            "difficulty": "medium"
+          },
+          {
+            "question": "Which attack is based on injecting malicious SQL?",
+            "options": [
+              "A) XSS",
+              "B) CSRF",
+              "C) SQL Injection",
+              "D) Phishing"
+            ],
+            "correctAnswer": "C) SQL Injection",
+            "topicTag": "cyber_security",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

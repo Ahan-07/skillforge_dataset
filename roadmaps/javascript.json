@@ -1,0 +1,259 @@
+{
+  "key": "javascript",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "JavaScript"
+  },
+  "roadmap": {
+    "topic": "JavaScript",
+    "emoji": "🟨",
+    "overview": "SkillForge original JavaScript path focused on browser programming, asynchronous logic, language fluency, and application-grade problem solving.",
+    "totalWeeks": 10,
+    "nodes": [
+      {
+        "id": "js_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "JavaScript Basics",
+        "description": "Variables, data types, operators, conditionals, loops. Foundation of everything.",
+        "difficulty": "beginner",
+        "estimatedHours": 10,
+        "weekRange": "Week 1-2",
+        "keyTopics": [
+          "var/let/const",
+          "data types",
+          "if/else",
+          "loops",
+          "functions"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a simple calculator",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: JavaScript Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=JavaScript%20Full%20Course%20Traversy%20Media"
+          },
+          {
+            "type": "article",
+            "title": "MDN JavaScript Guide",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+          }
+        ]
+      },
+      {
+        "id": "js_dom",
+        "step": 2,
+        "phase": 1,
+        "title": "DOM & Events",
+        "description": "Manipulate HTML with JavaScript. Handle user events, forms, and dynamic content.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 2-3",
+        "keyTopics": [
+          "querySelector",
+          "addEventListener",
+          "innerHTML",
+          "forms",
+          "event bubbling"
+        ],
+        "prerequisites": [
+          "JavaScript Basics"
+        ],
+        "miniProject": "Todo list with add/delete/complete",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: DOM & Events",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=DOM%20Manipulation%20The%20Net%20Ninja"
+          },
+          {
+            "type": "article",
+            "title": "DOM Introduction",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/search?q=DOM%20Introduction"
+          }
+        ]
+      },
+      {
+        "id": "js_es6",
+        "step": 3,
+        "phase": 2,
+        "title": "ES6+ Modern JavaScript",
+        "description": "Arrow functions, destructuring, spread/rest, template literals, modules, classes.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 3-4",
+        "keyTopics": [
+          "arrow functions",
+          "destructuring",
+          "spread operator",
+          "modules",
+          "classes",
+          "optional chaining"
+        ],
+        "prerequisites": [
+          "JavaScript Basics"
+        ],
+        "miniProject": "Refactor old code using ES6+ features",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: ES6+ Modern JavaScript",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=ES6%20Tutorial%20Fireship"
+          },
+          {
+            "type": "article",
+            "title": "ES6 Features",
+            "platform": "javascript.info",
+            "url": "https://javascript.info"
+          }
+        ]
+      },
+      {
+        "id": "js_async",
+        "step": 4,
+        "phase": 2,
+        "title": "Async JavaScript",
+        "description": "Callbacks, Promises, async/await, fetch API, error handling in async code.",
+        "difficulty": "intermediate",
+        "estimatedHours": 12,
+        "weekRange": "Week 4-6",
+        "keyTopics": [
+          "callbacks",
+          "promises",
+          "async/await",
+          "fetch",
+          "try/catch",
+          "Promise.all"
+        ],
+        "prerequisites": [
+          "ES6+ Modern JavaScript"
+        ],
+        "miniProject": "Weather app using public API",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Async JavaScript",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=Async%20JavaScript%20Crash%20Course%20Traversy%20Media"
+          },
+          {
+            "type": "article",
+            "title": "Promises Guide",
+            "platform": "javascript.info",
+            "url": "https://www.google.com/search?q=site%3Ajavascript.info%20Promises%20Guide"
+          }
+        ]
+      },
+      {
+        "id": "js_oop",
+        "step": 5,
+        "phase": 2,
+        "title": "OOP & Design Patterns",
+        "description": "Prototypes, classes, inheritance, encapsulation, common patterns like factory and observer.",
+        "difficulty": "intermediate",
+        "estimatedHours": 10,
+        "weekRange": "Week 6-7",
+        "keyTopics": [
+          "prototypes",
+          "classes",
+          "inheritance",
+          "encapsulation",
+          "factory pattern",
+          "module pattern"
+        ],
+        "prerequisites": [
+          "ES6+ Modern JavaScript"
+        ],
+        "miniProject": "Build a simple game using OOP",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: OOP & Design Patterns",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=OOP%20in%20JavaScript%20The%20Coding%20Train"
+          },
+          {
+            "type": "article",
+            "title": "OOP MDN",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/search?q=OOP%20MDN"
+          }
+        ]
+      },
+      {
+        "id": "js_advanced",
+        "step": 6,
+        "phase": 3,
+        "title": "Advanced Patterns & Performance",
+        "description": "Closures, currying, memoization, event loop, Web Workers, performance optimization.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 7-9",
+        "keyTopics": [
+          "closures",
+          "currying",
+          "memoization",
+          "event loop",
+          "microtasks",
+          "web workers"
+        ],
+        "prerequisites": [
+          "OOP & Design Patterns",
+          "Async JavaScript"
+        ],
+        "miniProject": "Build a custom Promise implementation",
+        "resources": [
+          {
+            "type": "video",
+            "title": "Video Guide: Advanced Patterns & Performance",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=JavaScript%20Event%20Loop%20JSConf"
+          },
+          {
+            "type": "book",
+            "title": "You Don't Know JS",
+            "platform": "GitHub Free",
+            "url": "https://github.com/getify/You-Dont-Know-JS"
+          }
+        ]
+      },
+      {
+        "id": "js_project",
+        "step": 7,
+        "phase": 3,
+        "title": "SkillForge JavaScript Studio Build",
+        "description": "Build a full JavaScript application combining all concepts: DOM, async, OOP, modules.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 9-10",
+        "keyTopics": [
+          "project planning",
+          "module architecture",
+          "API integration",
+          "error handling",
+          "deployment"
+        ],
+        "prerequisites": [
+          "Advanced Patterns & Performance"
+        ],
+        "miniProject": "Full expense tracker or notes app with localStorage + API",
+        "resources": [
+          {
+            "type": "project",
+            "title": "15 JavaScript Projects",
+            "platform": "YouTube - Traversy Media",
+            "url": "https://www.google.com/search?q=15%20JavaScript%20Projects%20YouTube%20-%20Traversy%20Media"
+          }
+        ]
+      }
+    ]
+  }
+}

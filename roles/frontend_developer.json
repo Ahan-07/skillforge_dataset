@@ -1,0 +1,49 @@
+{
+    "key":  "frontend_developer",
+    "metadata":  {
+                     "source":  "skillforge",
+                     "type":  "role_path",
+                     "version":  "1.0",
+                     "role":  "Frontend Developer"
+                 },
+    "role":  {
+                 "title":  "Frontend Developer",
+                 "overview":  "Role-based path for becoming a frontend developer through core web skills, frameworks, quality, and delivery.",
+                 "targetTopics":  [
+                                      "frontend",
+                                      "html",
+                                      "css",
+                                      "javascript",
+                                      "react",
+                                      "typescript",
+                                      "testing",
+                                      "performance"
+                                  ],
+                 "stages":  [
+                                {
+                                    "title":  "Foundations",
+                                    "goals":  [
+                                                  "Learn HTML, CSS, and browser basics",
+                                                  "Build responsive pages",
+                                                  "Understand JavaScript fundamentals"
+                                              ]
+                                },
+                                {
+                                    "title":  "Application Development",
+                                    "goals":  [
+                                                  "Use modern tooling",
+                                                  "Build component-based apps",
+                                                  "Work with APIs and routing"
+                                              ]
+                                },
+                                {
+                                    "title":  "Professional Delivery",
+                                    "goals":  [
+                                                  "Add TypeScript and tests",
+                                                  "Improve accessibility and performance",
+                                                  "Deploy production-ready projects"
+                                              ]
+                                }
+                            ]
+             }
+}

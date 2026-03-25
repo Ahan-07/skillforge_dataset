@@ -1,0 +1,264 @@
+{
+  "key": "full_stack",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "1.0",
+    "domain": "Full Stack"
+  },
+  "prerequisite_test": {
+    "domain": "Full Stack",
+    "prerequisites": [
+      "Computer Basics",
+      "Web Basics",
+      "Command Line Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge Full Stack Signal Check",
+        "questions": [
+          {
+            "question": "Why must a full stack developer understand both client and server responsibilities?",
+            "options": [
+              "A) Because frontend automatically replaces the backend",
+              "B) Because user experience, data flow, performance, and failures often cross the client-server boundary",
+              "C) Because databases are optional in most apps",
+              "D) Because APIs are only a design concern"
+            ],
+            "correctAnswer": "B) Because user experience, data flow, performance, and failures often cross the client-server boundary",
+            "topicTag": "Architecture",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does HTTP primarily provide in a web application?",
+            "options": [
+              "A) A styling engine for CSS",
+              "B) A request-response protocol used by clients and servers to exchange web resources",
+              "C) A database indexing method",
+              "D) A JavaScript package manager"
+            ],
+            "correctAnswer": "B) A request-response protocol used by clients and servers to exchange web resources",
+            "topicTag": "Web Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is semantic HTML important in full stack work?",
+            "options": [
+              "A) It only matters for backend APIs",
+              "B) It improves structure, accessibility, and maintainability for user-facing interfaces",
+              "C) It replaces application state",
+              "D) It removes the need for CSS"
+            ],
+            "correctAnswer": "B) It improves structure, accessibility, and maintainability for user-facing interfaces",
+            "topicTag": "Frontend",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the practical role of JavaScript in the browser?",
+            "options": [
+              "A) Managing interactivity, state changes, async requests, and client-side logic",
+              "B) Compiling SQL queries directly on the server",
+              "C) Replacing HTML semantics",
+              "D) Creating DNS records"
+            ],
+            "correctAnswer": "A) Managing interactivity, state changes, async requests, and client-side logic",
+            "topicTag": "JavaScript",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are APIs central to full stack applications?",
+            "options": [
+              "A) They let the browser edit source code files on disk",
+              "B) They define how clients and servers exchange data and actions in a structured way",
+              "C) They only matter for mobile games",
+              "D) They remove the need for databases"
+            ],
+            "correctAnswer": "B) They define how clients and servers exchange data and actions in a structured way",
+            "topicTag": "Backend",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is validation meant to protect against in backend routes?",
+            "options": [
+              "A) Only slow internet connections",
+              "B) Invalid or malicious input reaching business logic and storage layers",
+              "C) CSS layout issues",
+              "D) Git merge conflicts"
+            ],
+            "correctAnswer": "B) Invalid or malicious input reaching business logic and storage layers",
+            "topicTag": "Backend",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main difference between authentication and authorization?",
+            "options": [
+              "A) Authentication identifies who a user is, authorization decides what they can do",
+              "B) Authorization happens before login and authentication after deployment",
+              "C) They are identical",
+              "D) Authentication only matters in desktop apps"
+            ],
+            "correctAnswer": "A) Authentication identifies who a user is, authorization decides what they can do",
+            "topicTag": "Auth",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is database indexing important?",
+            "options": [
+              "A) It changes the UI theme",
+              "B) It can improve query performance for targeted lookups and filters",
+              "C) It removes the need for schema design",
+              "D) It only applies to frontend state"
+            ],
+            "correctAnswer": "B) It can improve query performance for targeted lookups and filters",
+            "topicTag": "Databases",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What problem does state management solve on the frontend?",
+            "options": [
+              "A) It manages changing UI data and keeps views consistent as user actions and async results arrive",
+              "B) It replaces server-side persistence completely",
+              "C) It disables routing",
+              "D) It is only needed for CSS variables"
+            ],
+            "correctAnswer": "A) It manages changing UI data and keeps views consistent as user actions and async results arrive",
+            "topicTag": "Frontend",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does CORS matter in web development?",
+            "options": [
+              "A) It controls how browsers handle cross-origin requests to protect users",
+              "B) It is a package manager feature",
+              "C) It stores session data in SQL",
+              "D) It compiles TypeScript"
+            ],
+            "correctAnswer": "A) It controls how browsers handle cross-origin requests to protect users",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main value of environment variables in an application?",
+            "options": [
+              "A) Keeping configuration separate from source code and deployment environments",
+              "B) Styling production pages",
+              "C) Replacing API routes",
+              "D) Encrypting databases automatically"
+            ],
+            "correctAnswer": "A) Keeping configuration separate from source code and deployment environments",
+            "topicTag": "DevOps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should passwords never be stored as plain text?",
+            "options": [
+              "A) Because databases cannot hold strings",
+              "B) Because leaked storage would immediately expose user credentials without hashing protections",
+              "C) Because only frontend apps use passwords",
+              "D) Because tokens make passwords illegal"
+            ],
+            "correctAnswer": "B) Because leaked storage would immediately expose user credentials without hashing protections",
+            "topicTag": "Security",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a useful reason to write automated tests in a full stack app?",
+            "options": [
+              "A) They replace code review completely",
+              "B) They help verify critical logic and reduce regressions as the application changes",
+              "C) They make deployment unnecessary",
+              "D) They only matter for CSS"
+            ],
+            "correctAnswer": "B) They help verify critical logic and reduce regressions as the application changes",
+            "topicTag": "Testing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does CI/CD improve in a delivery workflow?",
+            "options": [
+              "A) It automates verification and deployment steps so releases are more repeatable",
+              "B) It removes the need for source control",
+              "C) It replaces observability",
+              "D) It only benefits static HTML pages"
+            ],
+            "correctAnswer": "A) It automates verification and deployment steps so releases are more repeatable",
+            "topicTag": "DevOps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is logging valuable on the backend?",
+            "options": [
+              "A) It only helps after deleting a database",
+              "B) It supports debugging, monitoring, and investigation when systems misbehave",
+              "C) It replaces error handling",
+              "D) It is only for frontend animations"
+            ],
+            "correctAnswer": "B) It supports debugging, monitoring, and investigation when systems misbehave",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the benefit of pagination in API design?",
+            "options": [
+              "A) It reduces the need for authentication",
+              "B) It controls response size and improves usability and performance on large datasets",
+              "C) It guarantees zero latency",
+              "D) It styles tables automatically"
+            ],
+            "correctAnswer": "B) It controls response size and improves usability and performance on large datasets",
+            "topicTag": "Backend",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why does a production deployment need monitoring in addition to local testing?",
+            "options": [
+              "A) Because real traffic, infrastructure issues, and runtime failures appear only after deployment",
+              "B) Because local testing is useless",
+              "C) Because monitoring builds the UI",
+              "D) Because monitoring replaces logs"
+            ],
+            "correctAnswer": "A) Because real traffic, infrastructure issues, and runtime failures appear only after deployment",
+            "topicTag": "Observability",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main purpose of Docker in a full stack workflow?",
+            "options": [
+              "A) It lets developers package applications and dependencies into consistent runnable environments",
+              "B) It is a replacement for databases",
+              "C) It compiles JavaScript faster in the browser",
+              "D) It prevents every security issue"
+            ],
+            "correctAnswer": "A) It lets developers package applications and dependencies into consistent runnable environments",
+            "topicTag": "DevOps",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why is API contract consistency important between frontend and backend teams?",
+            "options": [
+              "A) It reduces integration failures by keeping request and response expectations aligned",
+              "B) It removes the need for version control",
+              "C) It only matters in monoliths",
+              "D) It is only a database issue"
+            ],
+            "correctAnswer": "A) It reduces integration failures by keeping request and response expectations aligned",
+            "topicTag": "Architecture",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the strongest mindset for someone learning full stack development?",
+            "options": [
+              "A) Memorize frameworks only",
+              "B) Build strong fundamentals, understand system boundaries, and ship real end-to-end projects",
+              "C) Focus on backend only and ignore UI",
+              "D) Avoid debugging distributed issues"
+            ],
+            "correctAnswer": "B) Build strong fundamentals, understand system boundaries, and ship real end-to-end projects",
+            "topicTag": "Foundations",
+            "difficulty": "hard"
+          }
+        ]
+      }
+    ]
+  }
+}

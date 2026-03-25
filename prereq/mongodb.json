@@ -1,0 +1,292 @@
+{
+  "key": "mongodb",
+  "metadata": {
+    "source": "skillforge",
+    "type": "prerequisite_test",
+    "version": "2.1",
+    "domain": "MongoDB"
+  },
+  "prerequisite_test": {
+    "domain": "MongoDB",
+    "prerequisites": [
+      "Database Basics",
+      "JSON Basics"
+    ],
+    "chunks": [
+      {
+        "focus": "SkillForge MongoDB Signal Check",
+        "questions": [
+          {
+            "question": "What is MongoDB?",
+            "options": [
+              "A) A relational SQL-only engine",
+              "B) A document-oriented NoSQL database storing BSON-like documents",
+              "C) A CSS preprocessor",
+              "D) A frontend framework"
+            ],
+            "correctAnswer": "B) A document-oriented NoSQL database storing BSON-like documents",
+            "topicTag": "Mongo Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is BSON in MongoDB?",
+            "options": [
+              "A) Browser stylesheet notation",
+              "B) Binary JSON format used internally by MongoDB with support for additional data types",
+              "C) SQL migration syntax",
+              "D) A network protocol"
+            ],
+            "correctAnswer": "B) Binary JSON format used internally by MongoDB with support for additional data types",
+            "topicTag": "Mongo Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the difference between a collection and a document?",
+            "options": [
+              "A) A collection is a single record",
+              "B) A collection stores multiple documents; a document is one BSON record",
+              "C) They are the same",
+              "D) Documents can only exist in arrays"
+            ],
+            "correctAnswer": "B) A collection stores multiple documents; a document is one BSON record",
+            "topicTag": "Mongo Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the main tradeoff when embedding versus referencing related data?",
+            "options": [
+              "A) Embedding always uses less space",
+              "B) Embedding favors read locality; referencing favors normalization and independent updates",
+              "C) Referencing is always faster",
+              "D) Embedding cannot model relationships"
+            ],
+            "correctAnswer": "B) Embedding favors read locality; referencing favors normalization and independent updates",
+            "topicTag": "Data Modeling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does the _id field represent?",
+            "options": [
+              "A) Optional display label",
+              "B) Unique identifier automatically added to each MongoDB document unless provided",
+              "C) Foreign key only",
+              "D) Index name"
+            ],
+            "correctAnswer": "B) Unique identifier automatically added to each MongoDB document unless provided",
+            "topicTag": "Mongo Basics",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the purpose of an index in MongoDB?",
+            "options": [
+              "A) To enforce joins",
+              "B) To speed up data retrieval at the cost of extra storage and slower writes",
+              "C) To duplicate collections",
+              "D) To encrypt documents"
+            ],
+            "correctAnswer": "B) To speed up data retrieval at the cost of extra storage and slower writes",
+            "topicTag": "Indexing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why can too many indexes hurt performance?",
+            "options": [
+              "A) They make reads slower only",
+              "B) Every write may need to update multiple indexes, increasing storage and write cost",
+              "C) They disable replication",
+              "D) They prevent queries"
+            ],
+            "correctAnswer": "B) Every write may need to update multiple indexes, increasing storage and write cost",
+            "topicTag": "Indexing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does a compound index depend on heavily?",
+            "options": [
+              "A) Collection name length",
+              "B) Column or field order in the index matching query patterns",
+              "C) BSON version",
+              "D) Whether _id exists"
+            ],
+            "correctAnswer": "B) Column or field order in the index matching query patterns",
+            "topicTag": "Indexing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the aggregation pipeline used for?",
+            "options": [
+              "A) Only backups",
+              "B) Transforming and analyzing documents in staged operations like match, group, project, and lookup",
+              "C) CSS minification",
+              "D) Network replication"
+            ],
+            "correctAnswer": "B) Transforming and analyzing documents in staged operations like match, group, project, and lookup",
+            "topicTag": "Aggregation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does $match do in an aggregation pipeline?",
+            "options": [
+              "A) Joins collections",
+              "B) Filters documents, similar to query conditions",
+              "C) Sorts descending only",
+              "D) Adds indexes"
+            ],
+            "correctAnswer": "B) Filters documents, similar to query conditions",
+            "topicTag": "Aggregation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does $group do?",
+            "options": [
+              "A) Creates collections",
+              "B) Groups documents by a key and computes aggregate values",
+              "C) Updates all documents",
+              "D) Deletes duplicates automatically"
+            ],
+            "correctAnswer": "B) Groups documents by a key and computes aggregate values",
+            "topicTag": "Aggregation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is $lookup in MongoDB?",
+            "options": [
+              "A) Text search only",
+              "B) An aggregation stage used to join data from another collection",
+              "C) An index type",
+              "D) A transaction lock"
+            ],
+            "correctAnswer": "B) An aggregation stage used to join data from another collection",
+            "topicTag": "Aggregation",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why should schema validation still matter in a schema-flexible database?",
+            "options": [
+              "A) It does not matter",
+              "B) It helps preserve data quality and reduce inconsistent document structures",
+              "C) It prevents indexing",
+              "D) It replaces queries"
+            ],
+            "correctAnswer": "B) It helps preserve data quality and reduce inconsistent document structures",
+            "topicTag": "Data Modeling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a replica set in MongoDB?",
+            "options": [
+              "A) A set of duplicate indexes",
+              "B) A group of mongod processes maintaining the same data for redundancy and failover",
+              "C) A UI for Compass",
+              "D) A backup zip file"
+            ],
+            "correctAnswer": "B) A group of mongod processes maintaining the same data for redundancy and failover",
+            "topicTag": "Replication",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is a transaction in MongoDB used for?",
+            "options": [
+              "A) Only sharding",
+              "B) Grouping multiple operations into an atomic unit, especially across documents or collections",
+              "C) Renaming fields",
+              "D) Index cleanup"
+            ],
+            "correctAnswer": "B) Grouping multiple operations into an atomic unit, especially across documents or collections",
+            "topicTag": "Transactions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "Why are transactions generally used more cautiously in MongoDB than in some relational designs?",
+            "options": [
+              "A) They are impossible",
+              "B) Good document modeling often avoids needing many multi-document transactions",
+              "C) MongoDB ignores atomicity",
+              "D) Transactions only work on empty collections"
+            ],
+            "correctAnswer": "B) Good document modeling often avoids needing many multi-document transactions",
+            "topicTag": "Transactions",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is sharding?",
+            "options": [
+              "A) Vertical scaling only",
+              "B) Horizontal partitioning of data across multiple machines based on a shard key",
+              "C) Backup compression",
+              "D) Query parsing"
+            ],
+            "correctAnswer": "B) Horizontal partitioning of data across multiple machines based on a shard key",
+            "topicTag": "Scaling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What makes a good shard key important?",
+            "options": [
+              "A) It changes document schema",
+              "B) It affects distribution, hotspot risk, and scalability characteristics",
+              "C) It removes need for indexes",
+              "D) It replaces _id"
+            ],
+            "correctAnswer": "B) It affects distribution, hotspot risk, and scalability characteristics",
+            "topicTag": "Scaling",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What does explain() help with in MongoDB?",
+            "options": [
+              "A) Styling Compass",
+              "B) Inspecting query execution plans to understand index usage and performance",
+              "C) Creating transactions",
+              "D) Compiling schemas"
+            ],
+            "correctAnswer": "B) Inspecting query execution plans to understand index usage and performance",
+            "topicTag": "Indexing",
+            "difficulty": "hard"
+          },
+          {
+            "question": "What is the role of Mongoose in a Node.js app?",
+            "options": [
+              "A) A MongoDB server replacement",
+              "B) An ODM that helps define schemas, models, validation, middleware, and query helpers for MongoDB",
+              "C) A SQL migration tool",
+              "D) A CSS-in-JS library"
+            ],
+            "correctAnswer": "B) An ODM that helps define schemas, models, validation, middleware, and query helpers for MongoDB",
+            "topicTag": "ODM",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "focus": "Supplemental Fundamentals MCQs - Mongodb",
+        "questions": [
+          {
+            "question": "What is the default port of MongoDB?",
+            "options": [
+              "A) 27017",
+              "B) 3306",
+              "C) 5432",
+              "D) 8080"
+            ],
+            "correctAnswer": "A) 27017",
+            "topicTag": "mongodb",
+            "difficulty": "easy"
+          },
+          {
+            "question": "Which MongoDB command inserts data?",
+            "options": [
+              "A) add()",
+              "B) insertOne()",
+              "C) push()",
+              "D) create()"
+            ],
+            "correctAnswer": "B) insertOne()",
+            "topicTag": "mongodb",
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  }
+}

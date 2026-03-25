@@ -1,0 +1,351 @@
+{
+  "key": "machine_learning",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "Machine Learning"
+  },
+  "roadmap": {
+    "topic": "Machine Learning",
+    "emoji": "🤖",
+    "overview": "SkillForge original machine learning path focused on data preparation, model evaluation, learning systems, deployment, and responsible ML practice.",
+    "totalWeeks": 20,
+    "nodes": [
+      {
+        "id": "ml_math_python",
+        "step": 1,
+        "phase": 1,
+        "title": "Math Foundations and Python for ML",
+        "description": "Start with Python, NumPy-style thinking, statistics, linear algebra, probability, and the data manipulation skills needed for ML work.",
+        "difficulty": "beginner",
+        "estimatedHours": 18,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "python",
+          "numpy",
+          "statistics",
+          "linear algebra",
+          "probability",
+          "data analysis"
+        ],
+        "prerequisites": [],
+        "miniProject": "Explore a real dataset and produce a cleaned analysis notebook with summary statistics and visual insights.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "NumPy User Guide",
+            "platform": "NumPy",
+            "url": "https://numpy.org/doc/stable/user/"
+          },
+          {
+            "type": "article",
+            "title": "Pandas Getting Started",
+            "platform": "pandas",
+            "url": "https://pandas.pydata.org/docs/getting_started/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Math Foundations and Python for ML",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+python+for+data+science"
+          }
+        ]
+      },
+      {
+        "id": "ml_preprocessing_eda",
+        "step": 2,
+        "phase": 1,
+        "title": "Data Cleaning, EDA, and Feature Preparation",
+        "description": "Learn missing values, outliers, visualization, encoding, scaling, train-test splits, and leakage-aware feature preparation.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "eda",
+          "feature engineering",
+          "missing values",
+          "encoding",
+          "scaling",
+          "data leakage"
+        ],
+        "prerequisites": [
+          "Math Foundations and Python for ML"
+        ],
+        "miniProject": "Clean a messy dataset, engineer features, and document a reproducible preparation pipeline.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "scikit-learn User Guide",
+            "platform": "scikit-learn",
+            "url": "https://scikit-learn.org/stable/user_guide.html"
+          },
+          {
+            "type": "article",
+            "title": "Visualization Guide",
+            "platform": "seaborn",
+            "url": "https://seaborn.pydata.org/tutorial.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Data Cleaning, EDA, and Feature Preparation",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=krish+naik+eda+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "ml_supervised",
+        "step": 3,
+        "phase": 1,
+        "title": "Supervised Learning Fundamentals",
+        "description": "Study regression, classification, bias-variance tradeoffs, loss functions, and core classical ML algorithms.",
+        "difficulty": "beginner",
+        "estimatedHours": 18,
+        "weekRange": "Week 5-8",
+        "keyTopics": [
+          "linear regression",
+          "logistic regression",
+          "trees",
+          "ensembles",
+          "loss functions",
+          "bias variance"
+        ],
+        "prerequisites": [
+          "Data Cleaning, EDA, and Feature Preparation"
+        ],
+        "miniProject": "Train and compare multiple supervised models on a structured dataset and explain the tradeoffs.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Supervised Learning",
+            "platform": "scikit-learn",
+            "url": "https://scikit-learn.org/stable/supervised_learning.html"
+          },
+          {
+            "type": "article",
+            "title": "Model Selection",
+            "platform": "scikit-learn",
+            "url": "https://scikit-learn.org/stable/model_selection.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Supervised Learning Fundamentals",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+machine+learning+course"
+          }
+        ]
+      },
+      {
+        "id": "ml_unsupervised_eval",
+        "step": 4,
+        "phase": 2,
+        "title": "Unsupervised Learning and Evaluation",
+        "description": "Move into clustering, dimensionality reduction, cross-validation, metrics, overfitting analysis, and experiment discipline.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 8-10",
+        "keyTopics": [
+          "clustering",
+          "pca",
+          "cross validation",
+          "metrics",
+          "overfitting",
+          "experimentation"
+        ],
+        "prerequisites": [
+          "Supervised Learning Fundamentals"
+        ],
+        "miniProject": "Run clustering and dimensionality reduction on a dataset and evaluate model usefulness with proper metrics.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Unsupervised Learning",
+            "platform": "scikit-learn",
+            "url": "https://scikit-learn.org/stable/unsupervised_learning.html"
+          },
+          {
+            "type": "article",
+            "title": "Metrics and Scoring",
+            "platform": "scikit-learn",
+            "url": "https://scikit-learn.org/stable/model_evaluation.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Unsupervised Learning and Evaluation",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=statquest+model+evaluation+machine+learning"
+          }
+        ]
+      },
+      {
+        "id": "ml_deep_learning",
+        "step": 5,
+        "phase": 2,
+        "title": "Neural Networks and Deep Learning Basics",
+        "description": "Learn tensors, neural nets, backpropagation, training loops, and practical deep learning workflows with modern libraries.",
+        "difficulty": "intermediate",
+        "estimatedHours": 20,
+        "weekRange": "Week 10-13",
+        "keyTopics": [
+          "neural networks",
+          "backpropagation",
+          "pytorch or tensorflow",
+          "training loops",
+          "regularization",
+          "experiments"
+        ],
+        "prerequisites": [
+          "Unsupervised Learning and Evaluation"
+        ],
+        "miniProject": "Train a simple neural network on image or tabular data and compare it with a classical baseline.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "PyTorch Tutorials",
+            "platform": "PyTorch",
+            "url": "https://pytorch.org/tutorials/"
+          },
+          {
+            "type": "article",
+            "title": "TensorFlow Tutorials",
+            "platform": "TensorFlow",
+            "url": "https://www.tensorflow.org/tutorials"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Neural Networks and Deep Learning Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+deep+learning+course"
+          }
+        ]
+      },
+      {
+        "id": "ml_specialization",
+        "step": 6,
+        "phase": 2,
+        "title": "Applied ML Specialization",
+        "description": "Choose a direction such as NLP, computer vision, recommender systems, or time series and work through domain-specific patterns.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 13-15",
+        "keyTopics": [
+          "nlp",
+          "computer vision",
+          "time series",
+          "recommendation",
+          "domain datasets",
+          "specialized evaluation"
+        ],
+        "prerequisites": [
+          "Neural Networks and Deep Learning Basics"
+        ],
+        "miniProject": "Build a specialization project in one ML domain and document the data, model, and evaluation approach.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Hugging Face Learn",
+            "platform": "Hugging Face",
+            "url": "https://huggingface.co/learn"
+          },
+          {
+            "type": "article",
+            "title": "TorchVision",
+            "platform": "PyTorch",
+            "url": "https://pytorch.org/vision/stable/index.html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Applied ML Specialization",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+nlp+computer+vision"
+          }
+        ]
+      },
+      {
+        "id": "ml_mlops",
+        "step": 7,
+        "phase": 3,
+        "title": "MLOps, Deployment, and Monitoring",
+        "description": "Learn model packaging, inference services, experiment tracking, feature pipelines, monitoring, drift, and operational reliability.",
+        "difficulty": "advanced",
+        "estimatedHours": 18,
+        "weekRange": "Week 15-18",
+        "keyTopics": [
+          "model deployment",
+          "experiment tracking",
+          "mlops",
+          "drift",
+          "monitoring",
+          "serving"
+        ],
+        "prerequisites": [
+          "Applied ML Specialization"
+        ],
+        "miniProject": "Deploy a trained model as an API with basic monitoring and reproducible experiment tracking.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "MLflow Docs",
+            "platform": "MLflow",
+            "url": "https://mlflow.org/docs/latest/index.html"
+          },
+          {
+            "type": "article",
+            "title": "MLOps Guide",
+            "platform": "Google Cloud",
+            "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: MLOps, Deployment, and Monitoring",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+mlops+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "ml_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge Machine Learning Studio Build",
+        "description": "Combine data prep, modeling, evaluation, deployment, and monitoring into a production-style ML project with documented decisions.",
+        "difficulty": "advanced",
+        "estimatedHours": 22,
+        "weekRange": "Week 18-20",
+        "keyTopics": [
+          "end to end project",
+          "evaluation report",
+          "deployment",
+          "monitoring",
+          "ethics and bias review",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "MLOps, Deployment, and Monitoring"
+        ],
+        "miniProject": "Ship an end-to-end ML product with data pipeline, model service, evaluation dashboard, and technical documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Responsible AI",
+            "platform": "Google",
+            "url": "https://developers.google.com/machine-learning/guides/rules-of-ml"
+          },
+          {
+            "type": "article",
+            "title": "Model Cards",
+            "platform": "Google",
+            "url": "https://modelcards.withgoogle.com/about"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge Machine Learning Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=krish+naik+end+to+end+ml+project"
+          }
+        ]
+      }
+    ]
+  }
+}

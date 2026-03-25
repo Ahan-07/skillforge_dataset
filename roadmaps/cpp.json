@@ -1,0 +1,351 @@
+{
+  "key": "cpp",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "C++"
+  },
+  "roadmap": {
+    "topic": "C++",
+    "emoji": "⚡",
+    "overview": "SkillForge original C++ path focused on memory-aware programming, systems thinking, tooling, performance, and maintainable modern C++ development.",
+    "totalWeeks": 18,
+    "nodes": [
+      {
+        "id": "cpp_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "Syntax, Types, and Control Flow",
+        "description": "Start with compilation basics, variables, functions, control flow, references, pointers, and the structure of a C++ program.",
+        "difficulty": "beginner",
+        "estimatedHours": 14,
+        "weekRange": "Week 1-3",
+        "keyTopics": [
+          "compilation",
+          "variables",
+          "functions",
+          "references",
+          "pointers",
+          "control flow"
+        ],
+        "prerequisites": [],
+        "miniProject": "Build a small command-line calculator and practice functions, references, and pointer basics.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "C++ Language",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp/language"
+          },
+          {
+            "type": "article",
+            "title": "Learn C++",
+            "platform": "learncpp.com",
+            "url": "https://www.learncpp.com/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Syntax, Types, and Control Flow",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+c%2B%2B+full+course"
+          }
+        ]
+      },
+      {
+        "id": "cpp_oop_memory",
+        "step": 2,
+        "phase": 1,
+        "title": "Classes, OOP, and Memory Management",
+        "description": "Learn classes, constructors, destructors, inheritance, polymorphism, RAII, stack vs heap, and ownership-aware coding.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 3-5",
+        "keyTopics": [
+          "classes",
+          "constructors",
+          "destructors",
+          "inheritance",
+          "raii",
+          "ownership"
+        ],
+        "prerequisites": [
+          "Syntax, Types, and Control Flow"
+        ],
+        "miniProject": "Model a small domain using classes and manage object lifetime with clear ownership rules.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Classes",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp/language/classes"
+          },
+          {
+            "type": "article",
+            "title": "Smart Pointers",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/book/intro/smart_pointers"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Classes, OOP, and Memory Management",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=the+cherno+c%2B%2B+oop"
+          }
+        ]
+      },
+      {
+        "id": "cpp_stl_templates",
+        "step": 3,
+        "phase": 1,
+        "title": "STL, Templates, and Generic Programming",
+        "description": "Move into vectors, maps, iterators, algorithms, templates, and reusable generic code patterns.",
+        "difficulty": "beginner",
+        "estimatedHours": 16,
+        "weekRange": "Week 5-7",
+        "keyTopics": [
+          "vector",
+          "map",
+          "iterators",
+          "algorithms",
+          "templates",
+          "generic programming"
+        ],
+        "prerequisites": [
+          "Classes, OOP, and Memory Management"
+        ],
+        "miniProject": "Build a data-processing utility using STL containers, algorithms, and generic helpers.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Containers Library",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp/container"
+          },
+          {
+            "type": "article",
+            "title": "Algorithms Library",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp/algorithm"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: STL, Templates, and Generic Programming",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+stl+c%2B%2B"
+          }
+        ]
+      },
+      {
+        "id": "cpp_modern_cpp",
+        "step": 4,
+        "phase": 2,
+        "title": "Modern C++ Features and Best Practices",
+        "description": "Study move semantics, smart pointers, lambdas, constexpr, auto, and safer modern C++ patterns.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 7-10",
+        "keyTopics": [
+          "move semantics",
+          "smart pointers",
+          "lambdas",
+          "constexpr",
+          "auto",
+          "modern idioms"
+        ],
+        "prerequisites": [
+          "STL, Templates, and Generic Programming"
+        ],
+        "miniProject": "Refactor an older code sample into a safer modern C++ style with cleaner ownership and APIs.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Language Support Library",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp"
+          },
+          {
+            "type": "article",
+            "title": "C++ Core Guidelines",
+            "platform": "isocpp",
+            "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Modern C++ Features and Best Practices",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=the+cherno+modern+c%2B%2B"
+          }
+        ]
+      },
+      {
+        "id": "cpp_concurrency_systems",
+        "step": 5,
+        "phase": 2,
+        "title": "Concurrency and Systems Programming Basics",
+        "description": "Add threads, synchronization, atomics, performance thinking, file IO, and low-level systems behavior awareness.",
+        "difficulty": "intermediate",
+        "estimatedHours": 18,
+        "weekRange": "Week 10-12",
+        "keyTopics": [
+          "threads",
+          "mutex",
+          "atomics",
+          "file io",
+          "performance",
+          "systems basics"
+        ],
+        "prerequisites": [
+          "Modern C++ Features and Best Practices"
+        ],
+        "miniProject": "Build a multithreaded file-processing tool and measure basic performance tradeoffs.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Concurrency Support Library",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp/thread"
+          },
+          {
+            "type": "article",
+            "title": "Memory Model",
+            "platform": "cppreference",
+            "url": "https://en.cppreference.com/w/cpp/language/memory_model"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Concurrency and Systems Programming Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=cppcon+c%2B%2B+concurrency"
+          }
+        ]
+      },
+      {
+        "id": "cpp_build_debug",
+        "step": 6,
+        "phase": 2,
+        "title": "Build Systems, Debugging, and Tooling",
+        "description": "Learn CMake, compiler flags, debugging, sanitizers, testing, and development workflows for non-trivial C++ projects.",
+        "difficulty": "intermediate",
+        "estimatedHours": 16,
+        "weekRange": "Week 12-14",
+        "keyTopics": [
+          "cmake",
+          "compiler flags",
+          "debugging",
+          "sanitizers",
+          "unit testing",
+          "tooling"
+        ],
+        "prerequisites": [
+          "Concurrency and Systems Programming Basics"
+        ],
+        "miniProject": "Set up a tested C++ project with a build system, debug symbols, and sanitizers enabled.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "CMake Tutorial",
+            "platform": "CMake",
+            "url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html"
+          },
+          {
+            "type": "article",
+            "title": "GoogleTest",
+            "platform": "GoogleTest",
+            "url": "https://google.github.io/googletest/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Build Systems, Debugging, and Tooling",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=cppcon+cmake+tutorial"
+          }
+        ]
+      },
+      {
+        "id": "cpp_performance_architecture",
+        "step": 7,
+        "phase": 3,
+        "title": "Performance, APIs, and Project Architecture",
+        "description": "Focus on profiling, allocation-aware design, API contracts, modular structure, and maintainable large-project organization.",
+        "difficulty": "advanced",
+        "estimatedHours": 16,
+        "weekRange": "Week 14-16",
+        "keyTopics": [
+          "profiling",
+          "allocation patterns",
+          "api design",
+          "modularity",
+          "architecture",
+          "maintainability"
+        ],
+        "prerequisites": [
+          "Build Systems, Debugging, and Tooling"
+        ],
+        "miniProject": "Profile and improve a medium-size codebase while restructuring key modules and APIs.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Benchmark Library",
+            "platform": "Google Benchmark",
+            "url": "https://github.com/google/benchmark"
+          },
+          {
+            "type": "article",
+            "title": "C++ FAQ",
+            "platform": "isocpp",
+            "url": "https://isocpp.org/faq"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Performance, APIs, and Project Architecture",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=cppcon+c%2B%2B+performance"
+          }
+        ]
+      },
+      {
+        "id": "cpp_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge C++ Studio Build",
+        "description": "Combine modern C++, tooling, performance, concurrency, and architecture into a production-style systems or engine project.",
+        "difficulty": "advanced",
+        "estimatedHours": 20,
+        "weekRange": "Week 16-18",
+        "keyTopics": [
+          "systems project",
+          "concurrency review",
+          "debugging workflow",
+          "performance review",
+          "code quality",
+          "capstone delivery"
+        ],
+        "prerequisites": [
+          "Performance, APIs, and Project Architecture"
+        ],
+        "miniProject": "Ship a C++ project such as a game engine module, CLI toolchain, or high-performance service component with tests and documentation.",
+        "resources": [
+          {
+            "type": "article",
+            "title": "CppCon Resources",
+            "platform": "CppCon",
+            "url": "https://cppcon.org/"
+          },
+          {
+            "type": "article",
+            "title": "Standard C++",
+            "platform": "isocpp",
+            "url": "https://isocpp.org/"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge C++ Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=the+cherno+c%2B%2B+project"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "key": "html",
+  "metadata": {
+    "source": "skillforge",
+    "type": "roadmap",
+    "version": "1.0",
+    "topic": "HTML"
+  },
+  "roadmap": {
+    "topic": "HTML",
+    "emoji": "📄",
+    "overview": "SkillForge original HTML path focused on semantic structure, forms, accessibility, and durable document architecture for real web products.",
+    "totalWeeks": 8,
+    "nodes": [
+      {
+        "id": "html_basics",
+        "step": 1,
+        "phase": 1,
+        "title": "Document Structure and Core Tags",
+        "description": "Understand the browser document model, headings, paragraphs, lists, links, images, and file structure.",
+        "difficulty": "beginner",
+        "estimatedHours": 6,
+        "weekRange": "Week 1",
+        "keyTopics": [
+          "doctype",
+          "html/head/body",
+          "headings",
+          "lists",
+          "links",
+          "images"
+        ],
+        "prerequisites": [],
+        "miniProject": "Create a structured personal resume page",
+        "resources": [
+          {
+            "type": "article",
+            "title": "HTML Basics",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Document Structure and Core Tags",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+html+full+course"
+          }
+        ]
+      },
+      {
+        "id": "html_semantics",
+        "step": 2,
+        "phase": 1,
+        "title": "Semantic HTML",
+        "description": "Use semantic sectioning elements correctly for readability, accessibility, and SEO.",
+        "difficulty": "beginner",
+        "estimatedHours": 6,
+        "weekRange": "Week 2",
+        "keyTopics": [
+          "header",
+          "nav",
+          "main",
+          "section",
+          "article",
+          "aside",
+          "footer"
+        ],
+        "prerequisites": [
+          "Document Structure and Core Tags"
+        ],
+        "miniProject": "Refactor a div-heavy page into semantic markup",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Semantic HTML",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Semantic HTML",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+semantic+html"
+          }
+        ]
+      },
+      {
+        "id": "html_forms",
+        "step": 3,
+        "phase": 1,
+        "title": "Forms and Input Controls",
+        "description": "Build forms with labels, validation, fieldsets, inputs, selects, textareas, and useful attributes.",
+        "difficulty": "beginner",
+        "estimatedHours": 8,
+        "weekRange": "Week 3",
+        "keyTopics": [
+          "form",
+          "label",
+          "input types",
+          "textarea",
+          "select",
+          "required",
+          "pattern"
+        ],
+        "prerequisites": [
+          "Semantic HTML"
+        ],
+        "miniProject": "Create an accessible registration form",
+        "resources": [
+          {
+            "type": "article",
+            "title": "HTML Forms Guide",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Forms and Input Controls",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+html+forms"
+          }
+        ]
+      },
+      {
+        "id": "html_tables_media",
+        "step": 4,
+        "phase": 2,
+        "title": "Tables, Media, and Embedded Content",
+        "description": "Use tables appropriately and embed audio, video, iframes, and responsive images safely.",
+        "difficulty": "intermediate",
+        "estimatedHours": 6,
+        "weekRange": "Week 4",
+        "keyTopics": [
+          "table",
+          "thead/tbody",
+          "caption",
+          "audio",
+          "video",
+          "iframe",
+          "picture/srcset"
+        ],
+        "prerequisites": [
+          "Forms and Input Controls"
+        ],
+        "miniProject": "Build a course catalog page with media and tables",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Table Accessibility",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Tables, Media, and Embedded Content",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+responsive+images"
+          }
+        ]
+      },
+      {
+        "id": "html_a11y",
+        "step": 5,
+        "phase": 2,
+        "title": "Accessibility and ARIA Basics",
+        "description": "Write accessible markup, use labels properly, manage alt text, landmarks, and only add ARIA when necessary.",
+        "difficulty": "intermediate",
+        "estimatedHours": 8,
+        "weekRange": "Week 5",
+        "keyTopics": [
+          "alt text",
+          "labels",
+          "landmarks",
+          "keyboard navigation",
+          "ARIA",
+          "screen readers"
+        ],
+        "prerequisites": [
+          "Tables, Media, and Embedded Content"
+        ],
+        "miniProject": "Audit and fix an inaccessible page",
+        "resources": [
+          {
+            "type": "article",
+            "title": "HTML Accessibility",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Accessibility and ARIA Basics",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+web+accessibility"
+          }
+        ]
+      },
+      {
+        "id": "html_seo_metadata",
+        "step": 6,
+        "phase": 2,
+        "title": "Metadata, SEO, and Sharing",
+        "description": "Use metadata, titles, descriptions, social tags, favicons, canonical links, and structured thinking around discoverability.",
+        "difficulty": "intermediate",
+        "estimatedHours": 6,
+        "weekRange": "Week 6",
+        "keyTopics": [
+          "title",
+          "meta description",
+          "Open Graph",
+          "canonical",
+          "favicon",
+          "structured content"
+        ],
+        "prerequisites": [
+          "Accessibility and ARIA Basics"
+        ],
+        "miniProject": "Optimize a landing page head section for SEO and social sharing",
+        "resources": [
+          {
+            "type": "article",
+            "title": "What's in the Head? Metadata in HTML",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Metadata, SEO, and Sharing",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=traversy+media+html+seo"
+          }
+        ]
+      },
+      {
+        "id": "html_advanced",
+        "step": 7,
+        "phase": 3,
+        "title": "Advanced Markup Patterns",
+        "description": "Use dialog, details, data attributes, templates, custom data, and progressive enhancement mindset.",
+        "difficulty": "advanced",
+        "estimatedHours": 8,
+        "weekRange": "Week 7",
+        "keyTopics": [
+          "dialog",
+          "details/summary",
+          "template",
+          "data-*",
+          "noscript",
+          "progressive enhancement"
+        ],
+        "prerequisites": [
+          "Metadata, SEO, and Sharing"
+        ],
+        "miniProject": "Build a progressively enhanced FAQ and modal system",
+        "resources": [
+          {
+            "type": "article",
+            "title": "HTML Element Reference",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: Advanced Markup Patterns",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=kevin+powell+modern+html"
+          }
+        ]
+      },
+      {
+        "id": "html_capstone",
+        "step": 8,
+        "phase": 3,
+        "title": "SkillForge HTML Studio Build",
+        "description": "Ship a multi-page site with clean semantics, accessible forms, strong metadata, and maintainable structure.",
+        "difficulty": "advanced",
+        "estimatedHours": 12,
+        "weekRange": "Week 8",
+        "keyTopics": [
+          "semantic architecture",
+          "forms",
+          "a11y",
+          "SEO",
+          "maintainability"
+        ],
+        "prerequisites": [
+          "Advanced Markup Patterns"
+        ],
+        "miniProject": "Build a documentation or portfolio website with excellent HTML quality",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Structuring the Web with HTML",
+            "platform": "MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+          },
+          {
+            "type": "video",
+            "title": "Video Guide: SkillForge HTML Studio Build",
+            "platform": "YouTube Search",
+            "url": "https://www.youtube.com/results?search_query=freecodecamp+html+project"
+          }
+        ]
+      }
+    ]
+  }
+}
